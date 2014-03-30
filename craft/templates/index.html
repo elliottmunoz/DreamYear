@@ -1,0 +1,82 @@
+{#
+	# Homepage template
+	# ---------------
+	#
+	# When this template gets loaded, it will be because someone has accessed
+	# http://yoursite.com/ (without any URI). Craft checks to see if you have
+	# a Single section set to be the Homepage (as you do, by default), and
+	# loads the section’s Template (this file). A special ‘entry’ variable
+	# will already be set for you, assigned to the Homepage entry.
+	#
+	# It's worth noting that even if you didn't have a Homepage Single section,
+	# as long as this template remains at craft/templates/index.html, it
+	# would still be the one to get loaded when accessing http://yoursite.com/,
+	# albeit without an ‘entry’ variable already set for you.
+	#
+	# See this page for more details on how Craft routes requests:
+	# http://buildwithcraft.com/docs/routing
+	#}
+
+	{% extends "_layout" %}
+
+	{% block content %}
+
+	<h2 id="{{entry.aboutHeading|lower}}">{{entry.aboutHeading}}</h2>
+	<p>{{entry.aboutDescription}}</p>
+	{% for item in entry.resellers %}
+	<li class="reseller"><a href="{{ item.resellerUrl }}">{{ item.resellerName }}</a></li>
+	{% endfor %}
+
+	<h2>{{entry.chapterHeading}}</h2>
+	{% if entry.chapters | length %}
+	<div class="section--chapters">
+		{% for item in entry.chapters %}
+		<div class="chapter__index">Chapter {{loop.index}}: </div>
+		<div class="chapter__name">{{ item.chapter }}</a></div>
+		<div class="chapter__description">{{ item.description }}</a></div>
+		{% endfor %}
+	</div>
+	{% endif %}
+
+	<div class="section--author">
+	<h2 id="{{entry.authorHeading|lower}}">{{entry.authorHeading}}</h2>
+	<p>{{entry.authorDescription}}</p>
+	</div>
+	<h2 id="{{entry.storiesHeading|lower}}">{{entry.storiesHeading}}</h2>
+
+	{% for item in entry.stories %}
+	<p>{{ item.storyName }}</p>
+	<p>{{ item.storyDescription }}</p>
+	<p><a href="{{ item.storyUrl }}">{{ item.storyUrl }}</a></p>
+	{% endfor %}
+	<h2 id="{{entry.speakingHeading|lower}}">{{entry.speakingHeading}}</h2>
+	<p>{{entry.speakingDescription}}</p>
+	<h2>{{entry.pitchNightHeading}}</h2>
+	<iframe src="//player.vimeo.com/video/{{entry.pitchNightVideoId}}" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	<p>{{entry.pitchNightDescription}}</p>
+	<!--
+	<iframe width='100%' height='500px' frameBorder='0' src='http://a.tiles.mapbox.com/v3/elliottmunoz.hj6m67pi/attribution.html'></iframe>
+	-->
+	<ul>
+		{% for item in entry.pitchNightLocations %}
+		<li>{{ item.city }}, {{ item.date.format('F d, Y') }}, <a href="#">Register</a></li>
+		{% endfor %}
+	</ul>
+	<h2>{{entry.eventHeading}}</h2>
+	{% for item in entry.events.limit(1) %}
+	<p>{{ item.eventLocation }}</p>
+	<p>{{ item.eventDate.format('F d, Y') }}</p>
+	<p>{{ item.eventDescription }}</p>
+	<p><a href="{{ item.eventRegistrationLink }}">Register Now</a></p>
+
+	{% endfor %}
+	<h2>{{entry.contactHeading}}</h2>
+	<p>{{entry.contactDescription}}</p>
+	<h2>Recent News</h2>
+	<ul>
+		{% for entry in craft.entries.section('news').limit(5).find() %}
+		<li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+		{% endfor %}
+	</ul>
+
+	{% endblock %}
