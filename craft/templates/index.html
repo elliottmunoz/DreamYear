@@ -24,7 +24,11 @@
 	<h2 id="{{entry.aboutHeading|lower}}">{{entry.aboutHeading}}</h2>
 	<p>{{entry.aboutDescription}}</p>
 	{% for item in entry.resellers %}
-	<li class="reseller"><a href="{{ item.resellerUrl }}">{{ item.resellerName }}</a></li>
+	<li class="reseller"><a href="{{ item.resellerUrl }}">
+	{% for asset in item.resellerLogo %}
+	<img src="{{ asset.url }}">
+	{% endfor %}
+	</a></li>
 	{% endfor %}
 
 	<h2>{{entry.chapterHeading}}</h2>
