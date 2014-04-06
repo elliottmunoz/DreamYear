@@ -19,6 +19,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/Users/elliottmunoz/Dropbox/Clients/CI/Comps/Resources/Vector/svg/Icons/instagram.svg",
+			"settings":
+			{
+				"buffer_size": 1191,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -76,12 +84,14 @@
 	},
 	"file_history":
 	[
+		"/Applications/MAMP/htdocs/dreamyear/craft/templates/_layout.html",
+		"/Applications/MAMP/htdocs/dreamyear/public/assets/stylesheets/application.css",
 		"/Applications/MAMP/htdocs/dreamyear/craft/templates/index.html",
+		"/Users/elliottmunoz/Desktop/snippets.html",
 		"/Applications/MAMP/htdocs/dreamyear/public/index.php",
 		"/Users/elliottmunoz/Desktop/Debbie",
 		"/Users/elliottmunoz/Documents/WCS/Projects/DoD/psd/resources/vector/svg/caret-right.svg",
 		"/Users/elliottmunoz/Documents/WCS/Projects/DoD/psd/resources/vector/svg/arrow.svg",
-		"/Applications/MAMP/htdocs/dreamyear/craft/templates/_layout.html",
 		"/Applications/MAMP/htdocs/DreamYear/welcome.txt",
 		"/Applications/MAMP/htdocs/Craft/craft/config/db.php",
 		"/Applications/MAMP/htdocs/Craft/public/robots.txt",
@@ -201,6 +211,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"#3C74BB",
+			"font",
 			"Dolly",
 			"dolly",
 			"</a></li>",
@@ -226,8 +238,37 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/Users/elliottmunoz/Dropbox/Clients/CI/Comps/Resources/Vector/svg/Icons/instagram.svg",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1191,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								499,
+								499
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
