@@ -2,81 +2,118 @@
 
 	{% block content %}
 	<!--About-->
-	<h2 id="{{entry.aboutHeading|lower}}">{{entry.aboutHeading}}</h2>
-		<p>{{entry.aboutDescription}}</p>
-	{% for item in entry.resellers %}
-	<li class="reseller"><a href="{{ item.resellerUrl }}">
-		{% for asset in item.resellerLogo %}
-		<img src="{{ asset.url }}" alt="{{ item.resellerName }}">
-		{% endfor %}
-	</a></li>
-	{% endfor %}
-	<!--Chapters-->
-	<h2>{{entry.chaptersHeading}}</h2>
-	{% if entry.chapters | length %}
-	<div class="section--chapters">
-		{% for item in entry.chapters %}
-		<div class="chapter__index">Chapter {{loop.index}}: </div>
-		<div class="chapter__name">{{ item.chapterTitle }}</a></div>
-		<div class="chapter__description">{{ item.chapterDescription }}</a></div>
-		{% endfor %}
+	<div class="section">
+		<div class="wrapper">
+			<h2 id="{{entry.aboutHeading|lower}}">{{entry.aboutHeading}}</h2>
+			<p>{{entry.aboutDescription}}</p>
+			{% for item in entry.resellers %}
+			<li class="reseller"><a href="{{ item.resellerUrl }}">
+				{% for asset in item.resellerLogo %}
+				<img src="{{ asset.url }}" alt="{{ item.resellerName }}">
+				{% endfor %}
+			</a></li>
+			{% endfor %}
+		</div>
 	</div>
-	{% endif %}
+	<!--Chapters-->
+	<div class="section section--chapters">
+		<div class="wrapper">
+			<h2>{{entry.chaptersHeading}}</h2>
+			{% if entry.chapters | length %}
+			<div class="section--chapters">
+				{% for item in entry.chapters %}
+				<div class="chapter__index">Chapter {{loop.index}}: </div>
+				<div class="chapter__name">{{ item.chapterTitle }}</a></div>
+				<div class="chapter__description">{{ item.chapterDescription }}</a></div>
+				{% endfor %}
+			</div>
+			{% endif %}
+		</div>
+	</div>
 	<!--Author-->
-	<div class="section--author">
-		<h2 id="{{entry.authorHeading|lower}}">{{entry.authorHeading}}</h2>
-		<p>{{entry.authorDescription}}</p>
-		{% for asset in entry.authorImage %}
-		<img src="{{ asset.url }}" alt="{{ entry.authorHeading }}">
-		{% endfor %}
+	<div class="section">
+		<div class="wrapper">
+			<div class="section--author">
+				<h2 id="{{entry.authorHeading|lower}}">{{entry.authorHeading}}</h2>
+				{% for asset in entry.authorImage %}
+				<img class="image__fluid" src="{{ asset.url }}" alt="{{ entry.authorHeading }}">
+				{% endfor %}
+				<p>{{entry.authorDescription}}</p>
+			</div>
+		</div>
 	</div>
 	<!--Stories-->
-	<h2 id="{{entry.storiesHeading|lower}}">{{entry.storiesHeading}}</h2>
-	{% for item in entry.stories %}
-	<p>{{ item.storyName }}</p>
-	<p>{{ item.storyDescription }}</p>
-	<p><a href="{{ item.storyUrl }}">{{ item.storyUrl }}</a></p>
-	{% endfor %}
+	<div class="section">
+		<div class="wrapper">
+			<h2 id="{{entry.storiesHeading|lower}}">{{entry.storiesHeading}}</h2>
+			<div class="stories__index">
+				{% for item in entry.stories %}
+				<p>{{ item.storyName }}</p>
+				{% endfor %}
+			</div>
+			{% for item in entry.stories %}
+			<p>{{ item.storyName }}</p>
+			<p>{{ item.storyDescription }}</p>
+			<p><a href="{{ item.storyUrl }}">{{ item.storyUrl }}</a></p>
+			{% endfor %}
+		</div>
+	</div>
 	<!--Speaking-->
-	<h2 id="{{entry.speakingHeading|lower}}">{{entry.speakingHeading}}</h2>
-	<p>{{entry.speakingDescription}}</p>
+	<div class="section">
+		<div class="wrapper">
+			<h2 id="{{entry.speakingHeading|lower}}">{{entry.speakingHeading}}</h2>
+			<p>{{entry.speakingDescription}}</p>
 
-	{% for item in entry.speakingSample %}
-	<audio controls>
-		<source src="{% for asset in item.mp3 %}
-			{{ asset.url }}
-		{% endfor %}" type="audio/mpeg">
-		<source src="{% for asset in item.ogg %}
-			{{ asset.url }}
-		{% endfor %}" type="audio/ogg">
-		Your browser does not support the audio element.
-	</audio>
-	{% endfor %}
+			{% for item in entry.speakingSample %}
+			<audio controls>
+				<source src="{% for asset in item.mp3 %}
+				{{ asset.url }}
+				{% endfor %}" type="audio/mpeg">
+				<source src="{% for asset in item.ogg %}
+				{{ asset.url }}
+				{% endfor %}" type="audio/ogg">
+				Your browser does not support the audio element.
+			</audio>
+			{% endfor %}
+		</div>
+	</div>
 	<!--
 	<script type="text/javascript" src="https://www.formstack.com/forms/js.php?1720416-4QhiH6JuPM-v3"></script><noscript><a href="https://www.formstack.com/forms/?1720416-4QhiH6JuPM" title="Online Form">Online Form - Speaking Request Form</a></noscript>
-	-->
-	<!--Pitch Nights-->
-	<h2>{{entry.pitchNightHeading}}</h2>
-	<iframe src="//player.vimeo.com/video/{{entry.pitchNightVideoId}}" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-	<p>{{entry.pitchNightDescription}}</p>
-	<ul>
-		{% for item in entry.pitchNightEvents %}
-		<li>{{ item.eventCity }}, {{ item.eventDate.format('F d, Y') }}, <a href="{{ item.eventRegistrationLink }}">Register</a></li>
+-->
+<!--Pitch Nights-->
+<div class="section">
+	<div class="wrapper">
+		<h2>{{entry.pitchNightHeading}}</h2>
+		<iframe src="//player.vimeo.com/video/{{entry.pitchNightVideoId}}" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		<p>{{entry.pitchNightDescription}}</p>
+		<ul>
+			{% for item in entry.pitchNightEvents %}
+			<li>{{ item.eventCity }}, {{ item.eventDate.format('F d, Y') }}, <a href="{{ item.eventRegistrationLink }}">Register</a></li>
+			{% endfor %}
+		</ul>
+	</div>
+</div>
+<!--Event-->
+<div class="section">
+	<div class="wrapper">
+		<h2>{{entry.eventHeading}}</h2>
+		{% for item in entry.events.limit(1) %}
+			{% for asset in item.eventImage %}
+			<img class="image__fluid" src="{{ asset.url }}" alt="{{ item.eventName }}">
+			{% endfor %}
+		<p>{{ item.eventLocation }}</p>
+		<p>{{ item.eventDate.format('F d, Y') }}</p>
+		<p>{{ item.eventDescription }}</p>
+		<p><a href="{{ item.eventRegistrationLink }}">Register Now</a></p>
 		{% endfor %}
-	</ul>
-	<!--Event-->
-	<h2>{{entry.eventHeading}}</h2>
-	{% for item in entry.events.limit(1) %}
-		{% for asset in item.eventImage %}
-		<img src="{{ asset.url }}" alt="{{ item.eventName }}">
-		{% endfor %}
-	<p>{{ item.eventLocation }}</p>
-	<p>{{ item.eventDate.format('F d, Y') }}</p>
-	<p>{{ item.eventDescription }}</p>
-	<p><a href="{{ item.eventRegistrationLink }}">Register Now</a></p>
-	{% endfor %}
-	<!--Event-->
-	<h2>{{entry.contactHeading}}</h2>
-	<p>{{entry.contactDescription}}</p>
+	</div>
+</div>
+<!--Event-->
+<div class="section">
+	<div class="wrapper">
+		<h2>{{entry.contactHeading}}</h2>
+		<p>{{entry.contactDescription}}</p>
+	</div>
+</div>
 
-	{% endblock %}
+{% endblock %}

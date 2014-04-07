@@ -11,34 +11,103 @@
 /*color: #3C74BB; */
 /*font-family: 'Lato', sans-serif;*/
 
-body{background: #F5F2F2; color: #303A5F; font: 1.2em/1.5em 'Lato', sans-serif; margin: 0px; padding: 0px;}
-h2{font: 2.4em din_offccond_medium; letter-spacing: .05em; text-align: center; text-transform: uppercase;}
-a{border: none; color: #B94643; text-decoration: none;}
+body{
+	background: #F5F2F2;
+	color: #303A5F;
+	font: 1.2em/1.5em 'Lato', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+h2{
+	font: 2.4em din_offccond_medium;
+	letter-spacing: .05em;
+	text-align: center;
+	text-transform: uppercase;
+}
+a{
+	border: none;
+	color: #B94643;
+	text-decoration: none;
+}
+audio{
+	display: block;
+	width: 100%;
+}
+.section{
+}
+.section--chapters{
+
+}
+
 /*.section--chapters{margin: 0px auto; width: 60%;}*/
-.chapter__index{display: block; font: .6em din_offccond_medium; letter-spacing: .1em; padding: 0px 0px 1px; text-align: center; text-transform: uppercase;}
-.chapter__name{color: #B94643; font: 1em din_offccond_medium; letter-spacing: .02em; margin: 0px; padding: 0px 0px 3px; text-align: center; text-transform: uppercase;}
-.chapter__description{margin: 0px 0px 40px 0px; padding: 0px;}
-.nav{margin: 0px; padding: 0px;}
-.nav li{display: inline; list-style: none; padding: 5px 10px;}
-.reseller{display: inline-block; list-style: none; margin: 0px; min-height: 80px; padding: 0px; text-align: center; width: 24%;}
-.reseller img{display: block; height: 60%; padding: 15%; width: 70%;}
-.fslabel{color: red;}
+
+.chapter__index{
+	display: block;
+	font: .6em din_offccond_medium;
+	letter-spacing: .1em;
+	padding: 0px 0px 1px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.chapter__name{
+	color: #B94643;
+	font: 1em din_offccond_medium;
+	letter-spacing: .02em;
+	margin: 0px;
+	padding: 0px 0px 3px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.chapter__description{
+	margin: 0px 0px 40px 0px;
+	padding: 0px;
+}
+.nav{
+	margin: 0px;
+	padding: 0px;
+}
+.nav li{
+	display: inline;
+	list-style: none;
+	padding: 5px 10px;
+}
+.reseller{
+	display: inline-block;
+	list-style: none;
+	margin: 0px;
+	min-height: 80px;
+	padding: 0px;
+	text-align: center;
+}
+.reseller img{
+	display: block;
+	padding: 15%;
+	width: 70%;
+}
+.image__fluid{
+	display: block;
+	height: auto;
+	max-width: 100%;
+}
 
 @media screen and (min-width: 320px) {
-	#container{
-		margin: 0px auto;
+	.reseller{
+		width: 49%;
+	}
+	.wrapper{
 		width: 90%;
+		margin: 0px auto;
 	}
 }
 
 @media screen and (min-width: 720px) {
-	#container{
-		margin: 0px auto;
-		width: 70%;
+	.reseller{
+		width: 24%;
 	}
-	.section--chapters{
+	.wrapper{
+		width: 70%;
 		margin: 0px auto;
-		width: 80%;
 	}
 }
 
