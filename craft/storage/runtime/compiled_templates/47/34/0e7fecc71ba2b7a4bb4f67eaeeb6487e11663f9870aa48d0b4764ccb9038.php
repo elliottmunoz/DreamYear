@@ -33,7 +33,7 @@ class __TwigTemplate_47340e7fecc71ba2b7a4bb4f67eaeeb6487e11663f9870aa48d0b4764cc
 \t\t<div class=\"wrapper\">
 \t\t\t<h2 id=\"";
         // line 7
-        echo twig_escape_filter($this->env, twig_lower_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "aboutHeading")), "html", null, true);
+        echo twig_escape_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "aboutHeading"), "html", null, true);
         echo "\">";
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "aboutHeading"), "html", null, true);
         echo "</h2>
@@ -144,7 +144,7 @@ class __TwigTemplate_47340e7fecc71ba2b7a4bb4f67eaeeb6487e11663f9870aa48d0b4764cc
 \t\t\t<div class=\"section--author\">
 \t\t\t\t<h2 id=\"";
         // line 37
-        echo twig_escape_filter($this->env, twig_lower_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "authorHeading")), "html", null, true);
+        echo twig_escape_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "authorHeading"), "html", null, true);
         echo "\">";
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "authorHeading"), "html", null, true);
         echo "</h2>
@@ -176,7 +176,7 @@ class __TwigTemplate_47340e7fecc71ba2b7a4bb4f67eaeeb6487e11663f9870aa48d0b4764cc
 \t\t<div class=\"wrapper\">
 \t\t\t<h2 id=\"";
         // line 48
-        echo twig_escape_filter($this->env, twig_lower_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "storiesHeading")), "html", null, true);
+        echo twig_escape_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "storiesHeading"), "html", null, true);
         echo "\">";
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "storiesHeading"), "html", null, true);
         echo "</h2>
@@ -229,7 +229,7 @@ class __TwigTemplate_47340e7fecc71ba2b7a4bb4f67eaeeb6487e11663f9870aa48d0b4764cc
 \t\t<div class=\"wrapper\">
 \t\t\t<h2 id=\"";
         // line 64
-        echo twig_escape_filter($this->env, twig_lower_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "speakingHeading")), "html", null, true);
+        echo twig_escape_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "speakingHeading"), "html", null, true);
         echo "\">";
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "speakingHeading"), "html", null, true);
         echo "</h2>
@@ -297,21 +297,23 @@ class __TwigTemplate_47340e7fecc71ba2b7a4bb4f67eaeeb6487e11663f9870aa48d0b4764cc
         // line 86
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "pitchNightHeading"), "html", null, true);
         echo "</h2>
+\t\t<div class=\"video\">
 \t\t<iframe src=\"//player.vimeo.com/video/";
-        // line 87
+        // line 88
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "pitchNightVideoId"), "html", null, true);
         echo "\" width=\"640\" height=\"360\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 \t\t<p>";
-        // line 88
+        // line 89
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "pitchNightDescription"), "html", null, true);
         echo "</p>
+\t\t</div>
 \t\t<ul>
 \t\t\t";
-        // line 90
+        // line 92
         $context['_parent'] = (array) $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "pitchNightEvents"));
         foreach ($context['_seq'] as $context["_key"] => $context["item"]) {
-            // line 91
+            // line 93
             echo "\t\t\t<li>";
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["item"]) ? $context["item"] : null), "eventCity"), "html", null, true);
             echo ", ";
@@ -324,7 +326,7 @@ class __TwigTemplate_47340e7fecc71ba2b7a4bb4f67eaeeb6487e11663f9870aa48d0b4764cc
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['item'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 93
+        // line 95
         echo "\t\t</ul>
 \t</div>
 </div>
@@ -332,22 +334,20 @@ class __TwigTemplate_47340e7fecc71ba2b7a4bb4f67eaeeb6487e11663f9870aa48d0b4764cc
 <div class=\"section\">
 \t<div class=\"wrapper\">
 \t\t<h2>";
-        // line 99
+        // line 101
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "eventHeading"), "html", null, true);
         echo "</h2>
 \t\t";
-        // line 100
+        // line 102
         $context['_parent'] = (array) $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "events"), "limit", array(0 => 1), "method"));
         foreach ($context['_seq'] as $context["_key"] => $context["item"]) {
-            // line 101
-            echo "
-\t\t\t";
-            // line 102
+            // line 103
+            echo "\t\t\t";
             $context['_parent'] = (array) $context;
             $context['_seq'] = twig_ensure_traversable($this->getAttribute((isset($context["item"]) ? $context["item"] : null), "eventImage"));
             foreach ($context['_seq'] as $context["_key"] => $context["asset"]) {
-                // line 103
+                // line 104
                 echo "\t\t\t<img class=\"image__fluid\" src=\"";
                 echo twig_escape_filter($this->env, $this->getAttribute((isset($context["asset"]) ? $context["asset"] : null), "url"), "html", null, true);
                 echo "\" alt=\"";
@@ -358,10 +358,8 @@ class __TwigTemplate_47340e7fecc71ba2b7a4bb4f67eaeeb6487e11663f9870aa48d0b4764cc
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['asset'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 105
-            echo "
-\t\t<p>";
             // line 106
+            echo "\t\t<p>";
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["item"]) ? $context["item"] : null), "eventLocation"), "html", null, true);
             echo "</p>
 \t\t<p>";
@@ -413,6 +411,6 @@ class __TwigTemplate_47340e7fecc71ba2b7a4bb4f67eaeeb6487e11663f9870aa48d0b4764cc
 
     public function getDebugInfo()
     {
-        return array (  396 => 117,  392 => 116,  385 => 111,  377 => 109,  373 => 108,  369 => 107,  365 => 106,  362 => 105,  351 => 103,  347 => 102,  344 => 101,  340 => 100,  336 => 99,  328 => 93,  315 => 91,  311 => 90,  306 => 88,  302 => 87,  298 => 86,  288 => 78,  279 => 74,  270 => 73,  266 => 72,  263 => 71,  254 => 70,  250 => 69,  247 => 68,  243 => 67,  238 => 65,  232 => 64,  225 => 59,  215 => 57,  211 => 56,  206 => 55,  202 => 54,  199 => 53,  190 => 51,  186 => 50,  179 => 48,  168 => 41,  157 => 39,  153 => 38,  147 => 37,  139 => 31,  135 => 29,  119 => 27,  115 => 26,  110 => 25,  93 => 24,  90 => 23,  88 => 22,  84 => 21,  77 => 16,  70 => 14,  59 => 12,  55 => 11,  50 => 10,  46 => 9,  42 => 8,  36 => 7,  31 => 4,  28 => 3,);
+        return array (  394 => 117,  390 => 116,  383 => 111,  375 => 109,  371 => 108,  367 => 107,  362 => 106,  351 => 104,  346 => 103,  342 => 102,  338 => 101,  330 => 95,  317 => 93,  313 => 92,  307 => 89,  303 => 88,  298 => 86,  288 => 78,  279 => 74,  270 => 73,  266 => 72,  263 => 71,  254 => 70,  250 => 69,  247 => 68,  243 => 67,  238 => 65,  232 => 64,  225 => 59,  215 => 57,  211 => 56,  206 => 55,  202 => 54,  199 => 53,  190 => 51,  186 => 50,  179 => 48,  168 => 41,  157 => 39,  153 => 38,  147 => 37,  139 => 31,  135 => 29,  119 => 27,  115 => 26,  110 => 25,  93 => 24,  90 => 23,  88 => 22,  84 => 21,  77 => 16,  70 => 14,  59 => 12,  55 => 11,  50 => 10,  46 => 9,  42 => 8,  36 => 7,  31 => 4,  28 => 3,);
     }
 }

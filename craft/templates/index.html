@@ -4,7 +4,7 @@
 	<!--About-->
 	<div class="section">
 		<div class="wrapper">
-			<h2 id="{{entry.aboutHeading|lower}}">{{entry.aboutHeading}}</h2>
+			<h2 id="{{entry.aboutHeading}}">{{entry.aboutHeading}}</h2>
 			<p>{{entry.aboutDescription}}</p>
 			{% for item in entry.resellers %}
 			<li class="reseller"><a href="{{ item.resellerUrl }}">
@@ -34,7 +34,7 @@
 	<div class="section">
 		<div class="wrapper">
 			<div class="section--author">
-				<h2 id="{{entry.authorHeading|lower}}">{{entry.authorHeading}}</h2>
+				<h2 id="{{entry.authorHeading}}">{{entry.authorHeading}}</h2>
 				{% for asset in entry.authorImage %}
 				<img class="image__fluid" src="{{ asset.url }}" alt="{{ entry.authorHeading }}">
 				{% endfor %}
@@ -45,7 +45,7 @@
 	<!--Stories-->
 	<div class="section">
 		<div class="wrapper">
-			<h2 id="{{entry.storiesHeading|lower}}">{{entry.storiesHeading}}</h2>
+			<h2 id="{{entry.storiesHeading}}">{{entry.storiesHeading}}</h2>
 			<div class="stories__index">
 				{% for item in entry.stories %}
 				<p>{{ item.storyName }}</p>
@@ -61,7 +61,7 @@
 	<!--Speaking-->
 	<div class="section">
 		<div class="wrapper">
-			<h2 id="{{entry.speakingHeading|lower}}">{{entry.speakingHeading}}</h2>
+			<h2 id="{{entry.speakingHeading}}">{{entry.speakingHeading}}</h2>
 			<p>{{entry.speakingDescription}}</p>
 
 			{% for item in entry.speakingSample %}
@@ -84,8 +84,10 @@
 <div class="section">
 	<div class="wrapper">
 		<h2>{{entry.pitchNightHeading}}</h2>
+		<div class="video">
 		<iframe src="//player.vimeo.com/video/{{entry.pitchNightVideoId}}" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 		<p>{{entry.pitchNightDescription}}</p>
+		</div>
 		<ul>
 			{% for item in entry.pitchNightEvents %}
 			<li>{{ item.eventCity }}, {{ item.eventDate.format('F d, Y') }}, <a href="{{ item.eventRegistrationLink }}">Register</a></li>

@@ -37,6 +37,7 @@ class __TwigTemplate_26d36491006cc90c16b188c2e16e904756e0dc302ce77f42030175c4124
         echo "\" />
 \t<link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
 \t<link href=\"assets/stylesheets/application.css\" rel='stylesheet' type='text/css'>
+\t<script src=\"/assets/scripts/src/core/application.js\"></script>
 </head>
 
 <body>
@@ -45,25 +46,25 @@ class __TwigTemplate_26d36491006cc90c16b188c2e16e904756e0dc302ce77f42030175c4124
 \t\t\t<nav>
 \t\t\t\t<ul class=\"nav\">
 \t\t\t\t\t<li><a href=\"#";
-        // line 28
+        // line 29
         echo twig_escape_filter($this->env, twig_lower_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "aboutHeading")), "html", null, true);
         echo "\">";
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "aboutHeading"), "html", null, true);
         echo "</a></li>
 \t\t\t\t\t<li><a href=\"#";
-        // line 29
+        // line 30
         echo twig_escape_filter($this->env, twig_lower_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "authorHeading")), "html", null, true);
         echo "\">";
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "authorHeading"), "html", null, true);
         echo "</a></li>
 \t\t\t\t\t<li><a href=\"#";
-        // line 30
+        // line 31
         echo twig_escape_filter($this->env, twig_lower_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "storiesHeading")), "html", null, true);
         echo "\">";
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "storiesHeading"), "html", null, true);
         echo "</a></li>
 \t\t\t\t\t<li><a href=\"#";
-        // line 31
+        // line 32
         echo twig_escape_filter($this->env, twig_lower_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "speakingHeading")), "html", null, true);
         echo "\">";
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "speakingHeading"), "html", null, true);
@@ -76,29 +77,30 @@ class __TwigTemplate_26d36491006cc90c16b188c2e16e904756e0dc302ce77f42030175c4124
 
 \t\t<main id=\"content\" role=\"main\">
 \t\t\t";
-        // line 39
+        // line 40
         $this->displayBlock('content', $context, $blocks);
-        // line 43
+        // line 44
         echo "\t\t</main>
 
 \t\t<footer id=\"footer\">
 \t\t\tCopyright ";
-        // line 46
+        // line 47
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["now"]) ? $context["now"] : null), "year"), "html", null, true);
         echo " ";
         echo twig_escape_filter($this->env, ucfirst($this->getAttribute($this->getAttribute((isset($context["craft"]) ? $context["craft"] : null), "request"), "serverName")), "html", null, true);
         echo ". All rights reserved  •  Built with <a href=\"http://buildwithcraft.com\">Craft</a>
 \t\t</footer>
 \t</div>
+\t<script src=\"/assets/scripts/src/plugins/jquery.fitvids.js\"></script>
 </body>
 </html>
 ";
     }
 
-    // line 39
+    // line 40
     public function block_content($context, array $blocks = array())
     {
-        // line 40
+        // line 41
         echo "\t\t\t\t<p>If you see me, you haven’t set your <code>";
         echo "{% block content %}…{% endblock %}";
         echo "</code> yet.</p>
@@ -118,6 +120,6 @@ class __TwigTemplate_26d36491006cc90c16b188c2e16e904756e0dc302ce77f42030175c4124
 
     public function getDebugInfo()
     {
-        return array (  102 => 40,  99 => 39,  87 => 46,  82 => 43,  80 => 39,  67 => 31,  61 => 30,  49 => 28,  20 => 11,  396 => 117,  392 => 116,  385 => 111,  377 => 109,  373 => 108,  369 => 107,  365 => 106,  362 => 105,  351 => 103,  347 => 102,  344 => 101,  340 => 100,  336 => 99,  328 => 93,  315 => 91,  311 => 90,  306 => 88,  302 => 87,  298 => 86,  288 => 78,  279 => 74,  270 => 73,  266 => 72,  263 => 71,  254 => 70,  250 => 69,  247 => 68,  243 => 67,  238 => 65,  232 => 64,  225 => 59,  215 => 57,  211 => 56,  206 => 55,  202 => 54,  199 => 53,  190 => 51,  186 => 50,  179 => 48,  168 => 41,  157 => 39,  153 => 38,  147 => 37,  139 => 31,  135 => 29,  119 => 27,  115 => 26,  110 => 25,  93 => 24,  90 => 23,  88 => 22,  84 => 21,  77 => 16,  70 => 14,  59 => 12,  55 => 29,  50 => 10,  46 => 9,  42 => 8,  36 => 18,  31 => 4,  28 => 17,);
+        return array (  104 => 41,  101 => 40,  88 => 47,  83 => 44,  81 => 40,  68 => 32,  62 => 31,  56 => 30,  50 => 29,  36 => 18,  28 => 17,  20 => 11,);
     }
 }

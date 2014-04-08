@@ -40,6 +40,20 @@ audio{
 
 }
 
+.video{
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
+}
+.video iframe{
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
 /*.section--chapters{margin: 0px auto; width: 60%;}*/
 
 .chapter__index{
