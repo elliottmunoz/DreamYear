@@ -1,7 +1,7 @@
 <?php
 
 /* _layout */
-class __TwigTemplate_26d36491006cc90c16b188c2e16e904756e0dc302ce77f42030175c41246a0ad extends Twig_Template
+class __TwigTemplate_26d36491006cc90c16b188c2e16e904756e0dc302ce77f42030175c41246a0ad extends Craft\BaseTemplate
 {
     public function __construct(Twig_Environment $env)
     {
@@ -45,28 +45,20 @@ class __TwigTemplate_26d36491006cc90c16b188c2e16e904756e0dc302ce77f42030175c4124
 \t\t<header id=\"header\">
 \t\t\t<nav>
 \t\t\t\t<ul class=\"nav\">
-\t\t\t\t\t<li><a href=\"#";
+\t\t\t\t\t<li><a href=\"#\">";
         // line 29
-        echo twig_escape_filter($this->env, twig_lower_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "aboutHeading")), "html", null, true);
-        echo "\">";
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "aboutHeading"), "html", null, true);
         echo "</a></li>
-\t\t\t\t\t<li><a href=\"#";
+\t\t\t\t\t<li><a href=\"#\">";
         // line 30
-        echo twig_escape_filter($this->env, twig_lower_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "authorHeading")), "html", null, true);
-        echo "\">";
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "authorHeading"), "html", null, true);
         echo "</a></li>
-\t\t\t\t\t<li><a href=\"#";
+\t\t\t\t\t<li><a href=\"#\">";
         // line 31
-        echo twig_escape_filter($this->env, twig_lower_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "storiesHeading")), "html", null, true);
-        echo "\">";
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "storiesHeading"), "html", null, true);
         echo "</a></li>
-\t\t\t\t\t<li><a href=\"#";
+\t\t\t\t\t<li><a href=\"#\">";
         // line 32
-        echo twig_escape_filter($this->env, twig_lower_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "speakingHeading")), "html", null, true);
-        echo "\">";
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "speakingHeading"), "html", null, true);
         echo "</a></li>
 \t\t\t\t\t<li><a href=\"#articles\">Articles</a></li>
@@ -92,9 +84,7 @@ class __TwigTemplate_26d36491006cc90c16b188c2e16e904756e0dc302ce77f42030175c4124
 \t\t</footer>
 \t</div>
 \t<script src=\"/assets/scripts/src/plugins/jquery.fitvids.js\"></script>
-</body>
-</html>
-";
+</body>";
     }
 
     // line 40
@@ -120,6 +110,6 @@ class __TwigTemplate_26d36491006cc90c16b188c2e16e904756e0dc302ce77f42030175c4124
 
     public function getDebugInfo()
     {
-        return array (  104 => 41,  101 => 40,  88 => 47,  83 => 44,  81 => 40,  68 => 32,  62 => 31,  56 => 30,  50 => 29,  36 => 18,  28 => 17,  20 => 11,);
+        return array (  91 => 40,  80 => 47,  75 => 44,  73 => 40,  62 => 32,  58 => 31,  54 => 30,  36 => 18,  20 => 11,  541 => 100,  537 => 98,  528 => 96,  524 => 95,  521 => 94,  518 => 93,  507 => 92,  498 => 173,  492 => 172,  485 => 167,  476 => 164,  472 => 163,  468 => 162,  463 => 161,  452 => 159,  448 => 158,  445 => 157,  441 => 156,  435 => 155,  427 => 149,  415 => 145,  410 => 143,  407 => 142,  403 => 141,  398 => 139,  393 => 137,  386 => 135,  372 => 123,  368 => 122,  362 => 121,  358 => 119,  354 => 118,  348 => 117,  344 => 115,  340 => 114,  334 => 113,  330 => 111,  326 => 110,  320 => 109,  312 => 103,  310 => 102,  307 => 101,  304 => 91,  295 => 87,  286 => 86,  282 => 85,  279 => 84,  270 => 83,  266 => 82,  263 => 81,  259 => 80,  255 => 79,  249 => 78,  242 => 73,  232 => 71,  228 => 70,  223 => 69,  219 => 68,  216 => 67,  207 => 65,  203 => 64,  196 => 62,  185 => 54,  181 => 52,  170 => 50,  166 => 49,  158 => 46,  151 => 41,  148 => 40,  131 => 37,  127 => 36,  123 => 35,  120 => 34,  102 => 33,  100 => 32,  94 => 41,  86 => 25,  79 => 23,  68 => 21,  64 => 20,  59 => 19,  55 => 18,  50 => 29,  44 => 15,  31 => 4,  28 => 17,);
     }
 }

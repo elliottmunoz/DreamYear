@@ -19,19 +19,11 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/Users/elliottmunoz/Dropbox/Clients/CI/Comps/Resources/Vector/svg/Icons/instagram.svg",
-			"settings":
-			{
-				"buffer_size": 1191,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 128.0,
+		"height": 374.0,
 		"selected_items":
 		[
 			[
@@ -84,11 +76,30 @@
 	},
 	"file_history":
 	[
-		"/Applications/MAMP/htdocs/dreamyear/craft/templates/_layout.html",
-		"/Applications/MAMP/htdocs/dreamyear/public/assets/stylesheets/application.css",
-		"/Applications/MAMP/htdocs/dreamyear/craft/templates/index.html",
+		"/Users/elliottmunoz/Downloads/stumps-01.svg",
 		"/Users/elliottmunoz/Desktop/snippets.html",
+		"/Users/elliottmunoz/Downloads/Forest-01.svg",
+		"/Users/elliottmunoz/Desktop/ci",
+		"/Applications/MAMP/htdocs/dreamyear/public/.htaccess",
+		"/Applications/MAMP/htdocs/dreamyear/craft/templates/index.html",
+		"/Applications/MAMP/htdocs/dreamyear/public/assets/stylesheets/application.css",
+		"/Applications/MAMP/htdocs/dreamyear/craft/templates/_layout.html",
+		"/Applications/MAMP/htdocs/dreamyear/public/contact/thanks/index.html",
+		"/Users/elliottmunoz/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Applications/MAMP/htdocs/dreamyear/craft/app/controllers/TagsController.php",
+		"/Applications/MAMP/htdocs/dreamyear/craft/templates/_forms/_speaking.html",
+		"/Applications/MAMP/htdocs/dreamyear/public/htaccess",
+		"/Users/elliottmunoz/Desktop/htaccess",
+		"/Users/elliottmunoz/Desktop/profile",
+		"/Users/elliottmunoz/Downloads/MyFontsWebfontsKit/MyFontsWebfontsKit.css",
+		"/Users/elliottmunoz/Downloads/icomoon/demo.html",
+		"/Applications/MAMP/htdocs/dreamyear/public/assets/scripts/src/core/application.js",
+		"/Applications/MAMP/htdocs/dreamyear/public/assets/scripts/src/vendor/jquery.js",
+		"/Users/elliottmunoz/GitHub/svg/assets/svg/eye-loop.svg",
+		"/Users/elliottmunoz/GitHub/svg/assets/svg/fitness.svg",
+		"/Users/elliottmunoz/Dropbox/Clients/ESPN/Diamondback/Comps/psd/resources/vector/icons/svg/espn-caret-right.svg",
 		"/Applications/MAMP/htdocs/dreamyear/public/index.php",
+		"/Users/elliottmunoz/Dropbox/Clients/CI/Comps/Resources/Vector/svg/Icons/instagram.svg",
 		"/Users/elliottmunoz/Desktop/Debbie",
 		"/Users/elliottmunoz/Documents/WCS/Projects/DoD/psd/resources/vector/svg/caret-right.svg",
 		"/Users/elliottmunoz/Documents/WCS/Projects/DoD/psd/resources/vector/svg/arrow.svg",
@@ -145,7 +156,6 @@
 		"/Users/elliottmunoz/GitHub/svg/assets/svg/examples/clock.svg",
 		"/Users/elliottmunoz/GitHub/svg/eye.html",
 		"/Users/elliottmunoz/GitHub/svg/assets/svg/eye.svg",
-		"/Users/elliottmunoz/GitHub/svg/assets/svg/eye-loop.svg",
 		"/Users/elliottmunoz/GitHub/svg/assets/svg/examples/curve.svg",
 		"/Users/elliottmunoz/GitHub/svg/assets/svg/examples/rectangle.svg",
 		"/Users/elliottmunoz/GitHub/svg/assets/svg/examples/line.svg",
@@ -197,7 +207,7 @@
 	],
 	"find":
 	{
-		"height": 42.0
+		"height": 51.0
 	},
 	"find_in_files":
 	{
@@ -211,6 +221,17 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"button",
+			"form__element__full",
+			"form_element_full",
+			"radius",
+			"speaking",
+			"form--element",
+			"descript",
+			"descr",
+			"descri",
+			"description",
+			"FuturaStd-Bold",
 			"#3C74BB",
 			"font",
 			"Dolly",
@@ -226,6 +247,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"form__element",
+			"function_pro_bookbold",
 			"Pitcher",
 			"pitcher"
 		],
@@ -238,37 +261,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/Users/elliottmunoz/Dropbox/Clients/CI/Comps/Resources/Vector/svg/Icons/instagram.svg",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1191,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								499,
-								499
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -310,7 +304,7 @@
 	"project": "dreamyear.sublime-project",
 	"replace":
 	{
-		"height": 80.0
+		"height": 98.0
 	},
 	"save_all_on_build": true,
 	"select_file":

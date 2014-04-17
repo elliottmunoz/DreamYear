@@ -1,7 +1,7 @@
 <?php
 
 /* settings/plugins */
-class __TwigTemplate_c843b84881764c59a6f8ad98e87977e58e0a6bb6c7708c8967462ddfb7b2c12b extends Twig_Template
+class __TwigTemplate_c843b84881764c59a6f8ad98e87977e58e0a6bb6c7708c8967462ddfb7b2c12b extends Craft\BaseTemplate
 {
     public function __construct(Twig_Environment $env)
     {
@@ -34,7 +34,7 @@ class __TwigTemplate_c843b84881764c59a6f8ad98e87977e58e0a6bb6c7708c8967462ddfb7b
         echo "\t";
         if (twig_length_filter($this->env, (isset($context["plugins"]) ? $context["plugins"] : null))) {
             // line 16
-            echo "\t\t<table id=\"plugins\" class=\"data collapsible\">
+            echo "\t\t<table id=\"plugins\" class=\"data fullwidth collapsible\">
 \t\t\t<thead>
 \t\t\t\t<th scope=\"col\">";
             // line 18
@@ -102,7 +102,7 @@ class __TwigTemplate_c843b84881764c59a6f8ad98e87977e58e0a6bb6c7708c8967462ddfb7b
                 // line 35
                 echo twig_escape_filter($this->env, \Craft\Craft::t("Status"), "html", null, true);
                 echo "\">
-\t\t\t\t\t\t\t<form action=\"\" method=\"post\" accept-charset=\"UTF-8\">
+\t\t\t\t\t\t\t<form method=\"post\" accept-charset=\"UTF-8\">
 \t\t\t\t\t\t\t\t<input type=\"hidden\" name=\"pluginClass\" value=\"";
                 // line 37
                 echo twig_escape_filter($this->env, $this->getAttribute((isset($context["plugin"]) ? $context["plugin"] : null), "classHandle"), "html", null, true);
@@ -140,7 +140,7 @@ class __TwigTemplate_c843b84881764c59a6f8ad98e87977e58e0a6bb6c7708c8967462ddfb7b
                 echo "\t\t\t\t\t\t\t</form>
 \t\t\t\t\t\t</td>
 \t\t\t\t\t\t<td class=\"thin rightalign nowrap\">
-\t\t\t\t\t\t\t<form action=\"\" method=\"post\" accept-charset=\"UTF-8\">
+\t\t\t\t\t\t\t<form method=\"post\" accept-charset=\"UTF-8\">
 \t\t\t\t\t\t\t\t<input type=\"hidden\" name=\"pluginClass\" value=\"";
                 // line 51
                 echo twig_escape_filter($this->env, $this->getAttribute((isset($context["plugin"]) ? $context["plugin"] : null), "classHandle"), "html", null, true);

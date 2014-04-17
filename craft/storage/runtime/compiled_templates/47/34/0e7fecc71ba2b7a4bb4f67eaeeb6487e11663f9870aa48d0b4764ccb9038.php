@@ -1,7 +1,7 @@
 <?php
 
 /* index */
-class __TwigTemplate_47340e7fecc71ba2b7a4bb4f67eaeeb6487e11663f9870aa48d0b4764ccb9038 extends Twig_Template
+class __TwigTemplate_47340e7fecc71ba2b7a4bb4f67eaeeb6487e11663f9870aa48d0b4764ccb9038 extends Craft\BaseTemplate
 {
     public function __construct(Twig_Environment $env)
     {
@@ -29,67 +29,77 @@ class __TwigTemplate_47340e7fecc71ba2b7a4bb4f67eaeeb6487e11663f9870aa48d0b4764cc
     {
         // line 4
         echo "\t<!--About-->
+\t<div class=\"section section--hero\">
+\t\t<div class=\"wrapper\">
+\t\t\t<div class=\"hero\">
+\t\t\t\t<div class=\"hero__image\">
+\t\t\t\t</div>
+\t\t\t</div>
+\t\t</div>
+\t</div>
 \t<div class=\"section\">
 \t\t<div class=\"wrapper\">
 \t\t\t<h2 id=\"";
-        // line 7
-        echo twig_escape_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "aboutHeading"), "html", null, true);
+        // line 15
+        echo twig_escape_filter($this->env, twig_lower_filter($this->env, $this->env->getExtension('craft')->replaceFilter($this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "aboutHeading"), " ", "-")), "html", null, true);
         echo "\">";
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "aboutHeading"), "html", null, true);
         echo "</h2>
-\t\t\t<p>";
-        // line 8
+\t\t\t<div class=\"description\">";
+        // line 16
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "aboutDescription"), "html", null, true);
-        echo "</p>
-\t\t\t";
-        // line 9
+        echo "</div>
+\t\t\t<ul class=\"resellers\">
+\t\t\t\t";
+        // line 18
         $context['_parent'] = (array) $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "resellers"));
         foreach ($context['_seq'] as $context["_key"] => $context["item"]) {
-            // line 10
-            echo "\t\t\t<li class=\"reseller\"><a href=\"";
+            // line 19
+            echo "\t\t\t\t<li class=\"reseller\"><a href=\"";
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["item"]) ? $context["item"] : null), "resellerUrl"), "html", null, true);
             echo "\">
-\t\t\t\t";
-            // line 11
+\t\t\t\t\t";
+            // line 20
             $context['_parent'] = (array) $context;
             $context['_seq'] = twig_ensure_traversable($this->getAttribute((isset($context["item"]) ? $context["item"] : null), "resellerLogo"));
             foreach ($context['_seq'] as $context["_key"] => $context["asset"]) {
-                // line 12
-                echo "\t\t\t\t<img src=\"";
+                // line 21
+                echo "\t\t\t\t\t<img src=\"";
                 echo twig_escape_filter($this->env, $this->getAttribute((isset($context["asset"]) ? $context["asset"] : null), "url"), "html", null, true);
                 echo "\" alt=\"";
                 echo twig_escape_filter($this->env, $this->getAttribute((isset($context["item"]) ? $context["item"] : null), "resellerName"), "html", null, true);
                 echo "\">
-\t\t\t\t";
+\t\t\t\t\t";
             }
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['asset'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 14
-            echo "\t\t\t</a></li>
-\t\t\t";
+            // line 23
+            echo "\t\t\t\t</a></li>
+\t\t\t\t";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['item'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 16
-        echo "\t\t</div>
+        // line 25
+        echo "\t\t\t</ul>
+\t\t</div>
 \t</div>
 \t<!--Chapters-->
 \t<div class=\"section section--chapters\">
 \t\t<div class=\"wrapper\">
-\t\t\t<h2>";
-        // line 21
+\t\t\t<h2 id=\"";
+        // line 31
+        echo twig_escape_filter($this->env, twig_lower_filter($this->env, $this->env->getExtension('craft')->replaceFilter($this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "chaptersHeading"), " ", "-")), "html", null, true);
+        echo "\">";
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "chaptersHeading"), "html", null, true);
         echo "</h2>
 \t\t\t";
-        // line 22
+        // line 32
         if (twig_length_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "chapters"))) {
-            // line 23
-            echo "\t\t\t<div class=\"section--chapters\">
-\t\t\t\t";
-            // line 24
+            // line 33
+            echo "\t\t\t";
             $context['_parent'] = (array) $context;
             $context['_seq'] = twig_ensure_traversable($this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "chapters"));
             $context['loop'] = array(
@@ -106,19 +116,22 @@ class __TwigTemplate_47340e7fecc71ba2b7a4bb4f67eaeeb6487e11663f9870aa48d0b4764cc
                 $context['loop']['last'] = 1 === $length;
             }
             foreach ($context['_seq'] as $context["_key"] => $context["item"]) {
-                // line 25
-                echo "\t\t\t\t<div class=\"chapter__index\">Chapter ";
+                // line 34
+                echo "\t\t\t<div class=\"chapter\">
+\t\t\t\t<div class=\"chapter__index\"><h5>Chapter ";
+                // line 35
                 echo twig_escape_filter($this->env, $this->getAttribute((isset($context["loop"]) ? $context["loop"] : null), "index"), "html", null, true);
-                echo ": </div>
-\t\t\t\t<div class=\"chapter__name\">";
-                // line 26
+                echo ": </h5></div>
+\t\t\t\t<div class=\"chapter__name\"><h4>";
+                // line 36
                 echo twig_escape_filter($this->env, $this->getAttribute((isset($context["item"]) ? $context["item"] : null), "chapterTitle"), "html", null, true);
-                echo "</a></div>
-\t\t\t\t<div class=\"chapter__description\">";
-                // line 27
+                echo "</h4></div>
+\t\t\t\t<div class=\"description\">";
+                // line 37
                 echo twig_escape_filter($this->env, $this->getAttribute((isset($context["item"]) ? $context["item"] : null), "chapterDescription"), "html", null, true);
-                echo "</a></div>
-\t\t\t\t";
+                echo "</div>
+\t\t\t</div>
+\t\t\t";
                 ++$context['loop']['index0'];
                 ++$context['loop']['index'];
                 $context['loop']['first'] = false;
@@ -131,43 +144,47 @@ class __TwigTemplate_47340e7fecc71ba2b7a4bb4f67eaeeb6487e11663f9870aa48d0b4764cc
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['item'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 29
-            echo "\t\t\t</div>
-\t\t\t";
+            // line 40
+            echo "\t\t\t";
         }
-        // line 31
+        // line 41
         echo "\t\t</div>
 \t</div>
 \t<!--Author-->
-\t<div class=\"section\">
+\t<div class=\"section section--author\">
 \t\t<div class=\"wrapper\">
-\t\t\t<div class=\"section--author\">
-\t\t\t\t<h2 id=\"";
-        // line 37
-        echo twig_escape_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "authorHeading"), "html", null, true);
+\t\t\t<h2 id=\"";
+        // line 46
+        echo twig_escape_filter($this->env, twig_lower_filter($this->env, $this->env->getExtension('craft')->replaceFilter($this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "authorHeading"), " ", "-")), "html", null, true);
         echo "\">";
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "authorHeading"), "html", null, true);
         echo "</h2>
-\t\t\t\t";
-        // line 38
+\t\t\t<div class=\"profile\">
+\t\t\t\t<div class=\"profile__image\">
+\t\t\t\t\t";
+        // line 49
         $context['_parent'] = (array) $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "authorImage"));
         foreach ($context['_seq'] as $context["_key"] => $context["asset"]) {
-            // line 39
-            echo "\t\t\t\t<img class=\"image__fluid\" src=\"";
+            // line 50
+            echo "\t\t\t\t\t<img class=\"image__fluid\" src=\"";
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["asset"]) ? $context["asset"] : null), "url"), "html", null, true);
             echo "\" alt=\"";
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "authorHeading"), "html", null, true);
             echo "\">
-\t\t\t\t";
+\t\t\t\t\t";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['asset'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 41
-        echo "\t\t\t\t<p>";
+        // line 52
+        echo "\t\t\t\t</div>
+\t\t\t\t<div class=\"profile__content\">
+\t\t\t\t\t";
+        // line 54
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "authorDescription"), "html", null, true);
-        echo "</p>
+        echo "
+\t\t\t\t</div>
 \t\t\t</div>
 \t\t</div>
 \t</div>
@@ -175,18 +192,18 @@ class __TwigTemplate_47340e7fecc71ba2b7a4bb4f67eaeeb6487e11663f9870aa48d0b4764cc
 \t<div class=\"section\">
 \t\t<div class=\"wrapper\">
 \t\t\t<h2 id=\"";
-        // line 48
-        echo twig_escape_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "storiesHeading"), "html", null, true);
+        // line 62
+        echo twig_escape_filter($this->env, twig_lower_filter($this->env, $this->env->getExtension('craft')->replaceFilter($this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "storiesHeading"), " ", "-")), "html", null, true);
         echo "\">";
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "storiesHeading"), "html", null, true);
         echo "</h2>
 \t\t\t<div class=\"stories__index\">
 \t\t\t\t";
-        // line 50
+        // line 64
         $context['_parent'] = (array) $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "stories"));
         foreach ($context['_seq'] as $context["_key"] => $context["item"]) {
-            // line 51
+            // line 65
             echo "\t\t\t\t<p>";
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["item"]) ? $context["item"] : null), "storyName"), "html", null, true);
             echo "</p>
@@ -195,23 +212,23 @@ class __TwigTemplate_47340e7fecc71ba2b7a4bb4f67eaeeb6487e11663f9870aa48d0b4764cc
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['item'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 53
+        // line 67
         echo "\t\t\t</div>
 \t\t\t";
-        // line 54
+        // line 68
         $context['_parent'] = (array) $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "stories"));
         foreach ($context['_seq'] as $context["_key"] => $context["item"]) {
-            // line 55
+            // line 69
             echo "\t\t\t<p>";
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["item"]) ? $context["item"] : null), "storyName"), "html", null, true);
             echo "</p>
 \t\t\t<p>";
-            // line 56
+            // line 70
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["item"]) ? $context["item"] : null), "storyDescription"), "html", null, true);
             echo "</p>
 \t\t\t<p><a href=\"";
-            // line 57
+            // line 71
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["item"]) ? $context["item"] : null), "storyUrl"), "html", null, true);
             echo "\">";
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["item"]) ? $context["item"] : null), "storyUrl"), "html", null, true);
@@ -221,36 +238,35 @@ class __TwigTemplate_47340e7fecc71ba2b7a4bb4f67eaeeb6487e11663f9870aa48d0b4764cc
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['item'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 59
+        // line 73
         echo "\t\t</div>
 \t</div>
 \t<!--Speaking-->
 \t<div class=\"section\">
 \t\t<div class=\"wrapper\">
 \t\t\t<h2 id=\"";
-        // line 64
-        echo twig_escape_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "speakingHeading"), "html", null, true);
+        // line 78
+        echo twig_escape_filter($this->env, twig_lower_filter($this->env, $this->env->getExtension('craft')->replaceFilter($this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "speakingHeading"), " ", "-")), "html", null, true);
         echo "\">";
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "speakingHeading"), "html", null, true);
         echo "</h2>
-\t\t\t<p>";
-        // line 65
+\t\t\t<div class=\"description\">";
+        // line 79
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "speakingDescription"), "html", null, true);
-        echo "</p>
-
+        echo "</div>
 \t\t\t";
-        // line 67
+        // line 80
         $context['_parent'] = (array) $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "speakingSample"));
         foreach ($context['_seq'] as $context["_key"] => $context["item"]) {
-            // line 68
+            // line 81
             echo "\t\t\t<audio controls>
 \t\t\t\t<source src=\"";
-            // line 69
+            // line 82
             $context['_parent'] = (array) $context;
             $context['_seq'] = twig_ensure_traversable($this->getAttribute((isset($context["item"]) ? $context["item"] : null), "mp3"));
             foreach ($context['_seq'] as $context["_key"] => $context["asset"]) {
-                // line 70
+                // line 83
                 echo "\t\t\t\t";
                 echo twig_escape_filter($this->env, $this->getAttribute((isset($context["asset"]) ? $context["asset"] : null), "url"), "html", null, true);
                 echo "
@@ -259,14 +275,14 @@ class __TwigTemplate_47340e7fecc71ba2b7a4bb4f67eaeeb6487e11663f9870aa48d0b4764cc
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['asset'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 71
+            // line 84
             echo "\" type=\"audio/mpeg\">
 \t\t\t\t<source src=\"";
-            // line 72
+            // line 85
             $context['_parent'] = (array) $context;
             $context['_seq'] = twig_ensure_traversable($this->getAttribute((isset($context["item"]) ? $context["item"] : null), "ogg"));
             foreach ($context['_seq'] as $context["_key"] => $context["asset"]) {
-                // line 73
+                // line 86
                 echo "\t\t\t\t";
                 echo twig_escape_filter($this->env, $this->getAttribute((isset($context["asset"]) ? $context["asset"] : null), "url"), "html", null, true);
                 echo "
@@ -275,7 +291,7 @@ class __TwigTemplate_47340e7fecc71ba2b7a4bb4f67eaeeb6487e11663f9870aa48d0b4764cc
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['asset'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 74
+            // line 87
             echo "\" type=\"audio/ogg\">
 \t\t\t\tYour browser does not support the audio element.
 \t\t\t</audio>
@@ -284,119 +300,258 @@ class __TwigTemplate_47340e7fecc71ba2b7a4bb4f67eaeeb6487e11663f9870aa48d0b4764cc
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['item'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 78
-        echo "\t\t</div>
+        // line 91
+        echo "\t\t\t<div class=\"speaking__form\">
+\t\t\t\t";
+        // line 101
+        echo "
+\t\t\t\t";
+        // line 102
+        $context["__internal_d390765d461b570bfb403961732ed3858d61858efc86cd2939abb9ead8a24388"] = $this;
+        // line 103
+        echo "
+\t\t\t\t<form method=\"post\" action=\"\" accept-charset=\"UTF-8\">
+\t\t\t\t\t<input type=\"hidden\" name=\"action\" value=\"contactForm/sendMessage\">
+\t\t\t\t\t<input type=\"hidden\" name=\"redirect\" value=\"contact/thanks\">
+\t\t\t\t\t<div class=\"form__element form__element__half\">
+\t\t\t\t\t\t<label for=\"fromName\" class=\"form__label\">Your Name</label>
+\t\t\t\t\t\t<input id=\"fromName\" class=\"form__element__textfield\" type=\"text\" name=\"fromName\" value=\"";
+        // line 109
+        if (array_key_exists("message", $context)) {
+            echo twig_escape_filter($this->env, $this->getAttribute((isset($context["message"]) ? $context["message"] : null), "fromName"), "html", null, true);
+        }
+        echo "\">
+\t\t\t\t\t</div>
+\t\t\t\t\t";
+        // line 111
+        if (array_key_exists("message", $context)) {
+            echo $context["__internal_d390765d461b570bfb403961732ed3858d61858efc86cd2939abb9ead8a24388"]->geterrorList($this->getAttribute((isset($context["message"]) ? $context["message"] : null), "getErrors", array(0 => "fromName"), "method"));
+        }
+        // line 112
+        echo "\t\t\t\t\t<div class=\"form__element form__element__half\">
+\t\t\t\t\t\t<label for=\"fromEmail\" class=\"form__label required\">Your Email</label>
+\t\t\t\t\t\t<input id=\"fromEmail\" class=\"form__element__textfield\" type=\"email\" name=\"fromEmail\" value=\"";
+        // line 114
+        if (array_key_exists("message", $context)) {
+            echo twig_escape_filter($this->env, $this->getAttribute((isset($context["message"]) ? $context["message"] : null), "fromEmail"), "html", null, true);
+        }
+        echo "\">
+\t\t\t\t\t</div>
+\t\t\t\t\t";
+        // line 116
+        if (array_key_exists("message", $context)) {
+            echo $context["__internal_d390765d461b570bfb403961732ed3858d61858efc86cd2939abb9ead8a24388"]->geterrorList($this->getAttribute((isset($context["message"]) ? $context["message"] : null), "getErrors", array(0 => "fromEmail"), "method"));
+        }
+        // line 117
+        echo "\t\t\t\t\t<div class=\"form__element form__element__half\">
+\t\t\t\t\t\t<label for=\"phone\" class=\"form__label required\">Phone</label>
+\t\t\t\t\t\t<input id=\"phone\" class=\"form__element__textfield\" type=\"tel\" name=\"message[Phone]\" value=\"\" placeholder=\"(×××) ×××-××××\">
+\t\t\t\t\t</div>
+\t\t\t\t\t<div class=\"form__element form__element__half\">
+\t\t\t\t\t\t<label for=\"event\" class=\"form__label required\">Event Name</label>
+\t\t\t\t\t\t<input id=\"event\" class=\"form__element__textfield\" type=\"text\" name=\"message[Event]\" value=\"\">
+\t\t\t\t\t</div>
+\t\t\t\t\t<div class=\"form__element form__element__half\">
+\t\t\t\t\t\t<label for=\"dates\" class=\"form__label required\">Dates</label>
+\t\t\t\t\t\t<input id=\"dates\" class=\"form__element__textfield\" type=\"date\" name=\"message[Dates]\" value=\"\">
+\t\t\t\t\t</div>
+\t\t\t\t\t<div class=\"form__element form__element__half\">
+\t\t\t\t\t\t<label for=\"budget\" class=\"form__label required\">Budget</label>
+\t\t\t\t\t\t<input id=\"budget\" class=\"form__element__textfield\" type=\"number\" name=\"message[Budget]\" value=\"\">
+\t\t\t\t\t</div>
+\t\t\t\t\t<div class=\"form__element form__element__full\">
+\t\t\t\t\t\t<label for=\"message\" class=\"form__label required\">Tell us about your Event</label>
+\t\t\t\t\t\t<textarea rows=\"5\" id=\"message\" class=\"form__element__textarea\" name=\"message[body]\">";
+        // line 135
+        if (array_key_exists("message", $context)) {
+            echo twig_escape_filter($this->env, $this->getAttribute((isset($context["message"]) ? $context["message"] : null), "message"), "html", null, true);
+        }
+        echo "</textarea>
+\t\t\t\t\t</div>
+\t\t\t\t\t";
+        // line 137
+        if (array_key_exists("message", $context)) {
+            echo $context["__internal_d390765d461b570bfb403961732ed3858d61858efc86cd2939abb9ead8a24388"]->geterrorList($this->getAttribute((isset($context["message"]) ? $context["message"] : null), "getErrors", array(0 => "message"), "method"));
+        }
+        // line 138
+        echo "\t\t\t\t\t<div class=\"form__element form__element__full\">
+\t\t\t\t\t\t<input class=\"button\" type=\"submit\" value=\"Send\">
+\t\t\t\t\t</div>
+\t\t\t\t</form>
+\t\t\t</div>
+\t\t</div>
 \t</div>
 \t<!--
 \t<script type=\"text/javascript\" src=\"https://www.formstack.com/forms/js.php?1720416-4QhiH6JuPM-v3\"></script><noscript><a href=\"https://www.formstack.com/forms/?1720416-4QhiH6JuPM\" title=\"Online Form\">Online Form - Speaking Request Form</a></noscript>
 -->
 <!--Pitch Nights-->
-<div class=\"section\">
+<div class=\"section section--pitch\">
 \t<div class=\"wrapper\">
-\t\t<h2>";
-        // line 86
+\t\t<h2 id=\"";
+        // line 151
+        echo twig_escape_filter($this->env, twig_lower_filter($this->env, $this->env->getExtension('craft')->replaceFilter($this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "pitchNightHeading"), " ", "-")), "html", null, true);
+        echo "\">";
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "pitchNightHeading"), "html", null, true);
         echo "</h2>
 \t\t<div class=\"video\">
-\t\t<iframe src=\"//player.vimeo.com/video/";
-        // line 88
+\t\t\t<iframe src=\"//player.vimeo.com/video/";
+        // line 153
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "pitchNightVideoId"), "html", null, true);
         echo "\" width=\"640\" height=\"360\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-\t\t<p>";
-        // line 89
-        echo twig_escape_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "pitchNightDescription"), "html", null, true);
-        echo "</p>
 \t\t</div>
-\t\t<ul>
+\t\t<div class=\"description\">";
+        // line 155
+        echo twig_escape_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "pitchNightDescription"), "html", null, true);
+        echo "</div>
+\t\t<ul class=\"tour\">
 \t\t\t";
-        // line 92
+        // line 157
         $context['_parent'] = (array) $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "pitchNightEvents"));
         foreach ($context['_seq'] as $context["_key"] => $context["item"]) {
-            // line 93
-            echo "\t\t\t<li>";
-            echo twig_escape_filter($this->env, $this->getAttribute((isset($context["item"]) ? $context["item"] : null), "eventCity"), "html", null, true);
-            echo ", ";
-            echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute((isset($context["item"]) ? $context["item"] : null), "eventDate"), "format", array(0 => "F d, Y"), "method"), "html", null, true);
-            echo ", <a href=\"";
+            // line 158
+            echo "\t\t\t<li class=\"tour--stop\">
+\t\t\t\t<div class=\"tour--date\"><h5>";
+            // line 159
+            echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute((isset($context["item"]) ? $context["item"] : null), "eventDate"), "format", array(0 => "F d"), "method"), "html", null, true);
+            echo "</h5></div>
+\t\t\t\t<div class=\"tour--city\">
+\t\t\t\t\t<h3><a href=\"";
+            // line 161
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["item"]) ? $context["item"] : null), "eventRegistrationLink"), "html", null, true);
-            echo "\">Register</a></li>
+            echo "\">";
+            echo twig_escape_filter($this->env, $this->getAttribute((isset($context["item"]) ? $context["item"] : null), "eventCity"), "html", null, true);
+            echo "</a></h3>
+\t\t\t\t</div>
+\t\t\t</li>
 \t\t\t";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['item'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 95
+        // line 165
         echo "\t\t</ul>
 \t</div>
 </div>
 <!--Event-->
 <div class=\"section\">
 \t<div class=\"wrapper\">
-\t\t<h2>";
-        // line 101
+\t\t<h2 id=\"";
+        // line 171
+        echo twig_escape_filter($this->env, twig_lower_filter($this->env, $this->env->getExtension('craft')->replaceFilter($this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "eventHeading"), " ", "-")), "html", null, true);
+        echo "\">";
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "eventHeading"), "html", null, true);
         echo "</h2>
 \t\t";
-        // line 102
+        // line 172
         $context['_parent'] = (array) $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "events"), "limit", array(0 => 1), "method"));
         foreach ($context['_seq'] as $context["_key"] => $context["item"]) {
-            // line 103
-            echo "\t\t\t";
+            // line 173
+            echo "\t\t<div id=\"event\">
+\t\t\t";
+            // line 174
             $context['_parent'] = (array) $context;
             $context['_seq'] = twig_ensure_traversable($this->getAttribute((isset($context["item"]) ? $context["item"] : null), "eventImage"));
             foreach ($context['_seq'] as $context["_key"] => $context["asset"]) {
-                // line 104
-                echo "\t\t\t<img class=\"image__fluid\" src=\"";
+                // line 175
+                echo "\t\t\t<div class=\"event--image\"><img class=\"image__fluid\" src=\"";
                 echo twig_escape_filter($this->env, $this->getAttribute((isset($context["asset"]) ? $context["asset"] : null), "url"), "html", null, true);
                 echo "\" alt=\"";
                 echo twig_escape_filter($this->env, $this->getAttribute((isset($context["item"]) ? $context["item"] : null), "eventName"), "html", null, true);
-                echo "\">
+                echo "\"></div>
 \t\t\t";
             }
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['asset'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 106
-            echo "\t\t<p>";
+            // line 177
+            echo "\t\t\t<div class=\"event--date\"><h5>";
+            echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute((isset($context["item"]) ? $context["item"] : null), "eventDate"), "format", array(0 => "F d"), "method"), "html", null, true);
+            echo "</h5></div>
+\t\t\t<div class=\"event--city\"><h3>";
+            // line 178
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["item"]) ? $context["item"] : null), "eventLocation"), "html", null, true);
-            echo "</p>
-\t\t<p>";
-            // line 107
-            echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute((isset($context["item"]) ? $context["item"] : null), "eventDate"), "format", array(0 => "F d, Y"), "method"), "html", null, true);
-            echo "</p>
-\t\t<p>";
-            // line 108
+            echo "</h3></div>
+\t\t\t<div class=\"description\">";
+            // line 179
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["item"]) ? $context["item"] : null), "eventDescription"), "html", null, true);
-            echo "</p>
-\t\t<p><a href=\"";
-            // line 109
+            echo "</div>
+\t\t\t<a href=\"";
+            // line 180
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["item"]) ? $context["item"] : null), "eventRegistrationLink"), "html", null, true);
-            echo "\">Register Now</a></p>
+            echo "\" class=\"button\">Register Now</a></p>
+\t\t</div>
 \t\t";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['item'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 111
+        // line 183
         echo "\t</div>
 </div>
 <!--Event-->
 <div class=\"section\">
 \t<div class=\"wrapper\">
-\t\t<h2>";
-        // line 116
+\t\t<h2 id=\"";
+        // line 188
+        echo twig_escape_filter($this->env, twig_lower_filter($this->env, $this->env->getExtension('craft')->replaceFilter($this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "contactHeading"), " ", "-")), "html", null, true);
+        echo "\">";
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "contactHeading"), "html", null, true);
         echo "</h2>
-\t\t<p>";
-        // line 117
+\t\t<div class=\"description\">";
+        // line 189
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["entry"]) ? $context["entry"] : null), "contactDescription"), "html", null, true);
-        echo "</p>
+        echo "</div>
 \t</div>
 </div>
 
 ";
+    }
+
+    // line 92
+    public function geterrorList($_errors = null)
+    {
+        $context = $this->env->mergeGlobals(array(
+            "errors" => $_errors,
+        ));
+
+        $blocks = array();
+
+        ob_start();
+        try {
+            // line 93
+            echo "\t\t\t\t";
+            if ((isset($context["errors"]) ? $context["errors"] : null)) {
+                // line 94
+                echo "\t\t\t\t<ul class=\"errors\">
+\t\t\t\t\t";
+                // line 95
+                $context['_parent'] = (array) $context;
+                $context['_seq'] = twig_ensure_traversable((isset($context["errors"]) ? $context["errors"] : null));
+                foreach ($context['_seq'] as $context["_key"] => $context["error"]) {
+                    // line 96
+                    echo "\t\t\t\t\t<li>";
+                    echo twig_escape_filter($this->env, (isset($context["error"]) ? $context["error"] : null), "html", null, true);
+                    echo "</li>
+\t\t\t\t\t";
+                }
+                $_parent = $context['_parent'];
+                unset($context['_seq'], $context['_iterated'], $context['_key'], $context['error'], $context['_parent'], $context['loop']);
+                $context = array_intersect_key($context, $_parent) + $_parent;
+                // line 98
+                echo "\t\t\t\t</ul>
+\t\t\t\t";
+            }
+            // line 100
+            echo "\t\t\t\t";
+        } catch (Exception $e) {
+            ob_end_clean();
+
+            throw $e;
+        }
+
+        return ('' === $tmp = ob_get_clean()) ? '' : new Twig_Markup($tmp, $this->env->getCharset());
     }
 
     public function getTemplateName()
@@ -411,6 +566,6 @@ class __TwigTemplate_47340e7fecc71ba2b7a4bb4f67eaeeb6487e11663f9870aa48d0b4764cc
 
     public function getDebugInfo()
     {
-        return array (  394 => 117,  390 => 116,  383 => 111,  375 => 109,  371 => 108,  367 => 107,  362 => 106,  351 => 104,  346 => 103,  342 => 102,  338 => 101,  330 => 95,  317 => 93,  313 => 92,  307 => 89,  303 => 88,  298 => 86,  288 => 78,  279 => 74,  270 => 73,  266 => 72,  263 => 71,  254 => 70,  250 => 69,  247 => 68,  243 => 67,  238 => 65,  232 => 64,  225 => 59,  215 => 57,  211 => 56,  206 => 55,  202 => 54,  199 => 53,  190 => 51,  186 => 50,  179 => 48,  168 => 41,  157 => 39,  153 => 38,  147 => 37,  139 => 31,  135 => 29,  119 => 27,  115 => 26,  110 => 25,  93 => 24,  90 => 23,  88 => 22,  84 => 21,  77 => 16,  70 => 14,  59 => 12,  55 => 11,  50 => 10,  46 => 9,  42 => 8,  36 => 7,  31 => 4,  28 => 3,);
+        return array (  547 => 100,  543 => 98,  534 => 96,  530 => 95,  527 => 94,  524 => 93,  513 => 92,  504 => 189,  498 => 188,  491 => 183,  482 => 180,  478 => 179,  474 => 178,  469 => 177,  458 => 175,  454 => 174,  451 => 173,  447 => 172,  441 => 171,  433 => 165,  421 => 161,  416 => 159,  413 => 158,  409 => 157,  404 => 155,  399 => 153,  392 => 151,  377 => 138,  373 => 137,  366 => 135,  346 => 117,  342 => 116,  335 => 114,  331 => 112,  327 => 111,  320 => 109,  312 => 103,  310 => 102,  307 => 101,  304 => 91,  295 => 87,  286 => 86,  282 => 85,  279 => 84,  270 => 83,  266 => 82,  263 => 81,  259 => 80,  255 => 79,  249 => 78,  242 => 73,  232 => 71,  228 => 70,  223 => 69,  219 => 68,  216 => 67,  207 => 65,  203 => 64,  196 => 62,  185 => 54,  181 => 52,  170 => 50,  166 => 49,  158 => 46,  151 => 41,  148 => 40,  131 => 37,  127 => 36,  123 => 35,  120 => 34,  102 => 33,  100 => 32,  94 => 31,  86 => 25,  79 => 23,  68 => 21,  64 => 20,  59 => 19,  55 => 18,  50 => 16,  44 => 15,  31 => 4,  28 => 3,);
     }
 }

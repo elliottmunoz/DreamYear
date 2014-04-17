@@ -1,7 +1,7 @@
 <?php
 
 /* _elements/sources */
-class __TwigTemplate_2e010bebe1664f7a230f1addb987bcce159df7b5e8224752e0216bca875d0856 extends Twig_Template
+class __TwigTemplate_2e010bebe1664f7a230f1addb987bcce159df7b5e8224752e0216bca875d0856 extends Craft\BaseTemplate
 {
     public function __construct(Twig_Environment $env)
     {
@@ -55,34 +55,14 @@ class __TwigTemplate_2e010bebe1664f7a230f1addb987bcce159df7b5e8224752e0216bca875
                     echo " data-has-thumbs=\"1\"";
                 }
                 // line 9
-                if (($this->getAttribute((isset($context["source"]) ? $context["source"] : null), "hasStructure", array(), "any", true, true) && $this->getAttribute((isset($context["source"]) ? $context["source"] : null), "hasStructure"))) {
-                    echo " data-has-structure=\"1\"";
-                    // line 10
-                    if (($this->getAttribute((isset($context["source"]) ? $context["source"] : null), "sortable", array(), "any", true, true) && $this->getAttribute((isset($context["source"]) ? $context["source"] : null), "sortable"))) {
-                        echo " data-sortable=\"1\"";
-                    }
-                    // line 11
-                    if (($this->getAttribute((isset($context["source"]) ? $context["source"] : null), "maxDepth", array(), "any", true, true) && $this->getAttribute((isset($context["source"]) ? $context["source"] : null), "maxDepth"))) {
-                        echo " data-max-depth=\"";
-                        echo twig_escape_filter($this->env, $this->getAttribute((isset($context["source"]) ? $context["source"] : null), "maxDepth"), "html", null, true);
-                        echo "\"";
-                    }
-                    // line 12
-                    if (($this->getAttribute((isset($context["source"]) ? $context["source"] : null), "moveAction", array(), "any", true, true) && $this->getAttribute((isset($context["source"]) ? $context["source"] : null), "moveAction"))) {
-                        echo " data-move-action=\"";
-                        echo twig_escape_filter($this->env, $this->getAttribute((isset($context["source"]) ? $context["source"] : null), "moveAction"), "html", null, true);
-                        echo "\"";
-                    }
-                    // line 13
-                    if (($this->getAttribute((isset($context["source"]) ? $context["source"] : null), "newChildUrl", array(), "any", true, true) && $this->getAttribute((isset($context["source"]) ? $context["source"] : null), "newChildUrl"))) {
-                        echo " data-new-child-url=\"";
-                        echo twig_escape_filter($this->env, $this->getAttribute((isset($context["source"]) ? $context["source"] : null), "newChildUrl"), "html", null, true);
-                        echo "\"";
-                    }
+                if (($this->getAttribute((isset($context["source"]) ? $context["source"] : null), "structureId", array(), "any", true, true) && $this->getAttribute((isset($context["source"]) ? $context["source"] : null), "structureId"))) {
+                    echo " data-has-structure=\"1\" data-structure-id=\"";
+                    echo twig_escape_filter($this->env, $this->getAttribute((isset($context["source"]) ? $context["source"] : null), "structureId"), "html", null, true);
+                    echo "\"";
                 }
-                // line 15
+                // line 10
                 if ($this->getAttribute((isset($context["source"]) ? $context["source"] : null), "data", array(), "any", true, true)) {
-                    // line 16
+                    // line 11
                     $context['_parent'] = (array) $context;
                     $context['_seq'] = twig_ensure_traversable($this->getAttribute((isset($context["source"]) ? $context["source"] : null), "data"));
                     foreach ($context['_seq'] as $context["dataKey"] => $context["dataVal"]) {
@@ -96,26 +76,26 @@ class __TwigTemplate_2e010bebe1664f7a230f1addb987bcce159df7b5e8224752e0216bca875
                     unset($context['_seq'], $context['_iterated'], $context['dataKey'], $context['dataVal'], $context['_parent'], $context['loop']);
                     $context = array_intersect_key($context, $_parent) + $_parent;
                 }
-                // line 18
+                // line 13
                 echo ">";
                 echo twig_escape_filter($this->env, $this->getAttribute((isset($context["source"]) ? $context["source"] : null), "label"), "html", null, true);
                 echo "</a>
 \t\t\t\t";
-                // line 19
+                // line 14
                 if (($this->getAttribute((isset($context["source"]) ? $context["source"] : null), "nested", array(), "any", true, true) && (!twig_test_empty($this->getAttribute((isset($context["source"]) ? $context["source"] : null), "nested"))))) {
-                    // line 20
+                    // line 15
                     echo "\t\t\t\t\t<div class=\"toggle\"></div>
 \t\t\t\t\t";
-                    // line 21
+                    // line 16
                     $this->env->loadTemplate("_elements/sources")->display(array_merge($context, array("sources" => $this->getAttribute((isset($context["source"]) ? $context["source"] : null), "nested"))));
-                    // line 22
+                    // line 17
                     echo "\t\t\t\t";
                 }
-                // line 23
+                // line 18
                 echo "\t\t\t</li>
 \t\t";
             }
-            // line 25
+            // line 20
             echo "\t";
             ++$context['loop']['index0'];
             ++$context['loop']['index'];
@@ -129,7 +109,7 @@ class __TwigTemplate_2e010bebe1664f7a230f1addb987bcce159df7b5e8224752e0216bca875
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['key'], $context['source'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 26
+        // line 21
         echo "</ul>
 ";
     }
@@ -146,6 +126,6 @@ class __TwigTemplate_2e010bebe1664f7a230f1addb987bcce159df7b5e8224752e0216bca875
 
     public function getDebugInfo()
     {
-        return array (  133 => 26,  119 => 25,  115 => 23,  112 => 22,  110 => 21,  105 => 19,  86 => 16,  84 => 15,  77 => 13,  71 => 12,  61 => 10,  58 => 9,  51 => 7,  42 => 4,  22 => 2,  19 => 1,  82 => 32,  73 => 29,  68 => 25,  66 => 24,  52 => 16,  49 => 15,  43 => 13,  38 => 37,  36 => 10,  107 => 20,  104 => 33,  100 => 18,  92 => 29,  87 => 26,  76 => 30,  72 => 23,  65 => 11,  63 => 23,  60 => 22,  57 => 17,  54 => 8,  48 => 6,  46 => 14,  39 => 3,  37 => 10,  33 => 7,  31 => 6,  29 => 4,  27 => 3,  25 => 2,);
+        return array (  113 => 21,  99 => 20,  95 => 18,  85 => 14,  51 => 7,  42 => 4,  22 => 2,  129 => 47,  127 => 45,  123 => 43,  117 => 39,  101 => 37,  96 => 36,  90 => 16,  81 => 30,  62 => 24,  45 => 18,  43 => 17,  36 => 12,  21 => 3,  19 => 1,  88 => 34,  84 => 31,  80 => 13,  75 => 26,  66 => 11,  64 => 10,  61 => 16,  58 => 9,  55 => 14,  50 => 40,  44 => 25,  41 => 24,  34 => 11,  32 => 10,  30 => 9,  28 => 4,  26 => 3,  107 => 34,  104 => 33,  100 => 31,  92 => 17,  87 => 15,  76 => 24,  72 => 30,  65 => 20,  63 => 19,  60 => 18,  57 => 17,  54 => 8,  48 => 6,  46 => 26,  39 => 3,  37 => 11,  33 => 9,  31 => 7,  29 => 6,  27 => 8,  25 => 2,);
     }
 }

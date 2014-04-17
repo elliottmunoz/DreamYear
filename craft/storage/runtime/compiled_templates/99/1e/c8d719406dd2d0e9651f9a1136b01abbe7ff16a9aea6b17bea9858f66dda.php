@@ -1,7 +1,7 @@
 <?php
 
 /* _includes/field */
-class __TwigTemplate_991ec8d719406dd2d0e9651f9a1136b01abbe7ff16a9aea6b17bea9858f66dda extends Twig_Template
+class __TwigTemplate_991ec8d719406dd2d0e9651f9a1136b01abbe7ff16a9aea6b17bea9858f66dda extends Craft\BaseTemplate
 {
     public function __construct(Twig_Environment $env)
     {
@@ -18,7 +18,8 @@ class __TwigTemplate_991ec8d719406dd2d0e9651f9a1136b01abbe7ff16a9aea6b17bea9858f
         // line 1
         $context["forms"] = $this->env->loadTemplate("_includes/forms");
         // line 2
-        $context["field"] = $this->getAttribute($this->getAttribute((isset($context["craft"]) ? $context["craft"] : null), "fields"), "getFieldById", array(0 => (isset($context["fieldId"]) ? $context["fieldId"] : null)), "method");
+        echo "
+";
         // line 3
         if ((!array_key_exists("element", $context))) {
             $context["element"] = null;
@@ -49,7 +50,7 @@ class __TwigTemplate_991ec8d719406dd2d0e9651f9a1136b01abbe7ff16a9aea6b17bea9858f
         echo "
 ";
         // line 15
-        echo $context["forms"]->getfield(array("label" => twig_escape_filter($this->env, $this->getAttribute((isset($context["field"]) ? $context["field"] : null), "name")), "required" => (isset($context["required"]) ? $context["required"] : null), "translatable" => $this->getAttribute((isset($context["field"]) ? $context["field"] : null), "translatable"), "instructions" => $this->getAttribute((isset($context["field"]) ? $context["field"] : null), "instructions"), "id" => $this->getAttribute((isset($context["field"]) ? $context["field"] : null), "handle"), "errors" => (isset($context["errors"]) ? $context["errors"] : null)), (isset($context["input"]) ? $context["input"] : null));
+        echo $context["forms"]->getfield(array("label" => twig_escape_filter($this->env, \Craft\Craft::t($this->getAttribute((isset($context["field"]) ? $context["field"] : null), "name"))), "required" => (isset($context["required"]) ? $context["required"] : null), "translatable" => $this->getAttribute((isset($context["field"]) ? $context["field"] : null), "translatable"), "instructions" => \Craft\Craft::t($this->getAttribute((isset($context["field"]) ? $context["field"] : null), "instructions")), "id" => $this->getAttribute((isset($context["field"]) ? $context["field"] : null), "handle"), "errors" => (isset($context["errors"]) ? $context["errors"] : null)), (isset($context["input"]) ? $context["input"] : null));
         // line 22
         echo "
 ";
@@ -67,6 +68,6 @@ class __TwigTemplate_991ec8d719406dd2d0e9651f9a1136b01abbe7ff16a9aea6b17bea9858f
 
     public function getDebugInfo()
     {
-        return array (  52 => 15,  49 => 14,  45 => 12,  41 => 10,  36 => 8,  34 => 7,  27 => 4,  104 => 29,  100 => 27,  96 => 26,  90 => 25,  87 => 24,  84 => 19,  81 => 18,  66 => 26,  60 => 25,  57 => 24,  54 => 22,  51 => 18,  39 => 9,  35 => 14,  33 => 8,  23 => 3,  21 => 2,  19 => 1,  91 => 28,  85 => 27,  82 => 26,  76 => 17,  72 => 22,  62 => 20,  59 => 19,  56 => 18,  53 => 17,  50 => 16,  46 => 17,  42 => 13,  40 => 12,  32 => 6,  30 => 5,  28 => 6,  26 => 3,  24 => 2,);
+        return array (  53 => 15,  50 => 14,  40 => 9,  33 => 6,  31 => 5,  28 => 4,  64 => 6,  59 => 5,  45 => 11,  42 => 10,  37 => 8,  30 => 4,  23 => 2,  24 => 3,  72 => 14,  55 => 22,  89 => 16,  75 => 15,  54 => 11,  51 => 10,  46 => 12,  26 => 12,  21 => 2,  19 => 1,  427 => 196,  422 => 193,  419 => 192,  416 => 191,  411 => 189,  407 => 188,  404 => 187,  401 => 186,  398 => 185,  390 => 183,  388 => 182,  382 => 178,  369 => 176,  367 => 175,  364 => 174,  361 => 173,  358 => 172,  355 => 171,  352 => 170,  349 => 169,  346 => 168,  344 => 167,  337 => 165,  329 => 160,  323 => 157,  320 => 156,  318 => 155,  315 => 154,  311 => 152,  306 => 150,  302 => 149,  297 => 148,  295 => 147,  292 => 146,  284 => 144,  282 => 143,  277 => 141,  273 => 140,  267 => 139,  263 => 137,  261 => 136,  257 => 134,  255 => 133,  251 => 131,  248 => 130,  241 => 126,  237 => 125,  234 => 124,  232 => 123,  228 => 121,  224 => 119,  221 => 115,  219 => 114,  215 => 112,  213 => 106,  209 => 104,  207 => 98,  204 => 97,  200 => 95,  197 => 89,  195 => 88,  192 => 87,  188 => 85,  185 => 79,  183 => 78,  179 => 76,  177 => 69,  174 => 68,  170 => 66,  167 => 60,  165 => 59,  161 => 57,  159 => 56,  156 => 55,  152 => 53,  145 => 51,  141 => 49,  134 => 48,  131 => 43,  127 => 42,  125 => 41,  119 => 40,  116 => 39,  112 => 38,  109 => 37,  107 => 36,  104 => 35,  97 => 31,  94 => 30,  92 => 29,  85 => 24,  82 => 23,  80 => 22,  74 => 18,  67 => 11,  61 => 16,  57 => 12,  52 => 14,  49 => 9,  43 => 6,  41 => 201,  39 => 10,  35 => 7,  32 => 6,  29 => 6,  27 => 3,  25 => 4,);
     }
 }

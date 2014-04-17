@@ -1,7 +1,7 @@
 <?php
 
 /* login */
-class __TwigTemplate_f23336db5ca190b8323d5544ba71e535d4c13ebdf3abea06a4642e8f27827728 extends Twig_Template
+class __TwigTemplate_f23336db5ca190b8323d5544ba71e535d4c13ebdf3abea06a4642e8f27827728 extends Craft\BaseTemplate
 {
     public function __construct(Twig_Environment $env)
     {
@@ -10,6 +10,7 @@ class __TwigTemplate_f23336db5ca190b8323d5544ba71e535d4c13ebdf3abea06a4642e8f278
         $this->parent = $this->env->loadTemplate("_layouts/basecp");
 
         $this->blocks = array(
+            'body' => array($this, 'block_body'),
         );
     }
 
@@ -35,8 +36,12 @@ class __TwigTemplate_f23336db5ca190b8323d5544ba71e535d4c13ebdf3abea06a4642e8f278
         );
         // line 11
         $context["username"] = (($this->getAttribute($this->getAttribute((isset($context["craft"]) ? $context["craft"] : null), "config"), "rememberUsernameDuration")) ? ($this->getAttribute($this->getAttribute((isset($context["craft"]) ? $context["craft"] : null), "session"), "rememberedUsername")) : (""));
-        // line 13
-        ob_start();
+        $this->parent->display($context, array_merge($this->blocks, $blocks));
+    }
+
+    // line 13
+    public function block_body($context, array $blocks = array())
+    {
         // line 14
         echo "    <script type=\"text/javascript\">
 \t\tvar cookieTest = 'CraftCookieTest='+Math.floor(Math.random() * 1000000);
@@ -47,9 +52,9 @@ class __TwigTemplate_f23336db5ca190b8323d5544ba71e535d4c13ebdf3abea06a4642e8f278
 \t\t\tdocument.cookie = cookieTest + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
 
 \t\t\tdocument.write(
-\t\t\t\t'<form id=\"login-form\" method=\"post\" action=\"\" accept-charset=\"UTF-8\" ";
+\t\t\t\t'<form id=\"login-form\" method=\"post\" accept-charset=\"UTF-8\" ";
         // line 23
-        if (($this->getAttribute((isset($context["craft"]) ? $context["craft"] : null), "hasPackage", array(0 => "Rebrand"), "method") && $this->getAttribute($this->getAttribute((isset($context["craft"]) ? $context["craft"] : null), "rebrand"), "isLogoUploaded"))) {
+        if ((((isset($context["CraftEdition"]) ? $context["CraftEdition"] : null) >= (isset($context["CraftClient"]) ? $context["CraftClient"] : null)) && $this->getAttribute($this->getAttribute((isset($context["craft"]) ? $context["craft"] : null), "rebrand"), "isLogoUploaded"))) {
             // line 24
             $context["logo"] = $this->getAttribute($this->getAttribute((isset($context["craft"]) ? $context["craft"] : null), "rebrand"), "logo");
             // line 25
@@ -148,8 +153,6 @@ class __TwigTemplate_f23336db5ca190b8323d5544ba71e535d4c13ebdf3abea06a4642e8f278
 \t\t}
 \t</script>
 ";
-        $context["body"] = ('' === $tmp = ob_get_clean()) ? '' : new Twig_Markup($tmp, $this->env->getCharset());
-        $this->parent->display($context, array_merge($this->blocks, $blocks));
     }
 
     public function getTemplateName()
@@ -164,6 +167,6 @@ class __TwigTemplate_f23336db5ca190b8323d5544ba71e535d4c13ebdf3abea06a4642e8f278
 
     public function getDebugInfo()
     {
-        return array (  140 => 60,  136 => 59,  122 => 49,  116 => 47,  114 => 46,  105 => 40,  101 => 39,  96 => 36,  90 => 34,  88 => 33,  84 => 32,  80 => 31,  74 => 28,  71 => 27,  58 => 26,  56 => 25,  54 => 24,  52 => 23,  41 => 14,  39 => 13,  37 => 11,  32 => 6,  30 => 5,  28 => 4,  26 => 3,  24 => 2,);
+        return array (  145 => 60,  141 => 59,  127 => 49,  121 => 47,  119 => 46,  110 => 40,  106 => 39,  101 => 36,  95 => 34,  93 => 33,  89 => 32,  85 => 31,  79 => 28,  76 => 27,  63 => 26,  61 => 25,  59 => 24,  57 => 23,  46 => 14,  43 => 13,  38 => 11,  33 => 6,  31 => 5,  29 => 4,  27 => 3,  25 => 2,);
     }
 }

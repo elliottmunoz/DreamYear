@@ -1,7 +1,7 @@
 <?php
 
 /* _includes/fields */
-class __TwigTemplate_431a93bb24d5925d18c4c69c54cf3dfbf6d784da990f51d5b3bfbe1637b2a84f extends Twig_Template
+class __TwigTemplate_431a93bb24d5925d18c4c69c54cf3dfbf6d784da990f51d5b3bfbe1637b2a84f extends Craft\BaseTemplate
 {
     public function __construct(Twig_Environment $env)
     {
@@ -40,7 +40,7 @@ class __TwigTemplate_431a93bb24d5925d18c4c69c54cf3dfbf6d784da990f51d5b3bfbe1637b
                 foreach ($context['_seq'] as $context["_key"] => $context["field"]) {
                     // line 6
                     echo "\t\t";
-                    $this->env->loadTemplate("_includes/field")->display(array("fieldId" => $this->getAttribute((isset($context["field"]) ? $context["field"] : null), "fieldId"), "required" => $this->getAttribute((isset($context["field"]) ? $context["field"] : null), "required"), "element" => (isset($context["element"]) ? $context["element"] : null)));
+                    $this->env->loadTemplate("_includes/field")->display(array("field" => $this->getAttribute((isset($context["field"]) ? $context["field"] : null), "getField", array(), "method"), "required" => $this->getAttribute((isset($context["field"]) ? $context["field"] : null), "required"), "element" => (isset($context["element"]) ? $context["element"] : null)));
                     // line 11
                     echo "\t";
                 }
@@ -62,7 +62,7 @@ class __TwigTemplate_431a93bb24d5925d18c4c69c54cf3dfbf6d784da990f51d5b3bfbe1637b
             foreach ($context['_seq'] as $context["_key"] => $context["field"]) {
                 // line 6
                 echo "\t\t";
-                $this->env->loadTemplate("_includes/field")->display(array("fieldId" => $this->getAttribute((isset($context["field"]) ? $context["field"] : null), "fieldId"), "required" => $this->getAttribute((isset($context["field"]) ? $context["field"] : null), "required"), "element" => (isset($context["element"]) ? $context["element"] : null)));
+                $this->env->loadTemplate("_includes/field")->display(array("field" => $this->getAttribute((isset($context["field"]) ? $context["field"] : null), "getField", array(), "method"), "required" => $this->getAttribute((isset($context["field"]) ? $context["field"] : null), "required"), "element" => (isset($context["element"]) ? $context["element"] : null)));
                 // line 11
                 echo "\t";
             }
@@ -85,6 +85,6 @@ class __TwigTemplate_431a93bb24d5925d18c4c69c54cf3dfbf6d784da990f51d5b3bfbe1637b
 
     public function getDebugInfo()
     {
-        return array (  67 => 11,  45 => 11,  37 => 5,  23 => 2,  57 => 17,  48 => 16,  21 => 2,  140 => 38,  133 => 36,  127 => 34,  125 => 33,  121 => 32,  110 => 31,  106 => 30,  100 => 27,  97 => 26,  93 => 24,  86 => 22,  80 => 20,  78 => 19,  63 => 17,  59 => 5,  55 => 14,  53 => 13,  41 => 10,  34 => 6,  31 => 15,  29 => 4,  27 => 3,  19 => 1,  422 => 203,  420 => 202,  415 => 197,  412 => 196,  409 => 195,  404 => 193,  400 => 192,  397 => 191,  394 => 190,  391 => 189,  383 => 187,  381 => 186,  375 => 182,  362 => 180,  360 => 179,  357 => 178,  354 => 177,  351 => 176,  348 => 175,  345 => 174,  342 => 173,  339 => 172,  337 => 171,  330 => 169,  322 => 164,  316 => 160,  314 => 159,  311 => 158,  306 => 155,  303 => 154,  298 => 152,  294 => 151,  289 => 150,  287 => 149,  284 => 148,  276 => 146,  274 => 145,  269 => 143,  265 => 142,  259 => 141,  255 => 139,  253 => 138,  247 => 134,  243 => 132,  237 => 129,  232 => 128,  230 => 127,  227 => 126,  223 => 124,  220 => 121,  216 => 119,  213 => 115,  210 => 114,  204 => 112,  201 => 111,  199 => 110,  195 => 108,  193 => 101,  189 => 99,  187 => 92,  184 => 91,  180 => 89,  177 => 83,  175 => 82,  172 => 81,  168 => 79,  165 => 73,  163 => 72,  159 => 70,  157 => 63,  150 => 62,  148 => 61,  144 => 40,  142 => 58,  138 => 56,  134 => 54,  131 => 47,  129 => 46,  126 => 45,  120 => 43,  118 => 42,  115 => 41,  109 => 39,  107 => 38,  102 => 28,  98 => 35,  95 => 34,  88 => 31,  85 => 30,  83 => 29,  81 => 26,  77 => 22,  74 => 23,  72 => 20,  69 => 19,  64 => 6,  49 => 14,  46 => 13,  42 => 6,  38 => 11,  35 => 10,  32 => 9,  30 => 4,  26 => 12,  24 => 3,);
+        return array (  64 => 6,  59 => 5,  45 => 11,  42 => 6,  37 => 5,  30 => 4,  23 => 2,  24 => 3,  72 => 14,  55 => 8,  89 => 16,  75 => 15,  54 => 11,  51 => 10,  46 => 7,  26 => 12,  21 => 2,  19 => 1,  427 => 196,  422 => 193,  419 => 192,  416 => 191,  411 => 189,  407 => 188,  404 => 187,  401 => 186,  398 => 185,  390 => 183,  388 => 182,  382 => 178,  369 => 176,  367 => 175,  364 => 174,  361 => 173,  358 => 172,  355 => 171,  352 => 170,  349 => 169,  346 => 168,  344 => 167,  337 => 165,  329 => 160,  323 => 157,  320 => 156,  318 => 155,  315 => 154,  311 => 152,  306 => 150,  302 => 149,  297 => 148,  295 => 147,  292 => 146,  284 => 144,  282 => 143,  277 => 141,  273 => 140,  267 => 139,  263 => 137,  261 => 136,  257 => 134,  255 => 133,  251 => 131,  248 => 130,  241 => 126,  237 => 125,  234 => 124,  232 => 123,  228 => 121,  224 => 119,  221 => 115,  219 => 114,  215 => 112,  213 => 106,  209 => 104,  207 => 98,  204 => 97,  200 => 95,  197 => 89,  195 => 88,  192 => 87,  188 => 85,  185 => 79,  183 => 78,  179 => 76,  177 => 69,  174 => 68,  170 => 66,  167 => 60,  165 => 59,  161 => 57,  159 => 56,  156 => 55,  152 => 53,  145 => 51,  141 => 49,  134 => 48,  131 => 43,  127 => 42,  125 => 41,  119 => 40,  116 => 39,  112 => 38,  109 => 37,  107 => 36,  104 => 35,  97 => 31,  94 => 30,  92 => 29,  85 => 24,  82 => 23,  80 => 22,  74 => 18,  67 => 11,  61 => 16,  57 => 12,  52 => 14,  49 => 9,  43 => 6,  41 => 201,  39 => 10,  35 => 7,  32 => 6,  29 => 6,  27 => 3,  25 => 4,);
     }
 }

@@ -1,7 +1,7 @@
 <?php
 
 /*  */
-class __TwigTemplate_c85f568d1e75ef06a27b13fc2a48c8b6eb9da6298d85110571b9fe7576b9b757 extends Twig_Template
+class __TwigTemplate_c85f568d1e75ef06a27b13fc2a48c8b6eb9da6298d85110571b9fe7576b9b757 extends Craft\BaseTemplate
 {
     public function __construct(Twig_Environment $env)
     {

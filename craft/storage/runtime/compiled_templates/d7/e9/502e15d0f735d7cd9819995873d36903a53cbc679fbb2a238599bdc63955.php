@@ -1,7 +1,7 @@
 <?php
 
 /* _layouts/base */
-class __TwigTemplate_d7e9502e15d0f735d7cd9819995873d36903a53cbc679fbb2a238599bdc63955 extends Twig_Template
+class __TwigTemplate_d7e9502e15d0f735d7cd9819995873d36903a53cbc679fbb2a238599bdc63955 extends Craft\BaseTemplate
 {
     public function __construct(Twig_Environment $env)
     {
@@ -10,7 +10,9 @@ class __TwigTemplate_d7e9502e15d0f735d7cd9819995873d36903a53cbc679fbb2a238599bdc
         $this->parent = false;
 
         $this->blocks = array(
+            'head' => array($this, 'block_head'),
             'body' => array($this, 'block_body'),
+            'foot' => array($this, 'block_foot'),
         );
     }
 
@@ -22,42 +24,60 @@ class __TwigTemplate_d7e9502e15d0f735d7cd9819995873d36903a53cbc679fbb2a238599bdc
         echo "<!DOCTYPE html>
 <html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en-US\">
 <head>
-\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">
-\t<meta charset=\"utf-8\">
-\t<title>";
-        // line 8
-        echo twig_escape_filter($this->env, strip_tags((isset($context["title"]) ? $context["title"] : null)), "html", null, true);
-        if (((isset($context["title"]) ? $context["title"] : null) && $this->getAttribute($this->getAttribute((isset($context["craft"]) ? $context["craft"] : null), "app"), "siteName"))) {
-            echo " - ";
-        }
-        echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute((isset($context["craft"]) ? $context["craft"] : null), "app"), "siteName"), "html", null, true);
-        echo "</title>
 \t";
-        // line 9
-        echo twig_escape_filter($this->env, $this->env->getExtension('craft')->getHeadHtmlFunction(), "html", null, true);
-        echo "
-\t<meta name=\"viewport\" content=\"width=device-width, maximum-scale=1.0\">
-
-\t<script type=\"text/javascript\">
-\t\t// Fix for Firefox autofocus CSS bug
-\t\t// See: http://stackoverflow.com/questions/18943276/html-5-autofocus-messes-up-css-loading/18945951#18945951
-\t</script>
-</head>
-<body>
-\t";
+        // line 6
+        $this->displayBlock('head', $context, $blocks);
+        // line 17
+        echo "</head>
+<body class=\"";
         // line 18
-        $this->displayBlock('body', $context, $blocks);
+        echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($this->getAttribute((isset($context["craft"]) ? $context["craft"] : $this->getContext($context, "craft")), "i18n"), "getLocaleData", array(), "method"), "getOrientation", array(), "method"), "html", null, true);
+        echo "\">
+\t";
         // line 19
+        $this->displayBlock('body', $context, $blocks);
+        // line 20
         echo "\t";
-        echo twig_escape_filter($this->env, $this->env->getExtension('craft')->getFootHtmlFunction(), "html", null, true);
-        echo "
-</body>
+        $this->displayBlock('foot', $context, $blocks);
+        // line 21
+        echo "</body>
 </html>
 ";
     }
 
-    // line 18
+    // line 6
+    public function block_head($context, array $blocks = array())
+    {
+        // line 7
+        echo "\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">
+\t<meta charset=\"utf-8\">
+\t<title>";
+        // line 9
+        echo twig_escape_filter($this->env, strip_tags((isset($context["title"]) ? $context["title"] : $this->getContext($context, "title"))), "html", null, true);
+        if (((isset($context["title"]) ? $context["title"] : $this->getContext($context, "title")) && $this->getAttribute($this->getAttribute((isset($context["craft"]) ? $context["craft"] : $this->getContext($context, "craft")), "app"), "siteName"))) {
+            echo " - ";
+        }
+        echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute((isset($context["craft"]) ? $context["craft"] : $this->getContext($context, "craft")), "app"), "siteName"), "html", null, true);
+        echo "</title>
+\t";
+        // line 10
+        echo twig_escape_filter($this->env, $this->env->getExtension('craft')->getHeadHtmlFunction(), "html", null, true);
+        echo "
+\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
+\t<script type=\"text/javascript\">
+\t\t// Fix for Firefox autofocus CSS bug
+\t\t// See: http://stackoverflow.com/questions/18943276/html-5-autofocus-messes-up-css-loading/18945951#18945951
+\t</script>
+\t";
+    }
+
+    // line 19
     public function block_body($context, array $blocks = array())
+    {
+    }
+
+    // line 20
+    public function block_foot($context, array $blocks = array())
     {
     }
 
@@ -73,6 +93,6 @@ class __TwigTemplate_d7e9502e15d0f735d7cd9819995873d36903a53cbc679fbb2a238599bdc
 
     public function getDebugInfo()
     {
-        return array (  60 => 18,  51 => 19,  49 => 18,  22 => 3,  20 => 1,  129 => 42,  125 => 41,  121 => 40,  117 => 39,  113 => 38,  109 => 37,  97 => 34,  93 => 33,  89 => 32,  85 => 31,  81 => 30,  77 => 29,  73 => 28,  69 => 27,  59 => 20,  50 => 15,  47 => 14,  35 => 9,  33 => 8,  31 => 7,  29 => 8,  27 => 5,  25 => 3,  140 => 60,  136 => 59,  122 => 49,  116 => 47,  114 => 46,  105 => 36,  101 => 35,  96 => 36,  90 => 34,  88 => 33,  84 => 32,  80 => 31,  74 => 28,  71 => 27,  58 => 26,  56 => 25,  54 => 24,  52 => 23,  41 => 14,  39 => 12,  37 => 9,  32 => 6,  30 => 5,  28 => 4,  26 => 3,  24 => 2,);
+        return array (  80 => 20,  75 => 19,  64 => 10,  56 => 9,  52 => 7,  49 => 6,  43 => 21,  40 => 20,  34 => 18,  31 => 17,  29 => 6,  24 => 3,  22 => 1,  53 => 12,  50 => 11,  45 => 6,  39 => 7,  37 => 6,  38 => 19,  33 => 4,  30 => 3,  25 => 2,);
     }
 }

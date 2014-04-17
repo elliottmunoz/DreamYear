@@ -1,7 +1,7 @@
 <?php
 
 /* _components/widgets/QuickPost/body */
-class __TwigTemplate_3bccbccb7261e7da5705b98c00cc75ab67af1265a370c996d11ca29325dd0cd1 extends Twig_Template
+class __TwigTemplate_3bccbccb7261e7da5705b98c00cc75ab67af1265a370c996d11ca29325dd0cd1 extends Craft\BaseTemplate
 {
     public function __construct(Twig_Environment $env)
     {
@@ -22,7 +22,7 @@ class __TwigTemplate_3bccbccb7261e7da5705b98c00cc75ab67af1265a370c996d11ca29325d
         // line 3
         echo "
 
-<form method=\"post\" action=\"\" accept-charset=\"UTF-8\">
+<form method=\"post\" accept-charset=\"UTF-8\">
 \t<input type=\"hidden\" name=\"fieldsLocation\" value=\"";
         // line 6
         echo twig_escape_filter($this->env, (isset($context["fieldNamespace"]) ? $context["fieldNamespace"] : null), "html", null, true);
@@ -52,7 +52,7 @@ class __TwigTemplate_3bccbccb7261e7da5705b98c00cc75ab67af1265a370c996d11ca29325d
                     if (($this->getAttribute((isset($context["field"]) ? $context["field"] : null), "required") || twig_in_filter($this->getAttribute((isset($context["field"]) ? $context["field"] : null), "fieldId"), $this->getAttribute((isset($context["settings"]) ? $context["settings"] : null), "fields")))) {
                         // line 19
                         echo "\t\t\t\t";
-                        $this->env->loadTemplate("_includes/field")->display(array("fieldId" => $this->getAttribute((isset($context["field"]) ? $context["field"] : null), "fieldId"), "required" => $this->getAttribute((isset($context["field"]) ? $context["field"] : null), "required"), "entry" => null));
+                        $this->env->loadTemplate("_includes/field")->display(array("field" => $this->getAttribute((isset($context["field"]) ? $context["field"] : null), "getField", array(), "method"), "required" => $this->getAttribute((isset($context["field"]) ? $context["field"] : null), "required"), "entry" => null));
                         // line 24
                         echo "\t\t\t";
                     }
@@ -82,7 +82,7 @@ class __TwigTemplate_3bccbccb7261e7da5705b98c00cc75ab67af1265a370c996d11ca29325d
                 if (($this->getAttribute((isset($context["field"]) ? $context["field"] : null), "required") || twig_in_filter($this->getAttribute((isset($context["field"]) ? $context["field"] : null), "fieldId"), $this->getAttribute((isset($context["settings"]) ? $context["settings"] : null), "fields")))) {
                     // line 19
                     echo "\t\t\t\t";
-                    $this->env->loadTemplate("_includes/field")->display(array("fieldId" => $this->getAttribute((isset($context["field"]) ? $context["field"] : null), "fieldId"), "required" => $this->getAttribute((isset($context["field"]) ? $context["field"] : null), "required"), "entry" => null));
+                    $this->env->loadTemplate("_includes/field")->display(array("field" => $this->getAttribute((isset($context["field"]) ? $context["field"] : null), "getField", array(), "method"), "required" => $this->getAttribute((isset($context["field"]) ? $context["field"] : null), "required"), "entry" => null));
                     // line 24
                     echo "\t\t\t";
                 }
@@ -121,6 +121,6 @@ class __TwigTemplate_3bccbccb7261e7da5705b98c00cc75ab67af1265a370c996d11ca29325d
 
     public function getDebugInfo()
     {
-        return array (  104 => 29,  100 => 27,  96 => 26,  90 => 25,  87 => 24,  84 => 19,  81 => 18,  66 => 26,  60 => 25,  57 => 24,  54 => 19,  51 => 18,  39 => 16,  35 => 14,  33 => 8,  23 => 3,  21 => 2,  19 => 1,  91 => 28,  85 => 27,  82 => 26,  76 => 17,  72 => 22,  62 => 20,  59 => 19,  56 => 18,  53 => 17,  50 => 16,  46 => 17,  42 => 13,  40 => 12,  32 => 8,  30 => 7,  28 => 6,  26 => 3,  24 => 2,);
+        return array (  104 => 29,  100 => 27,  96 => 26,  90 => 25,  87 => 24,  84 => 19,  81 => 18,  76 => 17,  66 => 26,  60 => 25,  57 => 24,  51 => 18,  46 => 17,  39 => 16,  35 => 14,  33 => 8,  28 => 6,  23 => 3,  21 => 2,  19 => 1,  114 => 36,  108 => 35,  105 => 34,  98 => 30,  94 => 29,  85 => 27,  80 => 26,  77 => 25,  74 => 24,  71 => 23,  68 => 22,  64 => 21,  61 => 20,  54 => 19,  50 => 14,  48 => 13,  45 => 12,  42 => 11,  31 => 7,  29 => 6,  27 => 3,  25 => 2,);
     }
 }

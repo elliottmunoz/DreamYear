@@ -1,7 +1,7 @@
 <?php
 
 /* news/{{object.postDate.year}}/{{object.slug}} */
-class __TwigTemplate_81ddc6d300181ec16e828b9bc96c89659edb427fcb93bd7e840582bceb15af37 extends Twig_Template
+class __TwigTemplate_81ddc6d300181ec16e828b9bc96c89659edb427fcb93bd7e840582bceb15af37 extends Craft\BaseTemplate
 {
     public function __construct(Twig_Environment $env)
     {

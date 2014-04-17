@@ -1,15 +1,14 @@
 @font-face {
-	font-family: 'din_offccond_medium';
-	src: url('../fonts/dinoffc-condmedi-webfont.eot');
-	src: url('../fonts/dinoffc-condmedi-webfont.eot?#iefix') format('embedded-opentype'),
-	url('../fonts/dinoffc-condmedi-webfont.woff') format('woff'),
-	url('../fonts/dinoffc-condmedi-webfont.ttf') format('truetype'),
-	url('../fonts/dinoffc-condmedi-webfont.svg#din_offccond_medium') format('svg');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'function_pro_bookbold';
+    src: url('../fonts/FunctionPro-Bold-webfont.eot');
+    src: url('../fonts/FunctionPro-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/FunctionPro-Bold-webfont.woff') format('woff'),
+         url('../fonts/FunctionPro-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/FunctionPro-Bold-webfont.svg#function_pro_bookbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
-/*color: #3C74BB; */
-/*font-family: 'Lato', sans-serif;*/
+
 
 body{
 	background: #F5F2F2;
@@ -20,11 +19,89 @@ body{
 	width: 100%;
 }
 h2{
-	font: 2.4em din_offccond_medium;
-	letter-spacing: .05em;
+	font: 2em function_pro_bookbold;
+	letter-spacing: .02em;
 	text-align: center;
 	text-transform: uppercase;
 }
+
+h3{
+	font: 1.6em function_pro_bookbold;
+	letter-spacing: .02em;
+	margin: 0.1em 0;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h4{
+	color: #B94643;
+	font: 1em function_pro_bookbold;
+	letter-spacing: .02em;
+	margin: 0.1em 0;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h5{
+	font: .6em function_pro_bookbold;
+	letter-spacing: .1em;
+	margin: 0.1em 0;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h6{
+	line-height: 1.5em;
+	margin: 0;
+	padding: 0;
+}
+
+.speaking__form{
+	float: left;
+	padding: 1.5em 0;
+}
+
+.form__label{
+	color: #a5a2a2;
+	font-size: .7em;
+	margin: 0;
+	padding: 0;
+}
+
+.form__element{
+	display: inline;
+	float: left;
+	padding: 0 2%;
+}
+
+.form__element__half{
+	width: 46%;
+}
+
+.form__element__full{
+	width: 100%;
+}
+
+.form__element__textfield,
+.form__element__textarea{
+	border: 1px solid #dedbdb;
+	display: block;
+	font: .9em 'Lato', sans-serif;
+	margin: 0 0 1em;
+	min-height: 2.5em;
+	padding: .4em;
+	width: 100%;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
 a{
 	border: none;
 	color: #B94643;
@@ -34,10 +111,69 @@ audio{
 	display: block;
 	width: 100%;
 }
-.section{
-}
-.section--chapters{
 
+.required{
+}
+
+.required:after{
+	color: red;
+	content:"*";
+}
+
+.button{
+	background: #B94643;
+	border: none;
+	color: white;
+	display: block;
+	font: .8em function_pro_bookbold;
+	letter-spacing: .1em;
+	padding: 1.2em 1em 1em;
+	margin: 2em auto;
+	text-align: center;
+	text-transform: uppercase;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.section{
+	float: left;
+	padding: 1em 0 3em;
+	width: 100%;
+}
+
+.section--chapters{
+}
+
+.section--pitch{
+	background: #1b2135;
+	color: #b1beca;
+}
+
+.hero{}
+
+.section--hero{
+	/*
+	background: url("http://dreamyearbook.net/assets/images/hero-jumaine_jones.jpg") no-repeat center center fixed;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	*/
+	background: url("http://dreamyearbook.net/assets/images/hero-jumaine-jones.jpg") no-repeat center center fixed;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	display: block;
+	height: 100%;
+	position: absolute;
+}
+
+.section--author{
+	background: white;
 }
 
 .video{
@@ -58,26 +194,15 @@ audio{
 
 .chapter__index{
 	display: block;
-	font: .6em din_offccond_medium;
-	letter-spacing: .1em;
-	padding: 0px 0px 1px;
-	text-align: center;
-	text-transform: uppercase;
 }
 .chapter__name{
-	color: #B94643;
-	font: 1em din_offccond_medium;
-	letter-spacing: .02em;
-	margin: 0px;
-	padding: 0px 0px 3px;
-	text-align: center;
-	text-transform: uppercase;
 }
-.chapter__description{
+.description{
 	margin: 0px 0px 40px 0px;
 	padding: 0px;
 }
 .nav{
+	display: none;
 	margin: 0px;
 	padding: 0px;
 }
@@ -93,6 +218,7 @@ audio{
 	min-height: 80px;
 	padding: 0px;
 	text-align: center;
+	float: left;
 }
 .reseller img{
 	display: block;
@@ -102,27 +228,106 @@ audio{
 .image__fluid{
 	display: block;
 	height: auto;
-	max-width: 100%;
+	width: 100%;
+}
+
+.chapter{
+	display: block;
+	float: left;
+	width: 100%;
+}
+
+.profile__image{
+	float: left;
+}
+
+.profile__content{
+	float: left;
+}
+
+ul.tour{
+	margin: 0;
+	padding: 0;
+}
+
+li.tour--stop{
+	display: inline-block;
+	float: left;
+	list-style: none;
+	padding: 0 0 20px;
+}
+
+.tour--date{
+	color: white;
+}
+
+.tour--city{}
+
+.event--image{
+	margin: 0 0 1.5em;
 }
 
 @media screen and (min-width: 320px) {
 	.reseller{
-		width: 49%;
+		width: 50%;
 	}
 	.wrapper{
 		width: 90%;
 		margin: 0px auto;
 	}
+	.profile__image{
+		width: 100%;
+	}
+	.profile__content{
+		width: 100%;
+	}
+	li.tour--stop{
+		width: 100%;
+	}
+	.form__element__half{
+		width: 96%;
+	}
 }
 
 @media screen and (min-width: 720px) {
 	.reseller{
-		width: 24%;
+		width: 25%;
 	}
 	.wrapper{
-		width: 70%;
 		margin: 0px auto;
+		width: 80%;
+	}
+	.button{
+		width: 100%;
+	}
+	li.tour--stop{
+		width: 50%;
+	}
+	.form__element__half{
+		width: 46%;
 	}
 }
 
+@media screen and (min-width: 960px) {
+	.chapter{
+		min-height: 15em;
+		padding: 0 3%;
+		width: 44%;
+	}
+	.profile__image{
+		width: 50%;
+	}
+	.profile__content{
+		padding: 0% 3%;
+		width: 44%;
+	}
+	.profile__content p{
+		margin: .25em auto 0;
+		padding: .25em auto 0;
+	}
+	.button{
+		min-width: 100px;
+		max-width: 200px;
+	}
+}
 

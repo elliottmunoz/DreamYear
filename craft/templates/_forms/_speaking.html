@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	{% macro errorList(errors) %}
+	{% if errors %}
+	<ul class="errors">
+		{% for error in errors %}
+		<li>{{ error }}</li>
+		{% endfor %}
+	</ul>
+	{% endif %}
+	{% endmacro %}
+
+	{% from _self import errorList %}
+
+	<form method="post" action="" accept-charset="UTF-8">
+		<input type="hidden" name="action" value="contactForm/sendMessage">
+		<input type="hidden" name="redirect" value="contact/thanks">
+
+		<h3><label for="fromName">Your Name</label></h3>
+		<input id="fromName" type="text" name="fromName" value="{% if message is defined %}{{ message.fromName }}{% endif %}">
+		{% if message is defined %}{{ errorList(message.getErrors('fromName')) }}{% endif %}
+
+		<h3><label for="fromEmail">Your Email</label></h3>
+		<input id="fromEmail" type="text" name="fromEmail" value="{% if message is defined %}{{ message.fromEmail }}{% endif %}">
+		{% if message is defined %}{{ errorList(message.getErrors('fromEmail')) }}{% endif %}
+
+		<h3><label for="subject">Subject</label></h3>
+		<input id="subject" type="text" name="subject" value="{% if message is defined %}{{ message.subject }}{% endif %}">
+		{% if message is defined %}{{ errorList(message.getErrors('subject')) }}{% endif %}
+
+		<h3><label for="message">Message</label></h3>
+		<textarea rows="10" cols="40" id="message" name="message">{% if message is defined %}{{ message.message }}{% endif %}</textarea>
+		{% if message is defined %}{{ errorList(message.getErrors('message')) }}{% endif %}
+
+		<input type="submit" value="Send">
+	</form>
+</body>
+</html>
