@@ -9,11 +9,15 @@
     font-style: normal;
 }
 
+html{
+	height: 100%;
+}
 
 body{
 	background: #F5F2F2;
 	color: #303A5F;
 	font: 1.2em/1.5em 'Lato', sans-serif;
+	height: 100%;
 	margin: 0px;
 	padding: 0px;
 	width: 100%;
@@ -82,7 +86,7 @@ h6{
 }
 
 .form__element__full{
-	width: 100%;
+	width: 96%;
 }
 
 .form__element__textfield,
@@ -139,6 +143,7 @@ audio{
 .section{
 	float: left;
 	padding: 1em 0 3em;
+	position: relative;
 	width: 100%;
 }
 
@@ -150,26 +155,14 @@ audio{
 	color: #b1beca;
 }
 
-.hero{}
-
 .section--hero{
-	/*
-	background: url("http://dreamyearbook.net/assets/images/hero-jumaine_jones.jpg") no-repeat center center fixed;
-	background-position: center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	*/
 	background: url("http://dreamyearbook.net/assets/images/hero-jumaine-jones.jpg") no-repeat center center fixed;
 	background-position: center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	display: block;
-	height: 100%;
-	position: absolute;
+	height: 500px;
 }
 
 .section--author{

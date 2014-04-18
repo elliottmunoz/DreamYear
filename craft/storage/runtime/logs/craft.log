@@ -2540,3 +2540,138 @@ REQUEST_URI=/docs-assets/ico/favicon.png
 ---
 
 ******************************************************************************************************
+2014/04/18 01:31:58 [error] [application] Unable to find the template “public/assets/images”.
+2014/04/18 01:31:58 [error] [application] 404 - 
+2014/04/18 01:31:58 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('public/assets/i...', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('public/assets/i...', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/public/assets/images/
+---
+
+******************************************************************************************************
+2014/04/18 01:31:58 [error] [application] Unable to find the template “public/assets/images/assets/stylesheets/application.css”.
+2014/04/18 01:31:58 [error] [application] 404 - 
+2014/04/18 01:31:58 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('public/assets/i...', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('public/assets/i...', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/public/assets/images/assets/stylesheets/application.css
+HTTP_REFERER=http://dreamyear.dev/public/assets/images/
+---
+
+******************************************************************************************************
+2014/04/18 01:32:09 [error] [application] Unable to find the template “public/assets/images/ben-arment.jpg”.
+2014/04/18 01:32:09 [error] [application] 404 - 
+2014/04/18 01:32:09 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('public/assets/i...', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('public/assets/i...', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/public/assets/images/ben-arment.jpg
+---
+
+******************************************************************************************************
+2014/04/18 01:32:09 [error] [application] Unable to find the template “public/assets/images/assets/stylesheets/application.css”.
+2014/04/18 01:32:09 [error] [application] 404 - 
+2014/04/18 01:32:09 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('public/assets/i...', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('public/assets/i...', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/public/assets/images/assets/stylesheets/application.css
+HTTP_REFERER=http://dreamyear.dev/public/assets/images/ben-arment.jpg
+---
+
+******************************************************************************************************
+2014/04/18 01:32:23 [error] [application] Unable to find the template “public/images/ben-arment.jpg”.
+2014/04/18 01:32:23 [error] [application] 404 - 
+2014/04/18 01:32:23 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('public/images/b...', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('public/images/b...', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/public/images/ben-arment.jpg
+---
+
+******************************************************************************************************
+2014/04/18 01:32:23 [error] [application] Unable to find the template “public/images/assets/stylesheets/application.css”.
+2014/04/18 01:32:23 [error] [application] 404 - 
+2014/04/18 01:32:23 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('public/images/a...', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('public/images/a...', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/public/images/assets/stylesheets/application.css
+HTTP_REFERER=http://dreamyear.dev/public/images/ben-arment.jpg
+---
+
+******************************************************************************************************
