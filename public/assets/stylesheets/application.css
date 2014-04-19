@@ -30,6 +30,7 @@ h2{
 }
 
 h3{
+	color: #B94643;
 	font: 1.6em function_pro_bookbold;
 	letter-spacing: .02em;
 	margin: 0.1em 0;
@@ -62,6 +63,93 @@ h6{
 	margin: 0;
 	padding: 0;
 }
+
+a{
+	border: none;
+	color: #B94643;
+	text-decoration: none;
+}
+audio{
+	display: block;
+	width: 100%;
+}
+
+/*NAVIGATION*/
+
+.nav{
+	display: none;
+	margin: 0px;
+	padding: 0px;
+}
+.nav li{
+	display: inline;
+	list-style: none;
+	padding: 5px 10px;
+}
+
+/*UNIVERSAL STYLES*/
+
+.button{
+	background: #B94643;
+	border: none;
+	color: white;
+	display: block;
+	font: .8em function_pro_bookbold;
+	letter-spacing: .1em;
+	padding: 1.2em 1em 1em;
+	margin: 2em auto;
+	text-align: center;
+	text-transform: uppercase;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.section{
+	float: left;
+	padding: 1em 0 3em;
+	position: relative;
+	width: 100%;
+}
+
+.section--blue{
+	background: #1b2135;
+	color: #b1beca;
+}
+
+.section--orange{
+	background: #B94643;;
+	color: white;
+}
+
+.description{
+	margin: 0px 0px 40px 0px;
+	padding: 0px;
+}
+
+.image__fluid{
+	display: block;
+	height: auto;
+	width: 100%;
+	margin: 0 0 1.3em;
+}
+
+.video{
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
+}
+
+.video iframe{
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+/*FORMS*/
 
 .speaking__form{
 	float: left;
@@ -106,57 +194,18 @@ h6{
 	box-sizing: border-box;
 }
 
-a{
-	border: none;
-	color: #B94643;
-	text-decoration: none;
-}
-audio{
-	display: block;
-	width: 100%;
-}
-
-.required{
-}
+.required{}
 
 .required:after{
 	color: red;
 	content:"*";
 }
 
-.button{
-	background: #B94643;
-	border: none;
-	color: white;
-	display: block;
-	font: .8em function_pro_bookbold;
-	letter-spacing: .1em;
-	padding: 1.2em 1em 1em;
-	margin: 2em auto;
-	text-align: center;
-	text-transform: uppercase;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-}
-
-.section{
-	float: left;
-	padding: 1em 0 3em;
-	position: relative;
-	width: 100%;
-}
-
-.section--chapters{
-}
-
-.section--pitch{
-	background: #1b2135;
-	color: #b1beca;
-}
+/*HERO*/
 
 .section--hero{
 	background: url("http://dreamyearbook.net/assets/images/hero-jumaine-jones.jpg") no-repeat center center fixed;
+	background-attachment: fixed;
 	background-position: center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -165,45 +214,10 @@ audio{
 	height: 500px;
 }
 
-.section--author{
-	background: white;
-}
+/*ABOUT*/
 
-.video{
-	position: relative;
-	padding-bottom: 56.25%;
-	padding-top: 25px;
-	height: 0;
-}
-.video iframe{
-	height: 100%;
-	left: 0;
-	position: absolute;
-	top: 0;
-	width: 100%;
-}
+.section--about{}
 
-/*.section--chapters{margin: 0px auto; width: 60%;}*/
-
-.chapter__index{
-	display: block;
-}
-.chapter__name{
-}
-.description{
-	margin: 0px 0px 40px 0px;
-	padding: 0px;
-}
-.nav{
-	display: none;
-	margin: 0px;
-	padding: 0px;
-}
-.nav li{
-	display: inline;
-	list-style: none;
-	padding: 5px 10px;
-}
 .reseller{
 	display: inline-block;
 	list-style: none;
@@ -213,21 +227,34 @@ audio{
 	text-align: center;
 	float: left;
 }
+
 .reseller img{
 	display: block;
 	padding: 15%;
 	width: 70%;
 }
-.image__fluid{
-	display: block;
-	height: auto;
-	width: 100%;
-}
+
+/*CHAPTERS*/
+
+.section--chapters{}
 
 .chapter{
 	display: block;
 	float: left;
 	width: 100%;
+}
+
+.chapter__index{
+	display: block;
+}
+
+.chapter__name{
+}
+
+/*AUTHOR*/
+
+.section--author{
+	background: white;
 }
 
 .profile__image{
@@ -237,6 +264,38 @@ audio{
 .profile__content{
 	float: left;
 }
+
+/*STORIES*/
+
+.section--stories{}
+
+.stories{
+	float: left;
+	overflow: hidden;
+	width: 100%;
+}
+
+.story{
+	background: white;
+	display: inline;
+	float: left;
+	width: 50%;
+}
+
+.story__image{
+	position: relative;
+}
+
+.story__content{
+	padding: 0 7% 2em;
+}
+
+/*SPEAKING*/
+
+
+/*PITCH NIGHT*/
+
+.section--pitch{}
 
 ul.tour{
 	margin: 0;
@@ -256,9 +315,13 @@ li.tour--stop{
 
 .tour--city{}
 
+/*EVENT*/
+
 .event--image{
 	margin: 0 0 1.5em;
 }
+
+/*BREAKPOINTS*/
 
 @media screen and (min-width: 320px) {
 	.reseller{
@@ -279,6 +342,9 @@ li.tour--stop{
 	}
 	.form__element__half{
 		width: 96%;
+	}
+	.story{
+		width: 100%;
 	}
 }
 
@@ -321,6 +387,9 @@ li.tour--stop{
 	.button{
 		min-width: 100px;
 		max-width: 200px;
+	}
+	.story{
+		width: 50%;
 	}
 }
 

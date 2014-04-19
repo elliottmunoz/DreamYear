@@ -10,7 +10,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="section">
+	<div class="section section--about">
 		<div class="wrapper">
 			<h2 id="{{entry.aboutHeading|replace(' ','-')|lower}}">{{entry.aboutHeading}}</h2>
 			<div class="description">{{entry.aboutDescription}}</div>
@@ -57,23 +57,36 @@
 		</div>
 	</div>
 	<!--Stories-->
-	<div class="section">
+	<div class="section section--stories">
 		<div class="wrapper">
 			<h2 id="{{entry.storiesHeading|replace(' ','-')|lower}}">{{entry.storiesHeading}}</h2>
+			<!--
 			<div class="stories__index">
 				{% for item in entry.stories %}
 				<p>{{ item.storyName }}</p>
 				{% endfor %}
 			</div>
-			{% for item in entry.stories %}
-			<p>{{ item.storyName }}</p>
-			<p>{{ item.storyDescription }}</p>
-			<p><a href="{{ item.storyUrl }}">{{ item.storyUrl }}</a></p>
-			{% endfor %}
+			-->
+			<div id="owl-example" class="owl-carousel">
+				{% for item in entry.stories %}
+				<div class="story">
+					{% for asset in item.storyImage %}
+					<div class="story__image">
+						<img class="image__fluid" src="{{ asset.url }}" alt="{{ item.storyName }}">
+					</div>
+					{% endfor %}
+					<div class="story__content">
+						<div class="story__name"><h4>{{ item.storyName }}</h4></div>
+						<div class="story__description">{{ item.storyDescription }}</div>
+						<div class="story__url"><a href="{{ item.storyUrl }}">{{ item.storyUrl }}</a></div>
+					</div>
+				</div>
+				{% endfor %}
+			</div>
 		</div>
 	</div>
 	<!--Speaking-->
-	<div class="section">
+	<div class="section section--speaking">
 		<div class="wrapper">
 			<h2 id="{{entry.speakingHeading|replace(' ','-')|lower}}">{{entry.speakingHeading}}</h2>
 			<div class="description">{{entry.speakingDescription}}</div>
@@ -146,7 +159,7 @@
 	<script type="text/javascript" src="https://www.formstack.com/forms/js.php?1720416-4QhiH6JuPM-v3"></script><noscript><a href="https://www.formstack.com/forms/?1720416-4QhiH6JuPM" title="Online Form">Online Form - Speaking Request Form</a></noscript>
 -->
 <!--Pitch Nights-->
-<div class="section section--pitch">
+<div class="section section--blue section--pitch">
 	<div class="wrapper">
 		<h2 id="{{entry.pitchNightHeading|replace(' ','-')|lower}}">{{entry.pitchNightHeading}}</h2>
 		<div class="video">

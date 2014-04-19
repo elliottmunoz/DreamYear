@@ -1,4 +1,4 @@
 $(document).ready(function(){
-// Target your .container, .wrapper, .post, etc.
-$(".video").fitVids();
+	$(".video").fitVids();
+	$("#owl-example").owlCarousel();
 });
