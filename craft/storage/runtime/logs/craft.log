@@ -4027,3 +4027,118 @@ in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
 in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
 
 ******************************************************************************************************
+2014/04/20 03:53:36 [error] [application] Unable to find the template “assets/scripts/src/vendor/jquery-2.0.3.min.map”.
+2014/04/20 03:53:36 [error] [application] 404 - 
+2014/04/20 03:53:36 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('assets/scripts/...', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('assets/scripts/...', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/assets/scripts/src/vendor/jquery-2.0.3.min.map
+HTTP_REFERER=http://dreamyear.dev/
+---
+
+******************************************************************************************************
+2014/04/20 04:01:59 [error] [application] Unable to find the template “assets/scripts/src/vendor/jquery-2.0.3.min.map”.
+2014/04/20 04:01:59 [error] [application] 404 - 
+2014/04/20 04:01:59 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('assets/scripts/...', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('assets/scripts/...', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/assets/scripts/src/vendor/jquery-2.0.3.min.map
+HTTP_REFERER=http://dreamyear.dev/
+---
+
+******************************************************************************************************
+2014/04/20 04:02:33 [error] [application] Unable to find the template “assets/scripts/src/vendor/jquery-2.0.3.min.map”.
+2014/04/20 04:02:33 [error] [application] 404 - 
+2014/04/20 04:02:33 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('assets/scripts/...', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('assets/scripts/...', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/assets/scripts/src/vendor/jquery-2.0.3.min.map
+HTTP_REFERER=http://dreamyear.dev/
+---
+
+******************************************************************************************************
+2014/04/20 04:03:15 [error] [application] Unable to find the template “assets/scripts/src/vendor/jquery-2.0.3.min.map”.
+2014/04/20 04:03:15 [error] [application] 404 - 
+2014/04/20 04:03:15 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('assets/scripts/...', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('assets/scripts/...', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/assets/scripts/src/vendor/jquery-2.0.3.min.map
+HTTP_REFERER=http://dreamyear.dev/
+---
+
+******************************************************************************************************
+2014/04/20 04:03:21 [error] [application] Unable to find the template “assets/scripts/src/vendor/jquery-2.0.3.min.map”.
+2014/04/20 04:03:21 [error] [application] 404 - 
+2014/04/20 04:03:21 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('assets/scripts/...', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('assets/scripts/...', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/assets/scripts/src/vendor/jquery-2.0.3.min.map
+HTTP_REFERER=http://dreamyear.dev/
+---
+
+******************************************************************************************************

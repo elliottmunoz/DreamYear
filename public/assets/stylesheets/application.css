@@ -72,7 +72,6 @@ a{
 }
 audio{
 	display: block;
-	margin: 1em 0;
 	width: 100%;
 }
 
@@ -336,6 +335,21 @@ form{
 
 /*SPEAKING*/
 
+.speaking__sample{
+}
+
+.speaking--image{
+}
+
+.speaking__audio{
+	background: black;
+	margin: 0 0 1em;
+	padding: .5em 0;
+}
+
+.speaking__audio > h5{
+	color: white;
+}
 
 /*PITCH NIGHT*/
 
@@ -390,6 +404,9 @@ li.tour--stop{
 	.story{
 		width: 100%;
 	}
+	.stories__index > .story__image{
+		width: 100%;
+	}
 }
 
 @media screen and (min-width: 720px) {
@@ -408,6 +425,9 @@ li.tour--stop{
 	}
 	.form__element__half{
 		width: 46%;
+	}
+	.stories__index > .story__image{
+		width: 50%;
 	}
 }
 
@@ -431,6 +451,9 @@ li.tour--stop{
 	.button{
 		min-width: 100px;
 		max-width: 300px;
+	}
+	.stories__index > .story__image{
+		width: 25%;
 	}
 }
 

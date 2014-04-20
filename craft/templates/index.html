@@ -98,25 +98,35 @@
 <div class="section section--speaking">
 	<div class="wrapper">
 		<h2 id="{{entry.speakingHeading|replace(' ','-')|lower}}">{{entry.speakingHeading}}</h2>
-		{% for asset in entry.speakingImage %}
-			<div class="speaking--image"><img class="image__fluid" src="{{ asset.url }}" alt="Ben"></div>
-		{% endfor %}
+		<div class="speaking__sample">
+			{% for asset in entry.speakingImage %}
+			<div class="speaking--image">
+				<img class="image__fluid" src="{{ asset.url }}" alt="Ben">
+			</div>
+			{% endfor %}
+			<div class="speaking__audio">
+			<h5>Ben Arment, Story 2013 Presentation</h5>
+			{% for item in entry.speakingSample %}
+				<audio controls>
+					<source src="{% for asset in item.mp3 %}
+					{{ asset.url }}
+					{% endfor %}" type="audio/mpeg">
+					<source src="{% for asset in item.ogg %}
+					{{ asset.url }}
+					{% endfor %}" type="audio/ogg">
+					Your browser does not support the audio element.
+				</audio>
+				{% endfor %}
+			</div>
+		</div>
 		<div class="description">{{entry.speakingDescription}}</div>
-		{% for item in entry.speakingSample %}
-		<audio controls>
-			<source src="{% for asset in item.mp3 %}
-			{{ asset.url }}
-			{% endfor %}" type="audio/mpeg">
-			<source src="{% for asset in item.ogg %}
-			{{ asset.url }}
-			{% endfor %}" type="audio/ogg">
-			Your browser does not support the audio element.
-		</audio>
-		{% endfor %}
+
+
+
 		<div id="contactBtn" class="button">Invite Ben</a></div>
 		<div class="speaking__form">
-		<h5>Invite</h5>
-		<h3>Ben Arment</h3>
+			<h5>Invite</h5>
+			<h3>Ben Arment</h3>
 			{% macro errorList(errors) %}
 			{% if errors %}
 			<ul class="errors">
