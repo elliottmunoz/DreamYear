@@ -98,6 +98,9 @@
 <div class="section section--speaking">
 	<div class="wrapper">
 		<h2 id="{{entry.speakingHeading|replace(' ','-')|lower}}">{{entry.speakingHeading}}</h2>
+		{% for asset in entry.speakingImage %}
+			<div class="speaking--image"><img class="image__fluid" src="{{ asset.url }}" alt="Ben"></div>
+		{% endfor %}
 		<div class="description">{{entry.speakingDescription}}</div>
 		{% for item in entry.speakingSample %}
 		<audio controls>
@@ -110,8 +113,10 @@
 			Your browser does not support the audio element.
 		</audio>
 		{% endfor %}
-		<div id="contactBtn" class="button">Contact Ben</a></div>
+		<div id="contactBtn" class="button">Invite Ben</a></div>
 		<div class="speaking__form">
+		<h5>Invite</h5>
+		<h3>Ben Arment</h3>
 			{% macro errorList(errors) %}
 			{% if errors %}
 			<ul class="errors">

@@ -4021,3 +4021,9 @@ HTTP_REFERER=http://dreamyear.dev/
 ---
 
 ******************************************************************************************************
+2014/04/20 03:23:31 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/20 03:23:31 [info] [application] [Forced] Finished task 31 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+
+******************************************************************************************************
