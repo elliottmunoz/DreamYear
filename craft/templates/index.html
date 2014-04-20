@@ -60,101 +60,111 @@
 	<div class="section section--stories">
 		<div class="wrapper">
 			<h2 id="{{entry.storiesHeading|replace(' ','-')|lower}}">{{entry.storiesHeading}}</h2>
-			<!--
+
 			<div class="stories__index">
 				{% for item in entry.stories %}
-				<p>{{ item.storyName }}</p>
+				{% for asset in item.storyImage %}
+				<div class="story__image">
+					<img class="image__fluid" src="{{ asset.url }}" alt="{{ item.storyName }}">
+				</div>
+				{% endfor %}
 				{% endfor %}
 			</div>
-			-->
-			<div id="owl-example" class="owl-carousel">
+			<!--<div id="owl-example" class="owl-carousel">-->
+
+			<div class="stories">
 				{% for item in entry.stories %}
 				<div class="story">
+					<!--
 					{% for asset in item.storyImage %}
 					<div class="story__image">
 						<img class="image__fluid" src="{{ asset.url }}" alt="{{ item.storyName }}">
 					</div>
 					{% endfor %}
-					<div class="story__content">
-						<div class="story__name"><h4>{{ item.storyName }}</h4></div>
-						<div class="story__description">{{ item.storyDescription }}</div>
-						<div class="story__url"><a href="{{ item.storyUrl }}">{{ item.storyUrl }}</a></div>
-					</div>
+				-->
+				<div class="story__content">
+					<div class="story__name"><h4>{{ item.storyName }}</h4></div>
+					<div class="story__description">{{ item.storyDescription }}</div>
+					{% if item.storyUrlLabel | length %}
+					<div class="story__url"><a href="{{ item.storyUrl }}" class="button"><span class="pre">Visit</span> {{ item.storyUrlLabel }}</a></div>
+					{% endif %}
 				</div>
-				{% endfor %}
 			</div>
-		</div>
-	</div>
-	<!--Speaking-->
-	<div class="section section--speaking">
-		<div class="wrapper">
-			<h2 id="{{entry.speakingHeading|replace(' ','-')|lower}}">{{entry.speakingHeading}}</h2>
-			<div class="description">{{entry.speakingDescription}}</div>
-			{% for item in entry.speakingSample %}
-			<audio controls>
-				<source src="{% for asset in item.mp3 %}
-				{{ asset.url }}
-				{% endfor %}" type="audio/mpeg">
-				<source src="{% for asset in item.ogg %}
-				{{ asset.url }}
-				{% endfor %}" type="audio/ogg">
-				Your browser does not support the audio element.
-			</audio>
 			{% endfor %}
-			<div class="speaking__form">
-				{% macro errorList(errors) %}
-				{% if errors %}
-				<ul class="errors">
-					{% for error in errors %}
-					<li>{{ error }}</li>
-					{% endfor %}
-				</ul>
-				{% endif %}
-				{% endmacro %}
-
-				{% from _self import errorList %}
-
-				<form method="post" action="" accept-charset="UTF-8">
-					<input type="hidden" name="action" value="contactForm/sendMessage">
-					<input type="hidden" name="redirect" value="contact/thanks">
-					<div class="form__element form__element__half">
-						<label for="fromName" class="form__label">Your Name</label>
-						<input id="fromName" class="form__element__textfield" type="text" name="fromName" value="{% if message is defined %}{{ message.fromName }}{% endif %}">
-					</div>
-					{% if message is defined %}{{ errorList(message.getErrors('fromName')) }}{% endif %}
-					<div class="form__element form__element__half">
-						<label for="fromEmail" class="form__label required">Your Email</label>
-						<input id="fromEmail" class="form__element__textfield" type="email" name="fromEmail" value="{% if message is defined %}{{ message.fromEmail }}{% endif %}">
-					</div>
-					{% if message is defined %}{{ errorList(message.getErrors('fromEmail')) }}{% endif %}
-					<div class="form__element form__element__half">
-						<label for="phone" class="form__label required">Phone</label>
-						<input id="phone" class="form__element__textfield" type="tel" name="message[Phone]" value="" placeholder="(×××) ×××-××××">
-					</div>
-					<div class="form__element form__element__half">
-						<label for="event" class="form__label required">Event Name</label>
-						<input id="event" class="form__element__textfield" type="text" name="message[Event]" value="">
-					</div>
-					<div class="form__element form__element__half">
-						<label for="dates" class="form__label required">Dates</label>
-						<input id="dates" class="form__element__textfield" type="date" name="message[Dates]" value="">
-					</div>
-					<div class="form__element form__element__half">
-						<label for="budget" class="form__label required">Budget</label>
-						<input id="budget" class="form__element__textfield" type="number" name="message[Budget]" value="">
-					</div>
-					<div class="form__element form__element__full">
-						<label for="message" class="form__label required">Tell us about your Event</label>
-						<textarea rows="5" id="message" class="form__element__textarea" name="message[body]">{% if message is defined %}{{ message.message }}{% endif %}</textarea>
-					</div>
-					{% if message is defined %}{{ errorList(message.getErrors('message')) }}{% endif %}
-					<div class="form__element form__element__full">
-						<input class="button" type="submit" value="Send">
-					</div>
-				</form>
-			</div>
 		</div>
 	</div>
+</div>
+<!--Speaking-->
+<div class="section section--speaking">
+	<div class="wrapper">
+		<h2 id="{{entry.speakingHeading|replace(' ','-')|lower}}">{{entry.speakingHeading}}</h2>
+		<div class="description">{{entry.speakingDescription}}</div>
+		{% for item in entry.speakingSample %}
+		<audio controls>
+			<source src="{% for asset in item.mp3 %}
+			{{ asset.url }}
+			{% endfor %}" type="audio/mpeg">
+			<source src="{% for asset in item.ogg %}
+			{{ asset.url }}
+			{% endfor %}" type="audio/ogg">
+			Your browser does not support the audio element.
+		</audio>
+		{% endfor %}
+		<div id="contactBtn" class="button">Contact Ben</a></div>
+		<div class="speaking__form">
+			{% macro errorList(errors) %}
+			{% if errors %}
+			<ul class="errors">
+				{% for error in errors %}
+				<li>{{ error }}</li>
+				{% endfor %}
+			</ul>
+			{% endif %}
+			{% endmacro %}
+
+			{% from _self import errorList %}
+
+			<form method="post" action="" accept-charset="UTF-8">
+				<input type="hidden" name="action" value="contactForm/sendMessage">
+				<input type="hidden" name="redirect" value="contact/thanks">
+				<div class="form__element form__element__half">
+					<label for="fromName" class="form__label">Your Name</label>
+					<input id="fromName" class="form__element__textfield" type="text" name="fromName" value="{% if message is defined %}{{ message.fromName }}{% endif %}">
+				</div>
+				{% if message is defined %}{{ errorList(message.getErrors('fromName')) }}{% endif %}
+				<div class="form__element form__element__half">
+					<label for="fromEmail" class="form__label required">Your Email</label>
+					<input id="fromEmail" class="form__element__textfield" type="email" name="fromEmail" value="{% if message is defined %}{{ message.fromEmail }}{% endif %}">
+				</div>
+				{% if message is defined %}{{ errorList(message.getErrors('fromEmail')) }}{% endif %}
+				<div class="form__element form__element__half">
+					<label for="phone" class="form__label required">Phone</label>
+					<input id="phone" class="form__element__textfield" type="tel" name="message[Phone]" value="" placeholder="(×××) ×××-××××">
+				</div>
+				<div class="form__element form__element__half">
+					<label for="event" class="form__label required">Event Name</label>
+					<input id="event" class="form__element__textfield" type="text" name="message[Event]" value="">
+				</div>
+				<div class="form__element form__element__half">
+					<label for="dates" class="form__label required">Dates</label>
+					<input id="dates" class="form__element__textfield" type="date" name="message[Dates]" value="">
+				</div>
+				<div class="form__element form__element__half">
+					<label for="budget" class="form__label required">Budget</label>
+					<input id="budget" class="form__element__textfield" type="number" name="message[Budget]" value="">
+				</div>
+				<div class="form__element form__element__full">
+					<label for="message" class="form__label required">Tell us about your Event</label>
+					<textarea rows="5" id="message" class="form__element__textarea" name="message[body]">{% if message is defined %}{{ message.message }}{% endif %}</textarea>
+				</div>
+				{% if message is defined %}{{ errorList(message.getErrors('message')) }}{% endif %}
+				<div class="form__element form__element__full">
+					<input class="button" type="submit" value="Send">
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
 	<!--
 	<script type="text/javascript" src="https://www.formstack.com/forms/js.php?1720416-4QhiH6JuPM-v3"></script><noscript><a href="https://www.formstack.com/forms/?1720416-4QhiH6JuPM" title="Online Form">Online Form - Speaking Request Form</a></noscript>
 -->

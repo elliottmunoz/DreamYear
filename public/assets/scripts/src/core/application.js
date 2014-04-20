@@ -1,4 +1,14 @@
 $(document).ready(function(){
 	$(".video").fitVids();
-	$("#owl-example").owlCarousel();
 });
+
+
+var contact=$('#contactBtn');
+contact.click(function(){
+	$(".speaking__form").slideDown(750);
+    return false;
+})
+
+
+
+

@@ -89,7 +89,16 @@ audio{
 
 /*UNIVERSAL STYLES*/
 
+.pre{
+	color: #F5F2F2;
+	display: block;
+	font-size: .7em;
+}
+
 .button{
+	animation-iteration-count: infinite;
+	animation-duration: 2s;
+	animation-name: pulse;
 	background: #B94643;
 	border: none;
 	color: white;
@@ -103,6 +112,18 @@ audio{
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
+	transition:all 0.2s linear;
+}
+
+.button:hover{
+	animation:none;
+	color: #B94643;
+	cursor: pointer;
+	background: #1b2135;
+}
+
+.wrapper{
+	position: relative;
 }
 
 .section{
@@ -131,7 +152,7 @@ audio{
 	display: block;
 	height: auto;
 	width: 100%;
-	margin: 0 0 1.3em;
+	/*margin: 0 0 1.3em;*/
 }
 
 .video{
@@ -152,6 +173,7 @@ audio{
 /*FORMS*/
 
 .speaking__form{
+	display: none;
 	float: left;
 	padding: 1.5em 0;
 }
@@ -269,9 +291,16 @@ audio{
 
 .section--stories{}
 
+.stories__index{
+
+}
+
+.stories__index > .story__image{
+	width: 25%;
+}
+
 .stories{
-	float: left;
-	overflow: hidden;
+	position: relative;
 	width: 100%;
 }
 
@@ -279,15 +308,20 @@ audio{
 	background: white;
 	display: inline;
 	float: left;
-	width: 50%;
+	left: 0;
+	/*position: absolute;*/
+	top: 0;
+	width: 100%;
 }
 
 .story__image{
-	position: relative;
+	float: left;
+	width: 50%;
 }
 
 .story__content{
-	padding: 0 7% 2em;
+	padding: 2em 10%;
+	width: 80%;
 }
 
 /*SPEAKING*/
@@ -386,10 +420,7 @@ li.tour--stop{
 	}
 	.button{
 		min-width: 100px;
-		max-width: 200px;
-	}
-	.story{
-		width: 50%;
+		max-width: 300px;
 	}
 }
 

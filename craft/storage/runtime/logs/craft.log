@@ -2998,3 +2998,934 @@ REQUEST_URI=/
 2014/04/19 02:29:05 [error] [application] Unable to find the template “error”.
 
 ******************************************************************************************************
+2014/04/19 12:05:32 [error] [application] Unable to find the template “docs-assets/ico/favicon.png”.
+2014/04/19 12:05:32 [error] [application] 404 - 
+2014/04/19 12:05:32 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('docs-assets/ico...', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('docs-assets/ico...', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/docs-assets/ico/favicon.png
+---
+
+******************************************************************************************************
+2014/04/19 12:05:32 [error] [application] Unable to find the template “docs-assets/ico/favicon.png”.
+2014/04/19 12:05:32 [error] [application] 404 - 
+2014/04/19 12:05:32 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('docs-assets/ico...', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('docs-assets/ico...', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/docs-assets/ico/favicon.png
+---
+
+******************************************************************************************************
+2014/04/19 19:47:34 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/19 19:47:34 [info] [application] [Forced] Finished task 1 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+2014/04/19 19:47:34 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/19 19:47:34 [info] [application] [Forced] Finished task 2 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+2014/04/19 19:47:34 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/19 19:47:34 [info] [application] [Forced] Finished task 3 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+2014/04/19 19:47:34 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/19 19:47:34 [info] [application] [Forced] Finished task 4 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+2014/04/19 19:47:34 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/19 19:47:34 [info] [application] [Forced] Finished task 5 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+2014/04/19 19:47:34 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/19 19:47:34 [info] [application] [Forced] Finished task 6 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+2014/04/19 19:47:34 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/19 19:47:34 [info] [application] [Forced] Finished task 7 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+2014/04/19 19:47:34 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/19 19:47:34 [info] [application] [Forced] Finished task 8 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+2014/04/19 19:47:34 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/19 19:47:34 [info] [application] [Forced] Finished task 9 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+2014/04/19 19:47:34 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/19 19:47:34 [info] [application] [Forced] Finished task 10 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+2014/04/19 19:47:34 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/19 19:47:34 [info] [application] [Forced] Finished task 11 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+2014/04/19 19:47:34 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/19 19:47:34 [info] [application] [Forced] Finished task 12 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+2014/04/19 19:47:34 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/19 19:47:34 [info] [application] [Forced] Finished task 13 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+2014/04/19 19:47:34 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/19 19:47:34 [info] [application] [Forced] Finished task 14 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+2014/04/19 19:47:34 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/19 19:47:34 [info] [application] [Forced] Finished task 15 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+2014/04/19 19:47:34 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/19 19:47:34 [info] [application] [Forced] Finished task 16 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+2014/04/19 19:47:34 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/19 19:47:34 [info] [application] [Forced] Finished task 17 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+2014/04/19 19:47:34 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/19 19:47:34 [info] [application] [Forced] Finished task 18 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+2014/04/19 19:47:34 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/19 19:47:34 [info] [application] [Forced] Finished task 19 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+2014/04/19 19:47:34 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/19 19:47:34 [info] [application] [Forced] Finished task 20 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+2014/04/19 19:47:34 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/19 19:47:34 [info] [application] [Forced] Finished task 21 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+2014/04/19 19:47:34 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/19 19:47:34 [info] [application] [Forced] Finished task 22 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+2014/04/19 19:47:34 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/19 19:47:34 [info] [application] [Forced] Finished task 23 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+2014/04/19 19:47:34 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/19 19:47:34 [info] [application] [Forced] Finished task 24 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+2014/04/19 19:47:35 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/19 19:47:35 [info] [application] [Forced] Finished task 25 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+2014/04/19 19:47:35 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/19 19:47:35 [info] [application] [Forced] Finished task 26 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+2014/04/19 19:47:35 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/19 19:47:35 [info] [application] [Forced] Finished task 27 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+2014/04/19 19:47:35 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/19 19:47:35 [info] [application] [Forced] Finished task 28 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+2014/04/19 19:47:35 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/19 19:47:35 [info] [application] [Forced] Finished task 29 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+
+******************************************************************************************************
+2014/04/19 20:25:44 [info] [application] [Forced] Preparing to update craft.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/UpdatesService.php (264)
+2014/04/19 20:25:44 [info] [application] [Forced] Updating from 2.0.2533 to 2.0.2536.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/UpdatesService.php (282)
+2014/04/19 20:25:44 [info] [application] [Forced] Finished preparing to update craft.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/UpdatesService.php (289)
+
+******************************************************************************************************
+2014/04/19 20:25:45 [info] [application] [Forced] Starting to process the update download.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/UpdatesService.php (304)
+2014/04/19 20:25:45 [info] [application] [Forced] Starting to process the update download.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (71)
+2014/04/19 20:25:45 [info] [application] [Forced] Downloading patch file to /Users/elliottmunoz/Sites/dreamyear/craft/storage/runtime/temp/
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (75)
+2014/04/19 20:25:45 [info] [application] [Forced] Validating downloaded update.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (88)
+2014/04/19 20:25:45 [info] [application] [Forced] Validating MD5 for /Users/elliottmunoz/Sites/dreamyear/craft/storage/runtime/temp/2e785d0342bdca2854ba8c271a0d0108.zip
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (316)
+2014/04/19 20:25:45 [info] [application] [Forced] Unpacking the downloaded package.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (95)
+2014/04/19 20:25:45 [info] [application] [Forced] Unzipping package to /Users/elliottmunoz/Sites/dreamyear/craft/storage/runtime/temp/ba765403-5817-4eda-89c6-c354b7363501
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (339)
+2014/04/19 20:25:45 [info] [application] [Forced] Validating update manifest file paths are writable.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (112)
+2014/04/19 20:25:45 [info] [application] [Forced] Finished processing the update download.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/UpdatesService.php (312)
+
+******************************************************************************************************
+2014/04/19 20:25:45 [info] [application] [Forced] Starting to backup files that need to be updated.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/UpdatesService.php (327)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up files that are about to be updated.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (131)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/Craft.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/Info.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/AppController.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/config/common.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/et/Et.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/requirements/Requirements.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/CpHelper.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/models/EtModel.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/models/InfoModel.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/resources/js/cp.js
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/resources/js/compressed/cp.js
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/services/EtService.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/templates/_layouts/base.html
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/variables/CpVariable.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/templates/_layouts/cp.html
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/assetsourcetypes/GoogleCloudAssetSourceType.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/assetsourcetypes/S3AssetSourceType.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/cache/RedisCache.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/config/defaults/rediscache.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/dates/DateTime.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/fieldtypes/DateFieldType.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/AssetsHelper.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/IOHelper.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/resources/js/compressed/updates.js
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/resources/js/compressed/updates.min.map
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/resources/js/updates.js
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/services/AssetTransformsService.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/templates/users/index.html
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/templates/users/_edit.html
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/templates/_components/assetsourcetypes/GoogleCloud/settings.html
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/templates/_components/fieldtypes/Categories/input.html
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/AssetsController.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/elements/ElementRelationParamParser.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/templating/twigextensions/Redirect_Node.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/MigrationHelper.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/models/MatrixBlockModel.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/resources/js/compressed/craft.js
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/resources/js/compressed/craft.min.map
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/resources/js/compressed/fields.js
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/resources/js/compressed/fields.min.map
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/resources/js/compressed/MatrixConfigurator.js
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/resources/js/compressed/MatrixConfigurator.min.map
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/resources/js/craft.js
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/resources/js/fields.js
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/resources/js/MatrixConfigurator.js
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/services/ElementsService.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/services/LocalizationService.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/services/PluginsService.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TemplateCacheService.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/templates/400.html
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/templates/403.html
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/templates/404.html
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/templates/500.html
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Backing up file /Users/elliottmunoz/Sites/dreamyear/craft/app/templates/503.html
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (444)
+2014/04/19 20:25:45 [info] [application] [Forced] Finished backing up files.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/UpdatesService.php (334)
+
+******************************************************************************************************
+2014/04/19 20:25:45 [info] [application] [Forced] Starting to update files.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/UpdatesService.php (349)
+2014/04/19 20:25:45 [info] [application] [Forced] Putting the site into maintenance mode.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (147)
+2014/04/19 20:25:45 [info] [application] [Forced] Performing file update.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (151)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/Craft.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/Info.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/AppController.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/config/common.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/et/Et.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/requirements/Requirements.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/CpHelper.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/models/EtModel.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/models/InfoModel.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/resources/js/cp.js
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/resources/js/compressed/cp.js
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/services/EtService.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/templates/_layouts/base.html
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/variables/CpVariable.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/templates/_layouts/cp.html
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/assetsourcetypes/GoogleCloudAssetSourceType.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/assetsourcetypes/S3AssetSourceType.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/cache/RedisCache.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/config/defaults/rediscache.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/dates/DateTime.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/fieldtypes/DateFieldType.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/AssetsHelper.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/IOHelper.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/resources/js/compressed/updates.js
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/resources/js/compressed/updates.min.map
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/resources/js/updates.js
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/services/AssetTransformsService.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/templates/users/index.html
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/templates/users/_edit.html
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/templates/_components/assetsourcetypes/GoogleCloud/settings.html
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/templates/_components/fieldtypes/Categories/input.html
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/AssetsController.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/elements/ElementRelationParamParser.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/templating/twigextensions/Redirect_Node.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/MigrationHelper.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/models/MatrixBlockModel.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/resources/js/compressed/craft.js
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/resources/js/compressed/craft.min.map
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/resources/js/compressed/fields.js
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/resources/js/compressed/fields.min.map
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/resources/js/compressed/MatrixConfigurator.js
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/resources/js/compressed/MatrixConfigurator.min.map
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/resources/js/craft.js
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/resources/js/fields.js
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/resources/js/MatrixConfigurator.js
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/services/ElementsService.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/services/LocalizationService.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/services/PluginsService.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TemplateCacheService.php
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/templates/400.html
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/templates/403.html
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/templates/404.html
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/templates/500.html
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Updating file: /Users/elliottmunoz/Sites/dreamyear/craft/app/templates/503.html
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/UpdateHelper.php (133)
+2014/04/19 20:25:45 [info] [application] [Forced] Finished updating files.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/UpdatesService.php (356)
+
+******************************************************************************************************
+2014/04/19 20:25:46 [info] [application] [Forced] Starting to backup database.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/UpdatesService.php (370)
+2014/04/19 20:25:46 [info] [application] [Forced] Starting to backup database.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (164)
+2014/04/19 20:25:46 [info] [application] [Forced] Finished backing up database.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/UpdatesService.php (384)
+
+******************************************************************************************************
+2014/04/19 20:25:46 [info] [application] [Forced] Starting to update the database.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/UpdatesService.php (401)
+2014/04/19 20:25:46 [info] [application] [Forced] Craft wants to update the database.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/UpdatesService.php (409)
+2014/04/19 20:25:46 [info] [application] [Forced] Running migrations...
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (181)
+2014/04/19 20:25:46 [info] [application] [Forced] No new migration(s) found for Craft. Your system is up-to-date.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/MigrationsService.php (53)
+2014/04/19 20:25:46 [info] [application] [Forced] Settings new Craft release info in craft_info table.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (191)
+2014/04/19 20:25:46 [info] [application] [Forced] Taking the site out of maintenance mode.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (206)
+2014/04/19 20:25:46 [info] [application] [Forced] Craft is done updating the database.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/UpdatesService.php (411)
+
+******************************************************************************************************
+2014/04/19 20:25:46 [info] [application] [Forced] Starting to clean up after the update.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/UpdatesService.php (444)
+2014/04/19 20:25:46 [info] [application] [Forced] Clearing the update cache.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (218)
+2014/04/19 20:25:46 [info] [application] [Forced] Flushing update info from cache.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/UpdatesService.php (176)
+2014/04/19 20:25:46 [info] [application] [Forced] Cleaning up temp files after update.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (230)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/Craft.php.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/Info.php.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/assetsourcetypes/GoogleCloudAssetSourceType.php.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/assetsourcetypes/S3AssetSourceType.php.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/AppController.php.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/AssetsController.php.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/cache/RedisCache.php.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/config/common.php.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/config/defaults/rediscache.php.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/dates/DateTime.php.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/elements/ElementRelationParamParser.php.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/et/Et.php.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/requirements/Requirements.php.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/templating/twigextensions/Redirect_Node.php.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/fieldtypes/DateFieldType.php.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/AssetsHelper.php.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/CpHelper.php.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/IOHelper.php.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/MigrationHelper.php.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/models/EtModel.php.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/models/InfoModel.php.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/models/MatrixBlockModel.php.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/resources/js/MatrixConfigurator.js.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/resources/js/compressed/MatrixConfigurator.js.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/resources/js/compressed/MatrixConfigurator.min.map.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/resources/js/compressed/cp.js.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/resources/js/compressed/craft.js.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/resources/js/compressed/craft.min.map.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/resources/js/compressed/fields.js.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/resources/js/compressed/fields.min.map.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/resources/js/compressed/updates.js.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/resources/js/compressed/updates.min.map.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/resources/js/cp.js.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/resources/js/craft.js.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/resources/js/fields.js.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/resources/js/updates.js.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/services/AssetTransformsService.php.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/services/ElementsService.php.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/services/EtService.php.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/services/LocalizationService.php.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/services/PluginsService.php.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TemplateCacheService.php.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/templates/400.html.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/templates/403.html.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/templates/404.html.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/templates/500.html.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/templates/503.html.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/templates/_components/assetsourcetypes/GoogleCloud/settings.html.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/templates/_components/fieldtypes/Categories/input.html.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/templates/_layouts/base.html.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/templates/_layouts/cp.html.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/templates/users/_edit.html.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/templates/users/index.html.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Deleting file: /Users/elliottmunoz/Sites/dreamyear/craft/app/variables/CpVariable.php.bak
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (283)
+2014/04/19 20:25:47 [info] [application] [Forced] Finished Updater.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/updates/Updater.php (234)
+2014/04/19 20:25:47 [info] [application] [Forced] Finished cleaning up after the update.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/UpdatesService.php (451)
+2014/04/19 20:25:47 [info] [application] [Forced] Trying to write to file at /Users/elliottmunoz/Sites/dreamyear/craft/storage/runtime/cache/61576a3937f3a2c3c9a4e5809aff9d51.bin using LOCK_EX.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/IOHelper.php (756)
+2014/04/19 20:25:47 [info] [application] [Forced] Successfully wrote to file at /Users/elliottmunoz/Sites/dreamyear/craft/storage/runtime/cache/61576a3937f3a2c3c9a4e5809aff9d51.bin using LOCK_EX. Saving in cache.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/helpers/IOHelper.php (763)
+
+******************************************************************************************************
+2014/04/19 20:28:13 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/19 20:28:13 [info] [application] [Forced] Finished task 30 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+
+******************************************************************************************************
+2014/04/20 02:29:19 [error] [application] Unable to find the template “assets/scripts/src/vendor/jquery-2.0.3.min.map”.
+2014/04/20 02:29:19 [error] [application] 404 - 
+2014/04/20 02:29:19 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('assets/scripts/...', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('assets/scripts/...', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/assets/scripts/src/vendor/jquery-2.0.3.min.map
+HTTP_REFERER=http://dreamyear.dev/
+---
+
+******************************************************************************************************
+2014/04/20 02:29:42 [error] [application] Unable to find the template “assets/scripts/src/vendor/jquery-2.0.3.min.map”.
+2014/04/20 02:29:42 [error] [application] 404 - 
+2014/04/20 02:29:42 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('assets/scripts/...', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('assets/scripts/...', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/assets/scripts/src/vendor/jquery-2.0.3.min.map
+HTTP_REFERER=http://dreamyear.dev/
+---
+
+******************************************************************************************************
+2014/04/20 02:30:22 [error] [application] Unable to find the template “assets/scripts/src/vendor/jquery-2.0.3.min.map”.
+2014/04/20 02:30:22 [error] [application] 404 - 
+2014/04/20 02:30:22 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('assets/scripts/...', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('assets/scripts/...', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/assets/scripts/src/vendor/jquery-2.0.3.min.map
+HTTP_REFERER=http://dreamyear.dev/
+---
+
+******************************************************************************************************
+2014/04/20 02:30:50 [error] [application] Unable to find the template “assets/scripts/src/vendor/jquery-2.0.3.min.map”.
+2014/04/20 02:30:50 [error] [application] 404 - 
+2014/04/20 02:30:50 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('assets/scripts/...', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('assets/scripts/...', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/assets/scripts/src/vendor/jquery-2.0.3.min.map
+HTTP_REFERER=http://dreamyear.dev/
+---
+
+******************************************************************************************************
+2014/04/20 02:31:11 [error] [application] Unable to find the template “assets/scripts/src/vendor/jquery-2.0.3.min.map”.
+2014/04/20 02:31:11 [error] [application] 404 - 
+2014/04/20 02:31:11 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('assets/scripts/...', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('assets/scripts/...', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/assets/scripts/src/vendor/jquery-2.0.3.min.map
+HTTP_REFERER=http://dreamyear.dev/
+---
+
+******************************************************************************************************
+2014/04/20 02:31:27 [error] [application] Unable to find the template “assets/scripts/src/vendor/jquery-2.0.3.min.map”.
+2014/04/20 02:31:27 [error] [application] 404 - 
+2014/04/20 02:31:27 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('assets/scripts/...', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('assets/scripts/...', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/assets/scripts/src/vendor/jquery-2.0.3.min.map
+HTTP_REFERER=http://dreamyear.dev/
+---
+
+******************************************************************************************************
+2014/04/20 02:31:34 [error] [application] Unable to find the template “assets/scripts/src/vendor/jquery-2.0.3.min.map”.
+2014/04/20 02:31:34 [error] [application] 404 - 
+2014/04/20 02:31:34 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('assets/scripts/...', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('assets/scripts/...', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/assets/scripts/src/vendor/jquery-2.0.3.min.map
+HTTP_REFERER=http://dreamyear.dev/
+---
+
+******************************************************************************************************
+2014/04/20 02:37:39 [error] [application] Unable to find the template “assets/scripts/src/vendor/jquery-2.0.3.min.map”.
+2014/04/20 02:37:39 [error] [application] 404 - 
+2014/04/20 02:37:39 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('assets/scripts/...', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('assets/scripts/...', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/assets/scripts/src/vendor/jquery-2.0.3.min.map
+HTTP_REFERER=http://dreamyear.dev/
+---
+
+******************************************************************************************************
+2014/04/20 02:37:51 [error] [application] Unable to find the template “assets/scripts/src/vendor/jquery-2.0.3.min.map”.
+2014/04/20 02:37:51 [error] [application] 404 - 
+2014/04/20 02:37:51 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('assets/scripts/...', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('assets/scripts/...', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/assets/scripts/src/vendor/jquery-2.0.3.min.map
+HTTP_REFERER=http://dreamyear.dev/
+---
+
+******************************************************************************************************
+2014/04/20 02:37:57 [error] [application] Unable to find the template “assets/scripts/src/vendor/jquery-2.0.3.min.map”.
+2014/04/20 02:37:57 [error] [application] 404 - 
+2014/04/20 02:37:57 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('assets/scripts/...', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('assets/scripts/...', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/assets/scripts/src/vendor/jquery-2.0.3.min.map
+HTTP_REFERER=http://dreamyear.dev/
+---
+
+******************************************************************************************************
+2014/04/20 02:38:00 [error] [application] Unable to find the template “assets/scripts/src/vendor/jquery-2.0.3.min.map”.
+2014/04/20 02:38:00 [error] [application] 404 - 
+2014/04/20 02:38:00 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('assets/scripts/...', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('assets/scripts/...', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/assets/scripts/src/vendor/jquery-2.0.3.min.map
+HTTP_REFERER=http://dreamyear.dev/
+---
+
+******************************************************************************************************
+2014/04/20 02:38:08 [error] [application] Unable to find the template “assets/scripts/src/vendor/jquery-2.0.3.min.map”.
+2014/04/20 02:38:08 [error] [application] 404 - 
+2014/04/20 02:38:08 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('assets/scripts/...', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('assets/scripts/...', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/assets/scripts/src/vendor/jquery-2.0.3.min.map
+HTTP_REFERER=http://dreamyear.dev/
+---
+
+******************************************************************************************************
+2014/04/20 02:38:36 [error] [application] Unable to find the template “assets/scripts/src/vendor/jquery-2.0.3.min.map”.
+2014/04/20 02:38:36 [error] [application] 404 - 
+2014/04/20 02:38:36 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('assets/scripts/...', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('assets/scripts/...', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/assets/scripts/src/vendor/jquery-2.0.3.min.map
+HTTP_REFERER=http://dreamyear.dev/
+---
+
+******************************************************************************************************
+2014/04/20 02:40:11 [error] [application] Unable to find the template “assets/scripts/src/vendor/jquery-2.0.3.min.map”.
+2014/04/20 02:40:11 [error] [application] 404 - 
+2014/04/20 02:40:11 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('assets/scripts/...', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('assets/scripts/...', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/assets/scripts/src/vendor/jquery-2.0.3.min.map
+HTTP_REFERER=http://dreamyear.dev/
+---
+
+******************************************************************************************************
+2014/04/20 02:40:59 [error] [application] Unable to find the template “assets/scripts/src/vendor/jquery-2.0.3.min.map”.
+2014/04/20 02:40:59 [error] [application] 404 - 
+2014/04/20 02:40:59 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('assets/scripts/...', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('assets/scripts/...', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/assets/scripts/src/vendor/jquery-2.0.3.min.map
+HTTP_REFERER=http://dreamyear.dev/
+---
+
+******************************************************************************************************
