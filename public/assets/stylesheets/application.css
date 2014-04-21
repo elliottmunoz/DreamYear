@@ -23,6 +23,16 @@ body{
 	width: 100%;
 }
 
+h1{
+	color: #B94643;
+	font: 3em function_pro_bookbold;
+	letter-spacing: .02em;
+	margin: 0.1em 0;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
 h2{
 	font: 2em function_pro_bookbold;
 	letter-spacing: .02em;
@@ -225,11 +235,23 @@ form{
 	box-sizing: border-box;
 }
 
+.form__element__textfield:focus,
+.form__element__textarea:focus{
+	border: 3px solid #1b2135;
+	color: #B94643;
+	 outline: none;
+}
+
 .required{}
 
 .required:after{
 	color: red;
 	content:"*";
+}
+
+/*ARTICLE*/
+.section--article{
+
 }
 
 /*HERO*/

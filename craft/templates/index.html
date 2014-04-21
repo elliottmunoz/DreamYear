@@ -105,8 +105,8 @@
 			</div>
 			{% endfor %}
 			<div class="speaking__audio">
-			<h5>Ben Arment, Story 2013 Presentation</h5>
-			{% for item in entry.speakingSample %}
+				<h5>Ben Arment, Story 2013 Presentation</h5>
+				{% for item in entry.speakingSample %}
 				<audio controls>
 					<source src="{% for asset in item.mp3 %}
 					{{ asset.url }}
@@ -201,6 +201,17 @@
 			</li>
 			{% endfor %}
 		</ul>
+	</div>
+</div>
+<!--ARTICLES-->
+<div class="section section--articles">
+	<div class="wrapper">
+		<h2>Articles</h2>
+		{% for entry in craft.entries.section('articles').find() %}
+		<article>
+			<h3><a href="{{ entry.url }}">{{ entry.title }}</a></h3>
+		</article>
+		{% endfor %}
 	</div>
 </div>
 <!--Event-->

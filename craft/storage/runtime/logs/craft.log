@@ -4142,3 +4142,219 @@ HTTP_REFERER=http://dreamyear.dev/
 ---
 
 ******************************************************************************************************
+2014/04/21 02:01:40 [error] [application] Unable to find the template “docs-assets/ico/favicon.png”.
+2014/04/21 02:01:40 [error] [application] 404 - 
+2014/04/21 02:01:40 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('docs-assets/ico...', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('docs-assets/ico...', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/docs-assets/ico/favicon.png
+---
+
+******************************************************************************************************
+2014/04/21 02:01:41 [error] [application] Unable to find the template “docs-assets/ico/favicon.png”.
+2014/04/21 02:01:41 [error] [application] 404 - 
+2014/04/21 02:01:41 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('docs-assets/ico...', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('docs-assets/ico...', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/docs-assets/ico/favicon.png
+---
+
+******************************************************************************************************
+2014/04/21 02:18:00 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/21 02:18:00 [info] [application] [Forced] Finished task 1 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+
+******************************************************************************************************
+2014/04/21 02:19:51 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/21 02:19:51 [info] [application] [Forced] Finished task 2 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+
+******************************************************************************************************
+2014/04/21 02:20:51 [info] [application] [Forced] Starting task ResaveElements that has a total of 2 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/21 02:20:51 [info] [application] [Forced] Starting step 1 of 2 total steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (184)
+2014/04/21 02:20:51 [info] [application] [Forced] Starting step 2 of 2 total steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (184)
+2014/04/21 02:20:51 [info] [application] [Forced] Finished task 3 (ResaveElements).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+
+******************************************************************************************************
+2014/04/21 02:22:34 [error] [application] Unable to find the template “articles”.
+2014/04/21 02:22:34 [error] [application] 404 - 
+2014/04/21 02:22:34 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('articles', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('articles', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/articles
+---
+
+******************************************************************************************************
+2014/04/21 02:24:27 [info] [application] [Forced] Starting task ResaveElements that has a total of 2 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/21 02:24:27 [info] [application] [Forced] Starting step 1 of 2 total steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (184)
+2014/04/21 02:24:27 [info] [application] [Forced] Starting step 2 of 2 total steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (184)
+2014/04/21 02:24:27 [info] [application] [Forced] Finished task 4 (ResaveElements).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+
+******************************************************************************************************
+2014/04/21 02:24:59 [info] [application] [Forced] Starting task ResaveElements that has a total of 2 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/21 02:24:59 [info] [application] [Forced] Starting step 1 of 2 total steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (184)
+2014/04/21 02:24:59 [info] [application] [Forced] Starting step 2 of 2 total steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (184)
+2014/04/21 02:24:59 [info] [application] [Forced] Finished task 5 (ResaveElements).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+
+******************************************************************************************************
+2014/04/21 02:59:45 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/21 02:59:45 [info] [application] [Forced] Finished task 6 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+
+******************************************************************************************************
+2014/04/21 03:00:32 [warning] [application] Craft\ContentModel->articleImage failed validation: Article Image cannot be blank.
+
+******************************************************************************************************
+2014/04/21 03:03:43 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/21 03:03:43 [info] [application] [Forced] Finished task 7 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+
+******************************************************************************************************
+2014/04/21 03:04:02 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/21 03:04:02 [info] [application] [Forced] Finished task 8 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+
+******************************************************************************************************
+2014/04/21 03:04:07 [error] [application] Unable to find the template “articles/2014/this-is-my-second-entry”.
+2014/04/21 03:04:07 [error] [application] 404 - 
+2014/04/21 03:04:07 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('articles/2014/t...', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('articles/2014/t...', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/articles/2014/this-is-my-second-entry
+HTTP_REFERER=http://dreamyear.dev/articles/
+---
+
+******************************************************************************************************
+2014/04/21 03:14:18 [info] [application] [Forced] Starting task ResaveElements that has a total of 1 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/21 03:14:18 [info] [application] [Forced] Starting step 1 of 1 total steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (184)
+2014/04/21 03:14:18 [info] [application] [Forced] Finished task 9 (ResaveElements).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+
+******************************************************************************************************
+2014/04/21 03:14:37 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/21 03:14:37 [info] [application] [Forced] Finished task 10 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+
+******************************************************************************************************
+2014/04/21 03:26:42 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/21 03:26:42 [info] [application] [Forced] Finished task 11 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+
+******************************************************************************************************
+2014/04/21 13:11:44 [error] [application] Unable to find the template “docs-assets/ico/favicon.png”.
+2014/04/21 13:11:44 [error] [application] 404 - 
+2014/04/21 13:11:44 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('docs-assets/ico...', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('docs-assets/ico...', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/docs-assets/ico/favicon.png
+---
+
+******************************************************************************************************
+2014/04/21 13:11:44 [error] [application] Unable to find the template “docs-assets/ico/favicon.png”.
+2014/04/21 13:11:44 [error] [application] 404 - 
+2014/04/21 13:11:44 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('docs-assets/ico...', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('docs-assets/ico...', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/docs-assets/ico/favicon.png
+---
+
+******************************************************************************************************
