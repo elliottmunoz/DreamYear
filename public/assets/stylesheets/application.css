@@ -25,7 +25,7 @@ body{
 
 h1{
 	color: #B94643;
-	font: 3em function_pro_bookbold;
+	font: 3em/.9em function_pro_bookbold;
 	letter-spacing: .02em;
 	margin: 0.1em 0;
 	padding: 0;
@@ -85,13 +85,36 @@ audio{
 	width: 100%;
 }
 
+footer{
+	color: #aca9a9;
+	font: .6em function_pro_bookbold;
+	letter-spacing: .1em;
+	padding: 2em 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
 /*NAVIGATION*/
 
 .nav{
-	display: none;
-	margin: 0px;
-	padding: 0px;
+	color: white;
+	font: 1em function_pro_bookbold;
+	left: 0;
+	letter-spacing: .02em;
+	margin: 0 10%;
+	padding: 25px 0;
+	position: absolute;
+	text-align: center;
+	text-transform: uppercase;
+	top: 0;
+	width: 80%;
+	z-index: 10;
 }
+
+.nav a{
+	color: white;
+}
+
 .nav li{
 	display: inline;
 	list-style: none;
@@ -143,14 +166,32 @@ audio{
 
 .section{
 	float: left;
-	padding: 1em 0 3em;
+	padding: 0 0 3em;
 	position: relative;
 	width: 100%;
+}
+
+.section--split{
+	height: 100%;
+	padding: 0;
+	position: absolute;
+}
+
+.subsection{
+	display: block;
+	float: left;
+	height: 100%;
+	position: relative;
+	width: 50%;
 }
 
 .section--blue{
 	background: #1b2135;
 	color: #b1beca;
+}
+
+.section--blue h2{
+	color: #B94643;
 }
 
 .section--orange{
@@ -184,6 +225,63 @@ audio{
 	top: 0;
 	width: 100%;
 }
+
+/*STORY PAGES*/
+
+
+.stories__index__image{
+	float: left;
+	overflow: hidden;
+	position: relative;
+	width: 25%;
+}
+
+.stories__index__detail{
+	left: 0;
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+}
+
+/*
+.stories__index__detail{
+	background: rgba(48, 58, 95, 0.8);
+	height: 100%;
+	left: 0;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	width: 100%;
+}
+*/
+.zoom{
+	-webkit-transition: all 2s ease-out;
+}
+
+.zoom:hover{
+	-webkit-transform: scale(1.08);
+}
+
+.story__image{
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+/*
+.kate-schmidgall{
+	background-image: url("/assets/images/stories/story-kate-schmidgall.jpg");
+}
+*/
+
+.story__content{
+	padding: 3em 0;
+}
+
 
 /*FORMS*/
 
@@ -250,8 +348,36 @@ form{
 }
 
 /*ARTICLE*/
-.section--article{
+.section--article{}
 
+.article{
+	padding: 2em 0;
+}
+
+.article__intro{
+	padding: 0 10% 1.5em;
+}
+
+.article__index{
+
+}
+
+.article__thumb{
+	float: left;
+	width: 20%;
+}
+
+.article__image{
+	overflow: hidden;
+	width: 100%;
+}
+
+.article__name{
+	padding: 5%;
+}
+
+.article__intro > h4{
+	color: white;
 }
 
 /*HERO*/
@@ -271,12 +397,17 @@ form{
 
 .section--about{}
 
+.resellers{
+	margin: 0;
+	padding: 0;
+}
+
 .reseller{
 	display: inline-block;
 	list-style: none;
-	margin: 0px;
+	margin: 0;
 	min-height: 80px;
-	padding: 0px;
+	padding: 0;
 	text-align: center;
 	float: left;
 }
@@ -317,9 +448,24 @@ form{
 .profile__content{
 	float: left;
 }
+/*
+.profile__image--split{
+	height: 100%;
+	position: absolute;
+}
+
+.profile__content--split{
+	height: 100%;
+	position: absolute;
+}
+*/
+
 
 /*STORIES*/
 
+
+
+/*
 .section--stories{}
 
 .stories__index{
@@ -340,7 +486,6 @@ form{
 	display: inline;
 	float: left;
 	left: 0;
-	/*position: absolute;*/
 	top: 0;
 	width: 100%;
 }
@@ -354,7 +499,7 @@ form{
 	padding: 2em 10%;
 	width: 80%;
 }
-
+*/
 /*SPEAKING*/
 
 .speaking__sample{
@@ -426,8 +571,12 @@ li.tour--stop{
 	.story{
 		width: 100%;
 	}
-	.stories__index > .story__image{
-		width: 100%;
+	.stories__index__image{
+		width: 50%;
+	}
+
+	h1{
+		font-size: 2em;
 	}
 }
 
@@ -448,8 +597,11 @@ li.tour--stop{
 	.form__element__half{
 		width: 46%;
 	}
-	.stories__index > .story__image{
-		width: 50%;
+	.stories__index__image{
+		width: 33.333333%;
+	}
+	h1{
+		font-size: 3em;
 	}
 }
 
@@ -459,9 +611,11 @@ li.tour--stop{
 		padding: 0 3%;
 		width: 44%;
 	}
+
 	.profile__image{
 		width: 50%;
 	}
+
 	.profile__content{
 		padding: 0% 3%;
 		width: 44%;
@@ -470,12 +624,12 @@ li.tour--stop{
 		margin: .25em auto 0;
 		padding: .25em auto 0;
 	}
+	.stories__index__image{
+		width: 25%;
+	}
 	.button{
 		min-width: 100px;
 		max-width: 300px;
-	}
-	.stories__index > .story__image{
-		width: 25%;
 	}
 }
 

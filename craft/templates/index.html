@@ -62,26 +62,31 @@
 			<h2 id="{{entry.storiesHeading|replace(' ','-')|lower}}">{{entry.storiesHeading}}</h2>
 
 			<div class="stories__index">
-				{% for item in entry.stories %}
-				{% for asset in item.storyImage %}
-				<div class="story__image">
-					<img class="image__fluid" src="{{ asset.url }}" alt="{{ item.storyName }}">
-				</div>
-				{% endfor %}
-				{% endfor %}
+				{% for entry in craft.entries.section('stories').find() %}
+				{% for asset in entry.storyImage %}
+				<div class="stories__index__image">
+					<a href="{{ entry.uri }}"><img class="image__fluid zoom" src="{{ asset.url }}" alt="{{ entry.title }}"></a>
+					<!--
+					<div class="stories__index__detail">
+						<h4>{{entry.title}}</h4>
+					</div>
+				-->
 			</div>
-			<!--<div id="owl-example" class="owl-carousel">-->
-
+			{% endfor %}
+			{% endfor %}
+		</div>
+		<!--<div id="owl-example" class="owl-carousel">-->
+			<!--
 			<div class="stories">
 				{% for item in entry.stories %}
 				<div class="story">
-					<!--
+
 					{% for asset in item.storyImage %}
 					<div class="story__image">
 						<img class="image__fluid" src="{{ asset.url }}" alt="{{ item.storyName }}">
 					</div>
 					{% endfor %}
-				-->
+
 				<div class="story__content">
 					<div class="story__name"><h4>{{ item.storyName }}</h4></div>
 					<div class="story__description">{{ item.storyDescription }}</div>
@@ -92,7 +97,8 @@
 			</div>
 			{% endfor %}
 		</div>
-	</div>
+	-->
+</div>
 </div>
 <!--Speaking-->
 <div class="section section--speaking">
@@ -120,9 +126,6 @@
 			</div>
 		</div>
 		<div class="description">{{entry.speakingDescription}}</div>
-
-
-
 		<div id="contactBtn" class="button">Invite Ben</a></div>
 		<div class="speaking__form">
 			<h5>Invite</h5>
@@ -207,12 +210,28 @@
 <div class="section section--articles">
 	<div class="wrapper">
 		<h2>Articles</h2>
-		{% for entry in craft.entries.section('articles').find() %}
-		<article>
-			<h3><a href="{{ entry.url }}">{{ entry.title }}</a></h3>
-		</article>
-		{% endfor %}
+		{% set thumb = {
+		mode: 'crop',
+		width: 200,
+		height: 300,
+		quality: 75,
+		position: 'top-center'
+	} %}
+	{% for entry in craft.entries.section('articles').find() %}
+	<div class="article__index">
+		<div class="article__thumb">
+			<a href="{{ entry.url }}">
+			<div class="article__image">
+			{% for asset in entry.articleImage %}
+				<img class="image__fluid zoom" src="{{ asset.url(thumb) }}" alt="{{ entry.title }}">
+			{% endfor %}
+			</div>
+			<div class="article__name"><h5>{{ entry.title }}</h5></div>
+			</a>
+		</div>
 	</div>
+	{% endfor %}
+</div>
 </div>
 <!--Event-->
 <div class="section">
