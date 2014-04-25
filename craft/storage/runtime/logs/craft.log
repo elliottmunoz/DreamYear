@@ -8799,3 +8799,572 @@ HTTP_REFERER=http://dreamyear.dev/articles/solve-a-problem
 ---
 
 ******************************************************************************************************
+2014/04/23 13:22:16 [error] [application] Unable to find the template “docs-assets/ico/favicon.png”.
+2014/04/23 13:22:16 [error] [application] 404 - 
+2014/04/23 13:22:16 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('docs-assets/ico...', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('docs-assets/ico...', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/docs-assets/ico/favicon.png
+---
+
+******************************************************************************************************
+2014/04/23 13:22:16 [error] [application] Unable to find the template “docs-assets/ico/favicon.png”.
+2014/04/23 13:22:16 [error] [application] 404 - 
+2014/04/23 13:22:16 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('docs-assets/ico...', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('docs-assets/ico...', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/docs-assets/ico/favicon.png
+---
+
+******************************************************************************************************
+2014/04/23 23:37:25 [error] [application] Unable to find the template “docs-assets/ico/favicon.png”.
+2014/04/23 23:37:25 [error] [application] 404 - 
+2014/04/23 23:37:25 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('docs-assets/ico...', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('docs-assets/ico...', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/docs-assets/ico/favicon.png
+---
+
+******************************************************************************************************
+2014/04/23 23:37:25 [error] [application] Unable to find the template “docs-assets/ico/favicon.png”.
+2014/04/23 23:37:25 [error] [application] 404 - 
+2014/04/23 23:37:25 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('docs-assets/ico...', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('docs-assets/ico...', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/docs-assets/ico/favicon.png
+---
+
+******************************************************************************************************
+2014/04/24 02:28:38 [error] [application] Unable to find the template “pitch-night”.
+
+******************************************************************************************************
+2014/04/24 02:28:45 [error] [application] Unable to find the template “pitch-night”.
+2014/04/24 02:28:45 [error] [application] 404 - 
+2014/04/24 02:28:45 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('pitch-night', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('pitch-night', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/pitch-night
+HTTP_REFERER=http://dreamyear.dev/admin/entries/singles
+---
+
+******************************************************************************************************
+2014/04/24 02:32:34 [info] [application] [Forced] Starting task ResaveElements that has a total of 1 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/24 02:32:34 [info] [application] [Forced] Starting step 1 of 1 total steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (184)
+2014/04/24 02:32:35 [info] [application] [Forced] Finished task 1 (ResaveElements).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+
+******************************************************************************************************
+2014/04/24 02:34:30 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/24 02:34:30 [info] [application] [Forced] Finished task 2 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+
+******************************************************************************************************
+2014/04/24 02:34:54 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/24 02:34:54 [info] [application] [Forced] Finished task 3 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+
+******************************************************************************************************
+2014/04/24 02:35:44 [error] [exception.Twig_Error_Syntax] exception 'Twig_Error_Syntax' with message 'A template that extends another one cannot have a body in "_layouts/_pitch-night" at line 2.' in /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Parser.php:370
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Parser.php(383): Twig_Parser->filterBodyNodes(Object(Twig_Node_Print))
+#1 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Parser.php(98): Twig_Parser->filterBodyNodes(Object(Twig_Node))
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Environment.php(507): Twig_Parser->parse(Object(Twig_TokenStream))
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Environment.php(559): Twig_Environment->parse(Object(Twig_TokenStream))
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Environment.php(334): Twig_Environment->compileSource('?{% extends "_l...', '_layouts/_pitch...')
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Environment.php(292): Twig_Environment->loadTemplate('_layouts/_pitch...')
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TemplatesService.php(158): Twig_Environment->render('_layouts/_pitch...', Array)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/BaseController.php(75): Craft\TemplatesService->render('_layouts/_pitch...', Array)
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(185): Craft\BaseController->renderTemplate('_layouts/_pitch...', Array)
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('_layouts/_pitch...', Array)
+#10 [internal function]: Craft\TemplatesController->actionRender('_layouts/_pitch...', Array)
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#12 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#13 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#14 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#15 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#16 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#17 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#18 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#19 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#20 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#21 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#22 {main}
+REQUEST_URI=/pitch-night
+HTTP_REFERER=http://dreamyear.dev/admin/entries/singles
+---
+2014/04/24 02:35:44 [error] [application] Unable to find the template “500”.
+2014/04/24 02:35:44 [error] [application] Unable to find the template “error”.
+
+******************************************************************************************************
+2014/04/24 02:35:54 [error] [exception.Twig_Error_Syntax] exception 'Twig_Error_Syntax' with message 'A template that extends another one cannot have a body in "_layouts/_pitch-night" at line 2.' in /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Parser.php:370
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Parser.php(383): Twig_Parser->filterBodyNodes(Object(Twig_Node_Print))
+#1 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Parser.php(98): Twig_Parser->filterBodyNodes(Object(Twig_Node))
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Environment.php(507): Twig_Parser->parse(Object(Twig_TokenStream))
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Environment.php(559): Twig_Environment->parse(Object(Twig_TokenStream))
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Environment.php(334): Twig_Environment->compileSource('?{% extends "_l...', '_layouts/_pitch...')
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Environment.php(292): Twig_Environment->loadTemplate('_layouts/_pitch...')
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TemplatesService.php(158): Twig_Environment->render('_layouts/_pitch...', Array)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/BaseController.php(75): Craft\TemplatesService->render('_layouts/_pitch...', Array)
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(185): Craft\BaseController->renderTemplate('_layouts/_pitch...', Array)
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('_layouts/_pitch...', Array)
+#10 [internal function]: Craft\TemplatesController->actionRender('_layouts/_pitch...', Array)
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#12 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#13 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#14 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#15 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#16 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#17 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#18 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#19 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#20 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#21 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#22 {main}
+REQUEST_URI=/pitch-night
+HTTP_REFERER=http://dreamyear.dev/admin/entries/singles
+---
+2014/04/24 02:35:54 [error] [application] Unable to find the template “500”.
+2014/04/24 02:35:54 [error] [application] Unable to find the template “error”.
+
+******************************************************************************************************
+2014/04/24 02:36:17 [error] [exception.Twig_Error_Syntax] exception 'Twig_Error_Syntax' with message 'A template that extends another one cannot have a body in "_layouts/_pitch-night" at line 2.' in /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Parser.php:370
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Parser.php(383): Twig_Parser->filterBodyNodes(Object(Twig_Node_Print))
+#1 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Parser.php(98): Twig_Parser->filterBodyNodes(Object(Twig_Node))
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Environment.php(507): Twig_Parser->parse(Object(Twig_TokenStream))
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Environment.php(559): Twig_Environment->parse(Object(Twig_TokenStream))
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Environment.php(334): Twig_Environment->compileSource('?{% extends "_l...', '_layouts/_pitch...')
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Environment.php(292): Twig_Environment->loadTemplate('_layouts/_pitch...')
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TemplatesService.php(158): Twig_Environment->render('_layouts/_pitch...', Array)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/BaseController.php(75): Craft\TemplatesService->render('_layouts/_pitch...', Array)
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/EntriesController.php(356): Craft\BaseController->renderTemplate('_layouts/_pitch...', Array)
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(49): Craft\EntriesController->actionPreviewEntry()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#13 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('previewEntry')
+#14 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(827): CWebApplication->runController('entries/preview...')
+#15 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(237): Craft\WebApp->_processActionRequest()
+#16 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#17 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#18 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#19 {main}
+REQUEST_URI=/pitch-night
+HTTP_REFERER=http://dreamyear.dev/admin/entries/pitchNight/89
+---
+2014/04/24 02:36:17 [error] [application] Unable to find the template “500”.
+2014/04/24 02:36:17 [error] [application] Unable to find the template “error”.
+
+******************************************************************************************************
+2014/04/24 02:36:25 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/24 02:36:25 [info] [application] [Forced] Finished task 4 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+
+******************************************************************************************************
+2014/04/24 02:36:27 [error] [exception.Twig_Error_Syntax] exception 'Twig_Error_Syntax' with message 'A template that extends another one cannot have a body in "_layouts/_pitch-night" at line 2.' in /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Parser.php:370
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Parser.php(383): Twig_Parser->filterBodyNodes(Object(Twig_Node_Print))
+#1 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Parser.php(98): Twig_Parser->filterBodyNodes(Object(Twig_Node))
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Environment.php(507): Twig_Parser->parse(Object(Twig_TokenStream))
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Environment.php(559): Twig_Environment->parse(Object(Twig_TokenStream))
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Environment.php(334): Twig_Environment->compileSource('?{% extends "_l...', '_layouts/_pitch...')
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Environment.php(292): Twig_Environment->loadTemplate('_layouts/_pitch...')
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TemplatesService.php(158): Twig_Environment->render('_layouts/_pitch...', Array)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/BaseController.php(75): Craft\TemplatesService->render('_layouts/_pitch...', Array)
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(185): Craft\BaseController->renderTemplate('_layouts/_pitch...', Array)
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('_layouts/_pitch...', Array)
+#10 [internal function]: Craft\TemplatesController->actionRender('_layouts/_pitch...', Array)
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#12 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#13 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#14 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#15 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#16 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#17 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#18 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#19 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#20 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#21 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#22 {main}
+REQUEST_URI=/pitch-night
+HTTP_REFERER=http://dreamyear.dev/admin/entries/singles
+---
+2014/04/24 02:36:27 [error] [application] Unable to find the template “500”.
+2014/04/24 02:36:27 [error] [application] Unable to find the template “error”.
+
+******************************************************************************************************
+2014/04/24 02:37:41 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/24 02:37:41 [info] [application] [Forced] Finished task 5 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+
+******************************************************************************************************
+2014/04/24 02:38:09 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/24 02:38:09 [info] [application] [Forced] Finished task 6 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+
+******************************************************************************************************
+2014/04/24 02:40:05 [info] [application] [Forced] Starting task ResaveElements that has a total of 1 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/24 02:40:05 [info] [application] [Forced] Starting step 1 of 1 total steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (184)
+2014/04/24 02:40:05 [info] [application] [Forced] Finished task 7 (ResaveElements).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+
+******************************************************************************************************
+2014/04/24 02:57:04 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/24 02:57:04 [info] [application] [Forced] Finished task 8 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+
+******************************************************************************************************
+2014/04/24 02:57:45 [warning] [application] Craft\ContentModel->latitude failed validation: Latitutde is too small (minimum is 0).
+2014/04/24 02:57:45 [warning] [application] Craft\ContentModel->longitude failed validation: Longitude must be an integer.
+
+******************************************************************************************************
+2014/04/24 02:59:21 [warning] [application] Craft\ContentModel->latitude failed validation: Latitutde is too small (minimum is 0).
+2014/04/24 02:59:21 [warning] [application] Craft\ContentModel->longitude failed validation: Longitude must be an integer.
+
+******************************************************************************************************
+2014/04/24 02:59:22 [warning] [application] Craft\ContentModel->latitude failed validation: Latitutde is too small (minimum is 0).
+2014/04/24 02:59:22 [warning] [application] Craft\ContentModel->longitude failed validation: Longitude must be an integer.
+
+******************************************************************************************************
+2014/04/24 02:59:52 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/24 02:59:52 [info] [application] [Forced] Finished task 9 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+
+******************************************************************************************************
+2014/04/24 03:01:00 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/24 03:01:00 [info] [application] [Forced] Finished task 10 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+
+******************************************************************************************************
+2014/04/24 03:02:02 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/24 03:02:02 [info] [application] [Forced] Finished task 11 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+
+******************************************************************************************************
+2014/04/24 03:03:14 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/24 03:03:14 [info] [application] [Forced] Finished task 12 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+
+******************************************************************************************************
+2014/04/24 03:11:37 [error] [php] Object of class Craft\ElementCriteriaModel could not be converted to string (/Users/elliottmunoz/Sites/dreamyear/craft/storage/runtime/compiled_templates/c3/f0/6fbf28557be4874c5b72350423c056e3e2f91af43f6b0291fc3f48c90d7d.php:58)
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Template.php(278): __TwigTemplate_469a1b56abaf46bccc410b605392aeaac260c85792a6dea045d44a7b770c8cc2->doDisplay()
+#1 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Template.php(252): __TwigTemplate_469a1b56abaf46bccc410b605392aeaac260c85792a6dea045d44a7b770c8cc2->displayWithErrorHandling()
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/storage/runtime/compiled_templates/c3/f0/6fbf28557be4874c5b72350423c056e3e2f91af43f6b0291fc3f48c90d7d.php(24): __TwigTemplate_469a1b56abaf46bccc410b605392aeaac260c85792a6dea045d44a7b770c8cc2->display()
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Template.php(278): __TwigTemplate_c3f06fbf28557be4874c5b72350423c056e3e2f91af43f6b0291fc3f48c90d7d->doDisplay()
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Template.php(252): __TwigTemplate_c3f06fbf28557be4874c5b72350423c056e3e2f91af43f6b0291fc3f48c90d7d->displayWithErrorHandling()
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Template.php(263): __TwigTemplate_c3f06fbf28557be4874c5b72350423c056e3e2f91af43f6b0291fc3f48c90d7d->display()
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Environment.php(292): __TwigTemplate_c3f06fbf28557be4874c5b72350423c056e3e2f91af43f6b0291fc3f48c90d7d->render()
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TemplatesService.php(158): Twig_Environment->render()
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/BaseController.php(75): Craft\TemplatesService->render()
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(185): Craft\TemplatesController->renderTemplate()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render()
+#11 unknown(0): Craft\TemplatesController->actionRender()
+#12 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#13 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#14 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams()
+#15 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): Craft\TemplatesController->runAction()
+#16 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): Craft\TemplatesController->runActionWithFilters()
+#17 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): Craft\TemplatesController->run()
+#18 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): Craft\WebApp->runController()
+#19 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): Craft\WebApp->processRequest()
+#20 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#21 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): Craft\WebApp->run()
+#22 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once()
+REQUEST_URI=/pitchnight
+2014/04/24 03:11:37 [error] [application] Unable to find the template “500”.
+2014/04/24 03:11:37 [error] [application] Unable to find the template “error”.
+
+******************************************************************************************************
+2014/04/24 03:19:50 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/24 03:19:50 [info] [application] [Forced] Finished task 13 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+
+******************************************************************************************************
+2014/04/24 03:21:43 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/24 03:21:43 [info] [application] [Forced] Finished task 14 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+
+******************************************************************************************************
+2014/04/24 13:40:17 [error] [exception.Twig_Error_Syntax] exception 'Twig_Error_Syntax' with message 'Unexpected token "operator" of value "<" in "_layouts/_pitch-night" at line 15' in /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/ExpressionParser.php:175
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#1 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Parser.php(141): Twig_ExpressionParser->parseExpression()
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/TokenParser/For.php(47): Twig_Parser->subparse(Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Parser.php(187): Twig_TokenParser_For->parse(Object(Twig_Token))
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/TokenParser/For.php(47): Twig_Parser->subparse(Array)
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Parser.php(187): Twig_TokenParser_For->parse(Object(Twig_Token))
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/TokenParser/Block.php(45): Twig_Parser->subparse(Array, true)
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Parser.php(187): Twig_TokenParser_Block->parse(Object(Twig_Token))
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Parser.php(95): Twig_Parser->subparse(NULL, false)
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Environment.php(507): Twig_Parser->parse(Object(Twig_TokenStream))
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Environment.php(559): Twig_Environment->parse(Object(Twig_TokenStream))
+#12 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Environment.php(334): Twig_Environment->compileSource('?{% extends "_l...', '_layouts/_pitch...')
+#13 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Environment.php(292): Twig_Environment->loadTemplate('_layouts/_pitch...')
+#14 /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TemplatesService.php(158): Twig_Environment->render('_layouts/_pitch...', Array)
+#15 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/BaseController.php(75): Craft\TemplatesService->render('_layouts/_pitch...', Array)
+#16 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(185): Craft\BaseController->renderTemplate('_layouts/_pitch...', Array)
+#17 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('_layouts/_pitch...', Array)
+#18 [internal function]: Craft\TemplatesController->actionRender('_layouts/_pitch...', Array)
+#19 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#20 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#21 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#22 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#23 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#24 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#25 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#26 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#27 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#28 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#29 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#30 {main}
+REQUEST_URI=/pitchnight
+HTTP_REFERER=http://dreamyear.dev/admin/entries/singles
+---
+2014/04/24 13:40:18 [error] [application] Unable to find the template “500”.
+2014/04/24 13:40:18 [error] [application] Unable to find the template “error”.
+
+******************************************************************************************************
+2014/04/24 13:40:34 [error] [exception.Twig_Error_Syntax] exception 'Twig_Error_Syntax' with message 'Unexpected token "name" of value "item" ("end of print statement" expected) in "_layouts/_pitch-night" at line 15' in /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/TokenStream.php:88
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Parser.php(142): Twig_TokenStream->expect(4)
+#1 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/TokenParser/For.php(47): Twig_Parser->subparse(Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Parser.php(187): Twig_TokenParser_For->parse(Object(Twig_Token))
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/TokenParser/For.php(47): Twig_Parser->subparse(Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Parser.php(187): Twig_TokenParser_For->parse(Object(Twig_Token))
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/TokenParser/Block.php(45): Twig_Parser->subparse(Array, true)
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Parser.php(187): Twig_TokenParser_Block->parse(Object(Twig_Token))
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Parser.php(95): Twig_Parser->subparse(NULL, false)
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Environment.php(507): Twig_Parser->parse(Object(Twig_TokenStream))
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Environment.php(559): Twig_Environment->parse(Object(Twig_TokenStream))
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Environment.php(334): Twig_Environment->compileSource('?{% extends "_l...', '_layouts/_pitch...')
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/twig/twig/lib/Twig/Environment.php(292): Twig_Environment->loadTemplate('_layouts/_pitch...')
+#12 /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TemplatesService.php(158): Twig_Environment->render('_layouts/_pitch...', Array)
+#13 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/BaseController.php(75): Craft\TemplatesService->render('_layouts/_pitch...', Array)
+#14 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(185): Craft\BaseController->renderTemplate('_layouts/_pitch...', Array)
+#15 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('_layouts/_pitch...', Array)
+#16 [internal function]: Craft\TemplatesController->actionRender('_layouts/_pitch...', Array)
+#17 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#18 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#19 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#20 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#21 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#22 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#23 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#24 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#25 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#26 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#27 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#28 {main}
+REQUEST_URI=/pitchnight
+HTTP_REFERER=http://dreamyear.dev/admin/entries/singles
+---
+2014/04/24 13:40:34 [error] [application] Unable to find the template “500”.
+2014/04/24 13:40:34 [error] [application] Unable to find the template “error”.
+
+******************************************************************************************************
+2014/04/24 14:59:43 [error] [application] Unable to find the template “assets/scripts/src/vendor/jquery-2.0.3.min.map”.
+2014/04/24 14:59:43 [error] [application] 404 - 
+2014/04/24 14:59:43 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('assets/scripts/...', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('assets/scripts/...', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/assets/scripts/src/vendor/jquery-2.0.3.min.map
+HTTP_REFERER=http://dreamyear.dev/pitchnight
+---
+
+******************************************************************************************************
+2014/04/24 14:59:55 [error] [application] Unable to find the template “assets/scripts/src/vendor/jquery-2.0.3.min.map”.
+2014/04/24 14:59:55 [error] [application] 404 - 
+2014/04/24 14:59:55 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('assets/scripts/...', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('assets/scripts/...', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/assets/scripts/src/vendor/jquery-2.0.3.min.map
+HTTP_REFERER=http://dreamyear.dev/pitchnight
+---
+
+******************************************************************************************************
+2014/04/24 16:40:45 [error] [application] Unable to find the template “docs-assets/ico/favicon.png”.
+2014/04/24 16:40:45 [error] [application] 404 - 
+2014/04/24 16:40:45 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('docs-assets/ico...', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('docs-assets/ico...', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/docs-assets/ico/favicon.png
+---
+
+******************************************************************************************************
+2014/04/24 16:57:18 [info] [application] [Forced] Starting task DeleteStaleTemplateCaches that has a total of 0 steps.
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (176)
+2014/04/24 16:57:18 [info] [application] [Forced] Finished task 1 (DeleteStaleTemplateCaches).
+in /Users/elliottmunoz/Sites/dreamyear/craft/app/services/TasksService.php (221)
+
+******************************************************************************************************
+2014/04/25 02:06:30 [error] [application] Unable to find the template “docs-assets/ico/favicon.png”.
+2014/04/25 02:06:30 [error] [application] 404 - 
+2014/04/25 02:06:30 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('docs-assets/ico...', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('docs-assets/ico...', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/docs-assets/ico/favicon.png
+---
+
+******************************************************************************************************
+2014/04/25 02:06:30 [error] [application] Unable to find the template “docs-assets/ico/favicon.png”.
+2014/04/25 02:06:30 [error] [application] 404 - 
+2014/04/25 02:06:30 [error] [exception.Craft\HttpException.404] exception 'Craft\HttpException' in /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php:191
+Stack trace:
+#0 /Users/elliottmunoz/Sites/dreamyear/craft/app/controllers/TemplatesController.php(27): Craft\TemplatesController->_render('docs-assets/ico...', Array)
+#1 [internal function]: Craft\TemplatesController->actionRender('docs-assets/ico...', Array)
+#2 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Craft\TemplatesController), Array)
+#3 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Craft\TemplatesController), Object(ReflectionMethod), Array)
+#4 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(282): CController->run('render')
+#8 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/web/CWebApplication.php(141): CWebApplication->runController('templates/rende...')
+#9 /Users/elliottmunoz/Sites/dreamyear/craft/app/etc/web/WebApp.php(240): CWebApplication->processRequest()
+#10 /Users/elliottmunoz/Sites/dreamyear/craft/app/framework/base/CApplication.php(180): Craft\WebApp->processRequest()
+#11 /Users/elliottmunoz/Sites/dreamyear/craft/app/index.php(196): CApplication->run()
+#12 /Users/elliottmunoz/Sites/dreamyear/public/index.php(14): require_once('/Users/elliottm...')
+#13 {main}
+REQUEST_URI=/docs-assets/ico/favicon.png
+---
+
+******************************************************************************************************
+2014/04/25 02:06:42 [warning] [application] Tried to restore session from the the identity cookie, but the saved userAgent (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36) does not match the current userAgent (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36).
+2014/04/25 02:06:42 [error] [application] Tried to restore session from a cookie, but the given login name does not match the given uid. UID: 76140d55-4751-4c0f-bdef-e3ba9a8eff2e and loginName: elliottmunoz.
+
+******************************************************************************************************

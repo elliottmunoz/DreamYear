@@ -23,9 +23,25 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 374.0,
+		"height": 62.0,
 		"selected_items":
 		[
+			[
+				"Package Control: install	",
+				"Package Control: Install Package"
+			],
+			[
+				"setsyntax: jav",
+				"Set Syntax: JavaScript (Rails)"
+			],
+			[
+				"LiveReload: Enable",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -76,6 +92,25 @@
 	},
 	"file_history":
 	[
+		"/Users/elliottmunoz/Sites/dreamyear/public/assets/stylesheets/application.css",
+		"/Users/elliottmunoz/Sites/dreamyear/craft/templates/_layouts/_profile.html",
+		"/Users/elliottmunoz/Downloads/birdathon/css/responsive.gs.16col.css",
+		"/Users/elliottmunoz/Sites/dreamyear/.gitignore",
+		"/Users/elliottmunoz/Sites/dreamyear/craft/templates/_layouts/_article.html",
+		"/Users/elliottmunoz/Sites/dreamyear/craft/templates/index.html",
+		"/Users/elliottmunoz/Sites/dreamyear/craft/templates/_layout.html",
+		"/Users/elliottmunoz/Sites/dreamyear/craft/storage/runtime/cache/13d12dfc345f92814146d742297f6cdd.bin",
+		"/Users/elliottmunoz/Sites/dreamyear/public/index.php",
+		"/Users/elliottmunoz/Sites/dreamyear/craft/templates/articles/index.html",
+		"/Users/elliottmunoz/Sites/dreamyear/craft/templates/articles/_entry.html",
+		"/Users/elliottmunoz/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/elliottmunoz/Sites/dreamyear/craft/app/vendor/composer/autoload_psr4.php",
+		"/Users/elliottmunoz/Sites/dreamyear/craft/app/translations/ar.php",
+		"/Users/elliottmunoz/Sites/dreamyear/public/assets/scripts/src/core/application.js",
+		"/Users/elliottmunoz/Desktop/selection.json",
+		"/Users/elliottmunoz/Desktop/snippet",
+		"/Users/elliottmunoz/Library/Application Support/Sublime Text 3/Packages/User/HTML.sublime-settings",
+		"/Users/elliottmunoz/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/elliottmunoz/Downloads/stumps-01.svg",
 		"/Users/elliottmunoz/Desktop/snippets.html",
 		"/Users/elliottmunoz/Downloads/Forest-01.svg",
@@ -85,7 +120,6 @@
 		"/Applications/MAMP/htdocs/dreamyear/public/assets/stylesheets/application.css",
 		"/Applications/MAMP/htdocs/dreamyear/craft/templates/_layout.html",
 		"/Applications/MAMP/htdocs/dreamyear/public/contact/thanks/index.html",
-		"/Users/elliottmunoz/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/Applications/MAMP/htdocs/dreamyear/craft/app/controllers/TagsController.php",
 		"/Applications/MAMP/htdocs/dreamyear/craft/templates/_forms/_speaking.html",
 		"/Applications/MAMP/htdocs/dreamyear/public/htaccess",
@@ -147,7 +181,6 @@
 		"/Users/elliottmunoz/Dropbox/Clients/Homespun/Homespun.txt",
 		"/Users/elliottmunoz/Documents/Khan Academy/commoncore.txt",
 		"/Users/elliottmunoz/Documents/ESPN/espn.txt",
-		"/Users/elliottmunoz/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/elliottmunoz/Desktop/96E.txt",
 		"/Users/elliottmunoz/Desktop/khan_academy.txt",
 		"/Users/elliottmunoz/GitHub/clients/ci/demo/cluster/cluster.html",
@@ -186,24 +219,7 @@
 		"/Users/elliottmunoz/Desktop/svg.svg",
 		"/Users/elliottmunoz/Desktop/sample_svg_code.svg",
 		"/Users/elliottmunoz/GitHub/svg/windows.svg",
-		"/Users/elliottmunoz/GitHub/elliottmunoz.github.io/index.html",
-		"/Users/elliottmunoz/Desktop/svg/eye.svg",
-		"/Users/elliottmunoz/Desktop/svg/path_circle.svg",
-		"/Users/elliottmunoz/Desktop/svg/eye.xml",
-		"/Users/elliottmunoz/Desktop/circle.svg",
-		"/Users/elliottmunoz/Desktop/svg/animated_line.svg",
-		"/Users/elliottmunoz/Desktop/eye_animated.svg",
-		"/Users/elliottmunoz/Pictures/Desktop/eye_animated.svg",
-		"/eye_animated.svg",
-		"/Users/elliottmunoz/Documents/96Elephants/Map/Data/new-york.osm2pgsql-shapefiles/new-york.osm-point.prj",
-		"/Users/elliottmunoz/Documents/96Elephants/Map/Data/new-york.osm2pgsql-shapefiles/new-york.osm-point.shp",
-		"/Users/elliottmunoz/Documents/96Elephants/Map/Data/new-york.osm2pgsql-shapefiles/new-york.osm-point.shx",
-		"/Users/elliottmunoz/Documents/96Elephants/Map/Data/new-york.osm2pgsql-shapefiles/new-york.osm-point.dbf",
-		"/Users/elliottmunoz/Desktop/circles.svg",
-		"/Users/elliottmunoz/Desktop/mark_gold.svg",
-		"/Users/elliottmunoz/Desktop/MBTles/96Elephants.xml",
-		"/Users/elliottmunoz/Desktop/MBTiles/metadata.json",
-		"/Users/elliottmunoz/Desktop/96Elephants.xml"
+		"/Users/elliottmunoz/GitHub/elliottmunoz.github.io/index.html"
 	],
 	"find":
 	{
@@ -221,6 +237,22 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"article__intro",
+			"form",
+			"story__content",
+			"h2",
+			"profile__content",
+			"					\n",
+			"profile",
+			"audio",
+			"speaking",
+			"form",
+			"indent",
+			"contact",
+			"wrapper",
+			"story",
+			"abso",
+			"text__area",
 			"button",
 			"form__element__full",
 			"form_element_full",
@@ -312,6 +344,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"applic",
+				"public/assets/stylesheets/application.css"
+			],
 			[
 				"inter",
 				"interactive.html"
