@@ -217,20 +217,24 @@
 		quality: 75,
 		position: 'top-center'
 	} %}
-	{% for entry in craft.entries.section('articles').find() %}
+	<div class="owl-carousel">
 	<div class="article__index">
+	{% for entry in craft.entries.section('articles').find() %}
+
 		<div class="article__thumb">
 			<a href="{{ entry.url }}">
 			<div class="article__image">
 			{% for asset in entry.articleImage %}
-				<img class="image__fluid zoom" src="{{ asset.url(thumb) }}" alt="{{ entry.title }}">
+				<img class="image__fluid zoom" src="{{ asset.url(thumb) }}" width="{{ asset.getWidth(thumb) }}" height="{{ asset.getHeight(thumb) }}" alt="{{ entry.title }}">
 			{% endfor %}
 			</div>
 			<div class="article__name"><h5>{{ entry.title }}</h5></div>
 			</a>
 		</div>
-	</div>
+
 	{% endfor %}
+	</div>
+	</div>
 </div>
 </div>
 <!--Event-->
