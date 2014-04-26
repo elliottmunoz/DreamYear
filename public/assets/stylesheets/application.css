@@ -166,7 +166,7 @@ footer{
 	animation:none;
 	color: #B94643;
 	cursor: pointer;
-	background: #1b2135;
+	background: #212942;
 }
 
 .hide{
@@ -226,7 +226,7 @@ footer{
 
 .video{
 	position: relative;
-	padding-bottom: 56.25%;
+	padding-bottom: 43.25%;
 	padding-top: 25px;
 	height: 0;
 }
@@ -309,10 +309,12 @@ form{
 }
 
 .form__label{
-	color: #a5a2a2;
-	font-size: .7em;
+	color: #aca9a9;
+	font: .7em function_pro_bookbold;
+	letter-spacing: .05em;
 	margin: 0;
 	padding: 0;
+	text-transform: uppercase;
 }
 
 .form__element{
@@ -350,13 +352,19 @@ form{
 .form__element__textarea:focus{
 	border: 3px solid #1b2135;
 	color: #B94643;
-	 outline: none;
+	outline: none;
+}
+
+.section--blue .form__element__textfield{
+	background: #303b61;
+	border-color: #303b61;
+	color: #aca9a9;
 }
 
 .required{}
 
 .required:after{
-	color: red;
+	color: #B94643;
 	content:"*";
 }
 
@@ -372,11 +380,11 @@ form{
 }
 
 .article__index{
-
 }
 
 .article__thumb{
 	float: left;
+	width: 20%;
 }
 
 .article__image{
@@ -385,7 +393,8 @@ form{
 }
 
 .article__name{
-	padding: 5%;
+	min-height: 50px;
+	padding: 10px 5%;
 }
 
 .article__intro > h4{
@@ -405,6 +414,12 @@ form{
 	height: 500px;
 }
 
+/*EMAIL*/
+
+.section--email{
+	padding: 1em 0;
+}
+
 /*ABOUT*/
 
 .section--about{}
@@ -418,7 +433,7 @@ form{
 	display: inline-block;
 	list-style: none;
 	margin: 0;
-	min-height: 80px;
+	/*min-height: 80px;*/
 	padding: 0;
 	text-align: center;
 	float: left;
@@ -426,7 +441,7 @@ form{
 
 .reseller img{
 	display: block;
-	padding: 15%;
+	padding: 5% 15%;
 	width: 70%;
 }
 
@@ -586,6 +601,9 @@ li.tour--stop{
 	.stories__index__image{
 		width: 50%;
 	}
+	.article__thumb{
+		width: 50%;
+	}
 
 	h1{
 		font-size: 2em;
@@ -615,9 +633,15 @@ li.tour--stop{
 	h1{
 		font-size: 3em;
 	}
+	.article__thumb{
+		width: 33.333333%;
+	}
 }
 
 @media screen and (min-width: 960px) {
+	.reseller{
+		width: 12.5%;
+	}
 	.chapter{
 		min-height: 15em;
 		padding: 0 3%;
@@ -642,6 +666,9 @@ li.tour--stop{
 	.button{
 		min-width: 100px;
 		max-width: 300px;
+	}
+	.article__thumb{
+		width: 20%;
 	}
 }
 

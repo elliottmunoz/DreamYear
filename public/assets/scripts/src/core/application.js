@@ -11,8 +11,7 @@ contact.click(function(){
     return false;
 })
 
-
-var map = L.mapbox.map('map', 'elliottmunoz.hj6m67pi', {zoomControl: false})
+var map = L.mapbox.map('map', 'elliottmunoz.hj6m67pi', {minZoom: 4, zoomControl: false})
 .setView([39.555, -96.768], 5);
 
 //Basic responsive rules
