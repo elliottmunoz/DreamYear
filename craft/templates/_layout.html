@@ -14,16 +14,7 @@
 <body>
 	<div id="container">
 		<header id="header">
-			<nav>
-				<ul class="nav">
-					<li><a href="#">{{entry.aboutHeading}}</a></li>
-					<li><a href="#">{{entry.authorHeading}}</a></li>
-					<li><a href="#">{{entry.storiesHeading}}</a></li>
-					<li><a href="#">{{entry.speakingHeading}}</a></li>
-					<li><a href="#articles">Articles</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
-			</nav>
+			{% include "_shared/_nav" %}
 		</header>
 
 		<main id="content" role="main">
@@ -39,5 +30,6 @@
 	<script src="/assets/scripts/src/vendor/jquery.js"></script>
 	<script src="/assets/scripts/src/plugins/owl.carousel.js"></script>
 	<script src="/assets/scripts/src/plugins/jquery.fitvids.js"></script>
+	<script src="/assets/scripts/src/plugins/jquery.cycle2.min.js"></script>
 	<script src="{{ craft.bust.er('/assets/scripts/src/core/application.js') }}"></script>
 </body>

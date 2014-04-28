@@ -33,6 +33,15 @@ h1{
 	text-transform: uppercase;
 }
 
+h1.slogan{
+	bottom: 15%;
+	color: white;
+	display: block;
+	position: absolute;
+	width: 100%;
+	z-index: 1001;
+}
+
 h2{
 	font: 2em function_pro_bookbold;
 	letter-spacing: .02em;
@@ -97,6 +106,14 @@ footer{
 	text-transform: uppercase;
 	width: 100%;
 }
+
+::selection {
+	background: #aca9a9;
+	}
+::-moz-selection {
+	background: #aca9a9;
+}
+
 
 /*MAP*/
 #map {
@@ -183,13 +200,14 @@ footer{
 	position: relative;
 	width: 100%;
 }
-
+/*
 .section--split{
 	height: 100%;
 	padding: 0;
 	position: absolute;
 }
-
+*/
+/*
 .subsection{
 	display: block;
 	float: left;
@@ -197,7 +215,7 @@ footer{
 	position: relative;
 	width: 50%;
 }
-
+*/
 .section--blue{
 	background: #1b2135;
 	color: #b1beca;
@@ -239,8 +257,23 @@ footer{
 	width: 100%;
 }
 
+/*RESOURCE PAGE*/
+.resources{
+	padding: 1em 0;
+}
+
+.resource{
+	padding: 0.5em 0;
+}
+
+
 /*STORY PAGES*/
 
+.stories__index{
+	display: block;
+	float: left;
+	width: 100%;
+}
 
 .stories__index__image{
 	float: left;
@@ -355,10 +388,15 @@ form{
 	outline: none;
 }
 
-.section--blue .form__element__textfield{
+.form__element__textfield--blue{
 	background: #303b61;
 	border-color: #303b61;
 	color: #aca9a9;
+}
+
+.form__element__textfield--blue:focus{
+	background: #F5F2F2;
+	border-color: #F5F2F2;
 }
 
 .required{}
@@ -419,6 +457,18 @@ form{
 .section--email{
 	padding: 1em 0;
 }
+
+/*FEATURES*/
+
+.section--features{
+	padding: 0;
+}
+
+.feature{
+	width: 100%;
+}
+
+
 
 /*ABOUT*/
 
@@ -669,6 +719,12 @@ li.tour--stop{
 	}
 	.article__thumb{
 		width: 20%;
+	}
+	h1{
+		font-size: 3em;
+	}
+	h1.slogan{
+		font-size: 4.5em;
 	}
 }
 

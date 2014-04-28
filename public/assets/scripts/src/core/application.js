@@ -11,6 +11,37 @@ contact.click(function(){
     return false;
 })
 
+//Scroll to #ID based on anchor
+  var baseSpeed=2000;
+
+  function getSpeed(t){
+    var offset=($(t).offset());
+    var ratio=offset.top/$(document).height();
+    var ratioRounded=ratio.toFixed(2)
+    var speed=ratioRounded*baseSpeed;
+    return(speed);
+  }
+
+  function scrollToSection(t, s){
+    y=$(t).offset().top;
+    $("html,body").animate({scrollTop:y}, {
+      duration: s,
+      easing: 'swing',
+      queue: false,
+      complete: function(){
+        window.location.hash = t;
+      }
+    });
+  }
+
+var item=$('.nav li a');
+  item.click(function(){
+    var target=this.getAttribute('href');
+    scrollToSection(target, getSpeed(target));
+    return false;
+  });
+
+
 var map = L.mapbox.map('map', 'elliottmunoz.hj6m67pi', {minZoom: 4, zoomControl: false})
 .setView([39.555, -96.768], 5);
 
@@ -43,7 +74,6 @@ map.markerLayer.on('layeradd', function (e) {
 	feature = marker.feature;
 	marker.setIcon(L.icon(feature.properties.icon));
 });
-
 
 map.markerLayer.setGeoJSON(geoJson);
 map.setZoomRange(5, 17);
