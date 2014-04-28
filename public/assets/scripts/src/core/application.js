@@ -1,11 +1,11 @@
 $(document).ready(function(){
 	$(".video").fitVids();
 	$(".owl-carousel").owlCarousel({
-      items : 5, //10 items above 1000px browser width
-      itemsDesktop : [1000,5], //5 items between 1000px and 961px
-      itemsDesktopSmall : [900,4], // betweem 960p and 601px
-      itemsTablet: [600,2], //2 items between 600 and 0
-      itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
+      items : 5,
+      itemsDesktop : [1200,5],
+      itemsDesktopSmall : [960,4],
+      itemsTablet: [640,3],
+      itemsMobile : [480,2]
   });
 });
 
