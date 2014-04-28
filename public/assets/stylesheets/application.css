@@ -419,11 +419,12 @@ form{
 
 .article__index{
 }
-
+/*
 .article__thumb{
 	float: left;
 	width: 20%;
 }
+*/
 
 .article__image{
 	overflow: hidden;
@@ -651,10 +652,11 @@ li.tour--stop{
 	.stories__index__image{
 		width: 50%;
 	}
+	/*
 	.article__thumb{
 		width: 50%;
 	}
-
+	*/
 	h1{
 		font-size: 2em;
 	}
@@ -683,9 +685,11 @@ li.tour--stop{
 	h1{
 		font-size: 3em;
 	}
+	/*
 	.article__thumb{
 		width: 33.333333%;
 	}
+	*/
 }
 
 @media screen and (min-width: 960px) {
@@ -717,9 +721,11 @@ li.tour--stop{
 		min-width: 100px;
 		max-width: 300px;
 	}
+	/*
 	.article__thumb{
 		width: 20%;
 	}
+	*/
 	h1{
 		font-size: 3em;
 	}
