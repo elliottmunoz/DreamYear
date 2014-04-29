@@ -91,155 +91,162 @@
 	<div class="section section--stories section--blue">
 		<div class="wrapper">
 			<h2 id="{{entry.storiesHeading|replace(' ','-')|lower}}">{{entry.storiesHeading}}</h2>
-			<div class="stories__index">
-				{% for entry in craft.entries.section('stories').find() %}
-				<div class="stories__index__image">
-					<a href="/{{ entry.uri }}"><img class="image__fluid zoom" src="{{ entry.storyImage.first().url }}" alt="{{ entry.title }}"></a>
-				</div>
-				{% endfor %}
-			</div>
-		</div>
-	</div>
-	<!--Speaking-->
-	<div class="section section--speaking">
-		<div class="wrapper">
-			<h2 id="{{entry.speakingHeading|replace(' ','-')|lower}}">{{entry.speakingHeading}}</h2>
-			<div class="speaking__sample">
-				{% for asset in entry.speakingImage %}
-				<div class="speaking--image">
-					<img class="image__fluid" src="{{ asset.url }}" alt="Ben">
-				</div>
-				{% endfor %}
-				<div class="speaking__audio">
-					{% for item in entry.speakingSample %}
-					<h5>{{ item.audioSampleTitle }}</h5>
-					<audio controls>
-						<source src="{% for asset in item.mp3 %}
-						{{ asset.url }}
-						{% endfor %}" type="audio/mpeg">
-						<source src="{% for asset in item.ogg %}
-						{{ asset.url }}
-						{% endfor %}" type="audio/ogg">
-						Your browser does not support the audio element.
-					</audio>
-					{% endfor %}
-				</div>
-			</div>
-			<div class="description">{{entry.speakingDescription}}</div>
-			<div id="contactBtn" class="button">Invite Ben</div>
-			<div class="speaking__form">
-				<h5>Invite</h5>
-				<h3>Ben Arment</h3>
-				{% macro errorList(errors) %}
-				{% if errors %}
-				<ul class="errors">
-					{% for error in errors %}
-					<li>{{ error }}</li>
-					{% endfor %}
-				</ul>
-				{% endif %}
-				{% endmacro %}
-
-				{% from _self import errorList %}
-
-				<form method="post" action="" accept-charset="UTF-8">
-					<input type="hidden" name="action" value="contactForm/sendMessage">
-					<input type="hidden" name="redirect" value="contact/thanks">
-					<div class="form__element form__element__half">
-						<label for="fromName" class="form__label">Your Name</label>
-						<input id="fromName" class="form__element__textfield" type="text" name="fromName" value="{% if message is defined %}{{ message.fromName }}{% endif %}">
-					</div>
-					{% if message is defined %}{{ errorList(message.getErrors('fromName')) }}{% endif %}
-					<div class="form__element form__element__half">
-						<label for="fromEmail" class="form__label required">Your Email</label>
-						<input id="fromEmail" class="form__element__textfield" type="email" name="fromEmail" value="{% if message is defined %}{{ message.fromEmail }}{% endif %}">
-					</div>
-					{% if message is defined %}{{ errorList(message.getErrors('fromEmail')) }}{% endif %}
-					<div class="form__element form__element__half">
-						<label for="phone" class="form__label required">Phone</label>
-						<input id="phone" class="form__element__textfield" type="tel" name="message[Phone]" value="" placeholder="(×××) ×××-××××">
-					</div>
-					<div class="form__element form__element__half">
-						<label for="event" class="form__label required">Event Name</label>
-						<input id="event" class="form__element__textfield" type="text" name="message[Event]" value="">
-					</div>
-					<div class="form__element form__element__half">
-						<label for="dates" class="form__label required">Dates</label>
-						<input id="dates" class="form__element__textfield" type="date" name="message[Dates]" value="">
-					</div>
-					<div class="form__element form__element__half">
-						<label for="budget" class="form__label required">Budget</label>
-						<input id="budget" class="form__element__textfield" type="number" name="message[Budget]" value="">
-					</div>
-					<div class="form__element form__element__full">
-						<label for="message" class="form__label required">Tell us about your Event</label>
-						<textarea rows="5" id="message" class="form__element__textarea" name="message[body]">{% if message is defined %}{{ message.message }}{% endif %}</textarea>
-					</div>
-					{% if message is defined %}{{ errorList(message.getErrors('message')) }}{% endif %}
-					<div class="form__element form__element__full">
-						<input class="button" type="submit" value="Send">
-					</div>
-				</form>
-			</div>
-		</div>
-	</div>
-	<!--Pitch Nights-->
-	{% if entry.pitchNightPublish %}
-	<div class="section section--blue section--pitch">
-		<div class="wrapper">
-			<h2 id="{{entry.pitchNightHeading|replace(' ','-')|lower}}">{{entry.pitchNightHeading}}</h2>
-			<div class="video">
-				<iframe src="//player.vimeo.com/video/{{entry.pitchNightVideoId}}" width="500" height="213" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-			</div>
-
-			<div class="description">{{entry.pitchNightDescription}}</div>
-			<ul class="tour">
-				{% for item in entry.pitchNightEvents %}
-				<li class="tour--stop">
-					<div class="tour--date">
-						<h5>
-							{% if item.eventDate %}
-							{{ item.eventDate.format('F d') }}
-							{% else %}
-							Coming Soon
-							{% endif %}
-						</h5>
-					</div>
-					<div class="tour--city">
-						<h3><a href="{{ item.eventRegistrationLink }}">{{ item.eventCity }}</a></h3>
-					</div>
-				</li>
-				{% endfor %}
-			</ul>
-		</div>
-	</div>
-	{% endif %}
-	<!--Articles-->
-	<div class="section section--articles">
-		<div class="wrapper">
-			<h2 id="articles">Articles</h2>
-			{% set thumb = {
+			{% set storythumb = {
 			mode: 'crop',
-			width: 200,
-			height: 300,
+			width: 250,
+			height: 250,
 			quality: 75,
 			position: 'top-center'
 		} %}
-		<div id="articles" class="owl-carousel owl-theme">
-			{% for entry in craft.entries.section('articles').find() %}
-			<div>
-				<a href="{{ entry.url }}">
-					<div class="article__image">
-						{% for asset in entry.articleImage %}
-						<img class="image__fluid zoom" src="{{ asset.url(thumb) }}" width="{{ asset.getWidth(thumb) }}" height="{{ asset.getHeight(thumb) }}" alt="{{ entry.title }}">
-						{% endfor %}
-					</div>
-					<div class="article__name"><h5>{{ entry.title }}</h5></div>
-				</a>
+		<div class="stories__index">
+			{% for entry in craft.entries.section('stories').find() %}
+			<div class="stories__index__image">
+				<a href="/{{ entry.uri }}"><img class="image__fluid zoom" src="{{ entry.storyImage.first().url(storythumb) }}" width="{{ asset.getWidth(storythumb) }}" height="{{ asset.getHeight(storythumb) }}" alt="{{ entry.title }}"></a>
 			</div>
 			{% endfor %}
 		</div>
 	</div>
+</div>
+<!--Speaking-->
+<div class="section section--speaking">
+	<div class="wrapper">
+		<h2 id="{{entry.speakingHeading|replace(' ','-')|lower}}">{{entry.speakingHeading}}</h2>
+		<div class="speaking__sample">
+			{% for asset in entry.speakingImage %}
+			<div class="speaking--image">
+				<img class="image__fluid" src="{{ asset.url }}" alt="Ben">
+			</div>
+			{% endfor %}
+			<div class="speaking__audio">
+				{% for item in entry.speakingSample %}
+				<h5>{{ item.audioSampleTitle }}</h5>
+				<audio controls>
+					<source src="{% for asset in item.mp3 %}
+					{{ asset.url }}
+					{% endfor %}" type="audio/mpeg">
+					<source src="{% for asset in item.ogg %}
+					{{ asset.url }}
+					{% endfor %}" type="audio/ogg">
+					Your browser does not support the audio element.
+				</audio>
+				{% endfor %}
+			</div>
+		</div>
+		<div class="description">{{entry.speakingDescription}}</div>
+		<div id="contactBtn" class="button">Invite Ben</div>
+		<div class="speaking__form">
+			<h5>Invite</h5>
+			<h3>Ben Arment</h3>
+			{% macro errorList(errors) %}
+			{% if errors %}
+			<ul class="errors">
+				{% for error in errors %}
+				<li>{{ error }}</li>
+				{% endfor %}
+			</ul>
+			{% endif %}
+			{% endmacro %}
+
+			{% from _self import errorList %}
+
+			<form method="post" action="" accept-charset="UTF-8">
+				<input type="hidden" name="action" value="contactForm/sendMessage">
+				<input type="hidden" name="redirect" value="contact/thanks">
+				<div class="form__element form__element__half">
+					<label for="fromName" class="form__label">Your Name</label>
+					<input id="fromName" class="form__element__textfield" type="text" name="fromName" value="{% if message is defined %}{{ message.fromName }}{% endif %}">
+				</div>
+				{% if message is defined %}{{ errorList(message.getErrors('fromName')) }}{% endif %}
+				<div class="form__element form__element__half">
+					<label for="fromEmail" class="form__label required">Your Email</label>
+					<input id="fromEmail" class="form__element__textfield" type="email" name="fromEmail" value="{% if message is defined %}{{ message.fromEmail }}{% endif %}">
+				</div>
+				{% if message is defined %}{{ errorList(message.getErrors('fromEmail')) }}{% endif %}
+				<div class="form__element form__element__half">
+					<label for="phone" class="form__label required">Phone</label>
+					<input id="phone" class="form__element__textfield" type="tel" name="message[Phone]" value="" placeholder="(×××) ×××-××××">
+				</div>
+				<div class="form__element form__element__half">
+					<label for="event" class="form__label required">Event Name</label>
+					<input id="event" class="form__element__textfield" type="text" name="message[Event]" value="">
+				</div>
+				<div class="form__element form__element__half">
+					<label for="dates" class="form__label required">Dates</label>
+					<input id="dates" class="form__element__textfield" type="date" name="message[Dates]" value="">
+				</div>
+				<div class="form__element form__element__half">
+					<label for="budget" class="form__label required">Budget</label>
+					<input id="budget" class="form__element__textfield" type="number" name="message[Budget]" value="">
+				</div>
+				<div class="form__element form__element__full">
+					<label for="message" class="form__label required">Tell us about your Event</label>
+					<textarea rows="5" id="message" class="form__element__textarea" name="message[body]">{% if message is defined %}{{ message.message }}{% endif %}</textarea>
+				</div>
+				{% if message is defined %}{{ errorList(message.getErrors('message')) }}{% endif %}
+				<div class="form__element form__element__full">
+					<input class="button" type="submit" value="Send">
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+<!--Pitch Nights-->
+{% if entry.pitchNightPublish %}
+<div class="section section--blue section--pitch">
+	<div class="wrapper">
+		<h2 id="{{entry.pitchNightHeading|replace(' ','-')|lower}}">{{entry.pitchNightHeading}}</h2>
+		<div class="video">
+			<iframe src="//player.vimeo.com/video/{{entry.pitchNightVideoId}}" width="500" height="213" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		</div>
+
+		<div class="description">{{entry.pitchNightDescription}}</div>
+		<ul class="tour">
+			{% for item in entry.pitchNightEvents %}
+			<li class="tour--stop">
+				<div class="tour--date">
+					<h5>
+						{% if item.eventDate %}
+						{{ item.eventDate.format('F d') }}
+						{% else %}
+						Coming Soon
+						{% endif %}
+					</h5>
+				</div>
+				<div class="tour--city">
+					<h3><a href="{{ item.eventRegistrationLink }}">{{ item.eventCity }}</a></h3>
+				</div>
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
+</div>
+{% endif %}
+<!--Articles-->
+<div class="section section--articles">
+	<div class="wrapper">
+		<h2 id="articles">Articles</h2>
+		{% set articlethumb = {
+		mode: 'crop',
+		width: 200,
+		height: 300,
+		quality: 75,
+		position: 'top-center'
+	} %}
+	<div id="articles" class="owl-carousel owl-theme">
+		{% for entry in craft.entries.section('articles').find() %}
+		<div>
+			<a href="{{ entry.url }}">
+				<div class="article__image">
+					{% for asset in entry.articleImage %}
+					<img class="image__fluid zoom" src="{{ asset.url(articlethumb) }}" width="{{ asset.getWidth(articlethumb) }}" height="{{ asset.getHeight(articlethumb) }}" alt="{{ entry.title }}">
+					{% endfor %}
+				</div>
+				<div class="article__name"><h5>{{ entry.title }}</h5></div>
+			</a>
+		</div>
+		{% endfor %}
+	</div>
+</div>
 </div>
 <!--Event-->
 <div class="section">
