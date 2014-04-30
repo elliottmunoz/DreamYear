@@ -2,25 +2,25 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 	<meta charset="utf-8" />
-	 <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>{% if title is defined %}{{ title }} - {% endif %}{{ siteName }}</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{% if title is defined %}{{ title }}{% endif %}</title>
 	<link rel="home" href="{{ siteUrl }}" />
 	<link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
 	<link href="{{ craft.bust.er('/assets/stylesheets/application.css') }}" rel="stylesheet">
-	<link href="/assets/stylesheets/owl.carousel.css" rel="stylesheet">
-	<link href="/assets/stylesheets/owl.theme.css" rel="stylesheet">
+
+	{% block stylesheets %}{% endblock %}
+
 </head>
 
 <body>
 	<div id="container">
 		<header id="header">
-			{% include "_shared/_nav" %}
+		{% block header %}{% endblock %}
 		</header>
-
 		<main id="content" role="main">
 			{% block content %}
-				<p>If you see me, you haven’t set your <code>{% verbatim %}{% block content %}…{% endblock %}{% endverbatim %}</code> yet.</p>
-				<p>See Twig’s <a href="http://twig.sensiolabs.org/doc/templates.html#template-inheritance">Template Inheritance</a> documentation for an explanation.</p>
+			<p>If you see me, you haven’t set your <code>{% verbatim %}{% block content %}…{% endblock %}{% endverbatim %}</code> yet.</p>
+			<p>See Twig’s <a href="http://twig.sensiolabs.org/doc/templates.html#template-inheritance">Template Inheritance</a> documentation for an explanation.</p>
 			{% endblock %}
 		</main>
 		<footer id="footer">
@@ -28,8 +28,6 @@
 		</footer>
 	</div>
 	<script src="/assets/scripts/src/vendor/jquery.js"></script>
-	<script src="/assets/scripts/src/plugins/owl.carousel.js"></script>
-	<script src="/assets/scripts/src/plugins/jquery.fitvids.js"></script>
-	<script src="/assets/scripts/src/plugins/jquery.cycle2.min.js"></script>
+	{% block javascripts %}{% endblock %}
 	<script src="{{ craft.bust.er('/assets/scripts/src/core/application.js') }}"></script>
 </body>

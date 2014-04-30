@@ -1,5 +1,25 @@
 	{% extends "_layout" %}
-
+	{% block stylesheets %}
+	<link href="/assets/stylesheets/owl.carousel.css" rel="stylesheet">
+	<link href="/assets/stylesheets/owl.theme.css" rel="stylesheet">
+	{% endblock %}
+	{% block javascripts %}
+	<script src="/assets/scripts/src/plugins/owl.carousel.js"></script>
+	<script src="/assets/scripts/src/plugins/jquery.fitvids.js"></script>
+	<script src="/assets/scripts/src/plugins/jquery.cycle2.min.js"></script>
+	{% endblock %}
+	{% block header %}
+		<nav>
+			<ul class="nav">
+				<li><a href="#{{entry.aboutHeading|replace(' ','-')|lower}}">{{entry.aboutHeading}}</a></li>
+				<li><a href="#{{entry.authorHeading|replace(' ','-')|lower}}">{{entry.authorHeading}}</a></li>
+				<li><a href="#{{entry.storiesHeading|replace(' ','-')|lower}}">{{entry.storiesHeading}}</a></li>
+				<li><a href="#{{entry.speakingHeading|replace(' ','-')|lower}}">{{entry.speakingHeading}}</a></li>
+				<li><a href="#articles">Articles</a></li>
+				<li><a href="#{{entry.contactHeading|replace(' ','-')|lower}}">{{entry.contactHeading}}</a></li>
+			</ul>
+		</nav>
+	{% endblock %}
 	{% block content %}
 	<!--Features-->
 	<div class="section section--features">

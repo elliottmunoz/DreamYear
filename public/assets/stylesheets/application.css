@@ -33,6 +33,10 @@ h1{
 	text-transform: uppercase;
 }
 
+h1.title{
+	margin: 1.2em 0;
+}
+
 h1.slogan{
 	bottom: 15%;
 	color: white;
@@ -407,14 +411,16 @@ form{
 }
 
 /*ARTICLE*/
-.section--article{}
+.section--article{
+	padding: 0;
+}
 
 .article{
 	padding: 2em 0;
 }
 
 .article__intro{
-	padding: 0 10% 1.5em;
+	padding: 0 10%;
 }
 
 .article__index{
@@ -424,11 +430,17 @@ form{
 	background: white;
 	float: left;
 	position: relative;
-	width: 25%;
+	margin: 1.5%;
+	width: 22%;
+	/*
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	*/
 }
 
 .article__image{
-	background: black;
+	background: #1b2135;
 	overflow: hidden;
 	width: 100%;
 }
@@ -439,12 +451,12 @@ form{
 */
 
 .article__thumb--preview {
-	background: black
+	background: #151a2b;
 }
 
 .article__thumb--preview > .article__image > img{
-	opacity:0.30;
-	filter:alpha(opacity=20);
+	opacity:0.15;
+	filter:alpha(opacity=15);
 }
 
 .article__name{
@@ -452,10 +464,6 @@ form{
 	min-height: 50px;
 	padding: 5%;
 	width: 90%;
-}
-
-.article__thumb--preview h5.soon{
-	color: white;
 }
 
 .article__intro > h4{
@@ -674,11 +682,11 @@ li.tour--stop{
 	.stories__index__image{
 		width: 50%;
 	}
-
+/*
 	.article__thumb{
 		width: 50%;
 	}
-
+*/
 	h1{
 		font-size: 2em;
 	}
@@ -707,11 +715,11 @@ li.tour--stop{
 	h1{
 		font-size: 3em;
 	}
-
+/*
 	.article__thumb{
 		width: 33.333333%;
 	}
-
+*/
 }
 
 @media screen and (min-width: 960px) {
@@ -743,11 +751,11 @@ li.tour--stop{
 		min-width: 100px;
 		max-width: 300px;
 	}
-
+/*
 	.article__thumb{
 		width: 25%;
 	}
-
+*/
 	h1{
 		font-size: 3em;
 	}
