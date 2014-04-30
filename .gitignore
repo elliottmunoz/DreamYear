@@ -1,0 +1,12 @@
+# Craft runtime and backups folders
+# ----------------------------------------------------------------------
+craft/storage/runtime/*
+craft/storage/backups/*
+# Uploaded files
+# ----------------------------------------------------------------------
+public/assets/uploads/*
+# Misc files
+# ----------------------------------------------------------------------
+.DS_Store
+*.sublime-workspace
+*.sublime-project
