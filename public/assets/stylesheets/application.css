@@ -127,6 +127,18 @@ footer{
     width:100%;
 }
 
+/*HEADER*/
+.logo{
+	display: block;
+	margin: 30px 37% 10px;
+	width: 26%;
+}
+
+.logo img{
+	display: block;
+	height: 100%;
+	width: 100%;
+}
 
 /*NAVIGATION*/
 
@@ -690,6 +702,10 @@ li.tour--stop{
 	h1{
 		font-size: 2em;
 	}
+	.logo{
+		margin: 30px 10% 10px;
+		width: 80%;
+	}
 }
 
 @media screen and (min-width: 720px) {
@@ -715,11 +731,20 @@ li.tour--stop{
 	h1{
 		font-size: 3em;
 	}
+	.logo{
+		margin: 30px 25% 10px;
+		width: 50%;
+	}
 /*
 	.article__thumb{
 		width: 33.333333%;
 	}
 */
+}
+
+/*404*/
+.section--404{
+	text-align: center;
 }
 
 @media screen and (min-width: 960px) {
@@ -761,6 +786,10 @@ li.tour--stop{
 	}
 	h1.slogan{
 		font-size: 4.5em;
+	}
+	.logo{
+		margin: 30px 35% 10px;
+		width: 30%;
 	}
 }
 

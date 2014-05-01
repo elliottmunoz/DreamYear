@@ -8,6 +8,8 @@
 	RewriteRule (.+) index.php?p=$1 [QSA,L]
 </IfModule>
 
+DirectoryIndex index.html index.php
+
 # Proper MIME type for all files
 AddType application/vnd.ms-fontobject  eot
 AddType application/x-font-ttf         ttf ttc
