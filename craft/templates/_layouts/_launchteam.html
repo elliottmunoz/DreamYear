@@ -1,0 +1,17 @@
+{% extends "_layout" %}
+{% set title = "Dream Year Launch Team" %}
+{% block content %}
+<div class="section">
+	<div class="wrapper">
+		<h1 class="title">Resources</h1>
+		<div class="resources">
+		{% for item in entry.resources %}
+			<div class="resource">
+				<h4><a href="{{ item.resource.first().url }}" download >{{ item.resourceName }}</a></h4>
+				<h5>({{ '%.1f'|format(item.resource.first().size/1000000) }}Mb {{ item.resource.first().kind }})</h5>
+			</div>
+		{% endfor %}
+		</div>
+	</div>
+</div>
+{% endblock %}

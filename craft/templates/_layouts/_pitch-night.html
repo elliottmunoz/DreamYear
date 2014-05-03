@@ -1,0 +1,44 @@
+	{% extends "_layout" %}
+	{% set title = "Dream Year Pitch Night" %}
+	{% block stylesheets %}
+		<link href='/assets/stylesheets/mapbox.css' rel='stylesheet' />
+	{% endblock %}
+	{% block javascripts %}
+		<script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.js'></script>
+	{% endblock %}
+	{% block content %}
+	<script>
+		var geoJson = [
+			{% for entry in craft.entries.section('homepage').find() %}
+			{% for item in entry.pitchNightEvents %}
+			{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [{{ item.latitude }}, {{ item.longitude }}]
+			},
+			"properties": {
+				"title": "<h3>{{ item.eventCity }}</h3>",
+				"description": "<div><h5>{% if item.eventDate %}{{ item.eventDate.format('l, F d, Y') }}{% else %}Coming Soon{% endif %}</h5></div><div class='leaflet-popup-content--description'><div>{{ item.eventLocation }}</div><div>{{ item.eventAddress }}</div></div>{% if item.eventRegistrationLink | length %}<div><a href='{{ item.eventRegistrationLink }}' class='button'>Register</a></div>{% endif %}",
+				"icon": {
+			"iconUrl": "/assets/images/marker.svg",
+			"iconSize": [29, 29],
+			"iconAnchor": [15, 15],
+			"popupAnchor": [0, -21],
+			"className": "marker"
+			}
+		}
+		}
+		{% if loop.index < entry.pitchNightEvents|length %}
+		,
+		{% endif %}
+
+		{% endfor %}
+		{% endfor %}
+		];
+</script>
+<div id='map'></div>
+
+
+{{entry.body}}
+{% endblock %}
