@@ -29,15 +29,9 @@ contact.click(function(){
   }
 
   function scrollToSection(t, s){
-    y=$(t).offset().top;
-    $("html,body").animate({scrollTop:y}, {
-      duration: s,
-      easing: 'swing',
-      queue: false,
-      complete: function(){
-        window.location.hash = t;
-      }
-    });
+    $(t)
+      .velocity("scroll", s)
+      .velocity({ queue: false },{ complete: function() { window.location.hash = t; }});
   }
 
 var item=$('.nav li a');
