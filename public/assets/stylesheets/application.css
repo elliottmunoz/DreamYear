@@ -169,7 +169,7 @@ header{
 	background: rgba(19, 24, 38, 0.92);*/
 	display: block;
 	font: 0.8em function_probook, Helvetica, sans-serif;
-	height: 1em;
+	/*height: 1em;*/
 	left: 0;
 	letter-spacing: .1em;
 	margin: 0;
@@ -230,6 +230,7 @@ header{
 	-moz-border-radius: 3px;
 	border-radius: 3px;
 	transition:all 0.2s linear;
+	-webkit-appearance:none;
 }
 
 .button:hover{
@@ -432,6 +433,7 @@ form{
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	-webkit-appearance:none;
 }
 
 .form__element__textfield:focus,
@@ -748,6 +750,21 @@ li.tour--stop{
 		width: 80%;
 	}
 	*/
+	header{
+		top: 0px;
+		position: relative;
+	}
+	.nav li{
+		display: block;
+		float: none;
+		padding: 0.5em 0;
+		text-align: center;
+		width: 100%;
+	}
+
+	.button{
+		width: 100%;
+	}
 }
 
 @media screen and (min-width: 720px) {
@@ -758,9 +775,7 @@ li.tour--stop{
 		margin: 0px auto;
 		width: 80%;
 	}
-	.button{
-		width: 100%;
-	}
+
 	li.tour--stop{
 		width: 50%;
 	}
@@ -773,6 +788,16 @@ li.tour--stop{
 	h1{
 		font-size: 3em;
 	}
+	header{
+		top: -70px;
+		position: fixed;
+	}
+	.nav li{
+		display: inline;
+		padding: 0;
+		width: auto;
+	}
+
 	/*
 	.logo{
 		margin: 30px 25% 10px;

@@ -1,67 +1,73 @@
 $(document).ready(function(){
 	$(".video").fitVids();
 	$(".owl-carousel").owlCarousel({
-      items : 5,
-      itemsDesktop : [1200,5],
-      itemsDesktopSmall : [960,4],
-      itemsTablet: [640,3],
-      itemsMobile : [480,2]
+    items : 5,
+    itemsDesktop : [1200,5],
+    itemsDesktopSmall : [960,4],
+    itemsTablet: [640,3],
+    itemsMobile : [480,2]
+    });
   });
-});
+
 
 function moveNav(){
-  /*alert(Math.ceil($('#header').height()));*/
   if($("body").scrollTop()>=$(".section--email").offset().top){
-        $('#header').stop().velocity({top: '0px'},{ duration: 300 });
+    $('#header').stop().velocity({top: '0px'},{ duration: 300 });
     }else{
-        $('#header').stop().velocity({top: '-70px'},{ duration: 100 });
+      $('#header').stop().velocity({top: '-70px'},{ duration: 100 });
     }
-}
-
-var timer = 0;
-
-$(window).scroll(function () {
-    if (timer) {
-        clearTimeout(timer);
-    }
-    timer = setTimeout(moveNav, 50);
-});
+  }
 
 
-var contact=$('#contactBtn');
-contact.click(function(){
-	$(this).hide();
-	$(".speaking__form").slideDown(750);
-    return false;
-})
+
+
+  //$(window).resize(function(){
+    //if ($('.nav li').css('display') == "inline" ){
+      var timer = 0;
+      $(window).scroll(function () {
+        if (timer) {
+          clearTimeout(timer);
+        }
+        timer = setTimeout(moveNav, 50);
+        });
+    //}
+    //});
+
+
+  var contact=$('#contactBtn');
+  contact.click(function(){
+   $(this).hide();
+   $(".speaking__form").slideDown(750);
+   return false;
+   })
 
 //Scroll to #ID based on anchor
-  var baseSpeed=2000;
+var baseSpeed=2000;
 
-  function getSpeed(t){
-    var offset=($(t).offset());
-    var ratio=offset.top/$(document).height();
-    var ratioRounded=ratio.toFixed(2)
-    var speed=ratioRounded*baseSpeed;
-    return(speed);
-  }
+function getSpeed(t){
+  var offset=($(t).offset());
+  var ratio=offset.top/$(document).height();
+  var ratioRounded=ratio.toFixed(2)
+  var speed=ratioRounded*baseSpeed;
+  return(speed);
+}
 
-  function scrollToSection(t, s){
-    $(t)
-      .velocity("scroll", s)
-      .velocity({ queue: false },{ complete: function() { window.location.hash = t; }});
-  }
+function scrollToSection(t, s){
+  $(t)
+  .velocity("scroll", s)
+  .velocity({ queue: false },{ complete: function() { window.location.hash = t; }});
+}
 
 var item=$('.nav li a');
-  item.click(function(){
-    var target=this.getAttribute('href');
-    scrollToSection(target, getSpeed(target));
-    return false;
+item.click(function(){
+  var target=this.getAttribute('href');
+  scrollToSection(target, getSpeed(target));
+  return false;
   });
 
 if ($('#map').length > 0) {
-var map = L.mapbox.map('map', 'elliottmunoz.hj6m67pi', {minZoom: 4, zoomControl: false})
-.setView([39.555, -96.768], 5);
+  var map = L.mapbox.map('map', 'elliottmunoz.hj6m67pi', {minZoom: 4, zoomControl: false})
+  .setView([39.555, -96.768], 5);
 
 //Basic responsive rules
 function respond(x) {
@@ -85,13 +91,13 @@ map.on('resize', function () {
 	var width = dimensions.x;
 
 	respond(width);
-});
+  });
 
 map.markerLayer.on('layeradd', function (e) {
 	var marker = e.layer,
 	feature = marker.feature;
 	marker.setIcon(L.icon(feature.properties.icon));
-});
+  });
 
 map.markerLayer.setGeoJSON(geoJson);
 map.setZoomRange(5, 17);
