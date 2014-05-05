@@ -12,12 +12,16 @@
 	{% block header %}
 		<nav>
 			<ul class="nav">
-				<li><a href="#{{entry.aboutHeading|replace(' ','-')|lower}}">{{entry.aboutHeading}}</a></li>
-				<li><a href="#{{entry.authorHeading|replace(' ','-')|lower}}">{{entry.authorHeading}}</a></li>
-				<li><a href="#{{entry.storiesHeading|replace(' ','-')|lower}}">{{entry.storiesHeading}}</a></li>
-				<li><a href="#{{entry.speakingHeading|replace(' ','-')|lower}}">{{entry.speakingHeading}}</a></li>
-				<li><a href="#articles">Articles</a></li>
-				<li><a href="#{{entry.contactHeading|replace(' ','-')|lower}}">{{entry.contactHeading}}</a></li>
+				<li><a href="#" class="logo">Dream Year</a></li>
+				<li class="{{entry.aboutHeading|replace(' ','-')|lower}}"><a href="#{{entry.aboutHeading|replace(' ','-')|lower}}">{{entry.aboutHeading}}</a></li>
+				<li class="{{entry.authorHeading|replace(' ','-')|lower}}"><a href="#{{entry.authorHeading|replace(' ','-')|lower}}">{{entry.authorHeading}}</a></li>
+				<li class="{{entry.storiesHeading|replace(' ','-')|lower}}"><a href="#{{entry.storiesHeading|replace(' ','-')|lower}}">{{entry.storiesHeading}}</a></li>
+				<li class="{{entry.speakingHeading|replace(' ','-')|lower}}"><a href="#{{entry.speakingHeading|replace(' ','-')|lower}}">{{entry.speakingHeading}}</a></li>
+				<li class="articles"><a href="#articles">Articles</a></li>
+				<li class="{{entry.contactHeading|replace(' ','-')|lower}}"><a href="#{{entry.contactHeading|replace(' ','-')|lower}}">{{entry.contactHeading}}</a></li>
+				<!--
+				<li class="email"><a href="#email">Email Signup</a></li>
+				-->
 			</ul>
 		</nav>
 	{% endblock %}
@@ -41,7 +45,7 @@
 			<!-- Begin MailChimp Signup Form -->
 			<div id="mc_embed_signup">
 				<form action="http://dreamyear.us1.list-manage.com/subscribe/post?u=c20842c145c1f601cf6927c1f&amp;id=205e569476" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-					<h3> Sign up for Ben's Emails</h3>
+					<h3 id="email"> Sign up for Ben's Emails</h3>
 					<div class="form__element form__element__half">
 						<label for="mce-MMERGE1" class="form__label">First Name </label>
 						<input type="text" value="" name="MMERGE1" class="form__element__textfield form__element__textfield--blue" id="mce-MMERGE1">

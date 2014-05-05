@@ -1,10 +1,21 @@
 @font-face {
     font-family: 'function_pro_bookbold';
-    src: url('../fonts/FunctionPro-Bold-webfont.eot');
-    src: url('../fonts/FunctionPro-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/FunctionPro-Bold-webfont.woff') format('woff'),
-         url('../fonts/FunctionPro-Bold-webfont.ttf') format('truetype'),
-         url('../fonts/FunctionPro-Bold-webfont.svg#function_pro_bookbold') format('svg');
+    src: url('/assets/fonts/functionpro_bold_ubasic/FunctionPro-Bold-webfont.eot');
+    src: url('/assets/fonts/functionpro_bold_ubasic/FunctionPro-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/functionpro_bold_ubasic/FunctionPro-Bold-webfont.woff') format('woff'),
+         url('/assets/fonts/functionpro_bold_ubasic/FunctionPro-Bold-webfont.ttf') format('truetype'),
+         url('/assets/fonts/functionpro_bold_ubasic/FunctionPro-Bold-webfont.svg#function_pro_bookbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'function_probook';
+    src: url('/assets/fonts/functionpro_book_ubasic/FunctionPro-Book-webfont.eot');
+    src: url('/assets/fonts/functionpro_book_ubasic/FunctionPro-Book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/functionpro_book_ubasic/FunctionPro-Book-webfont.woff') format('woff'),
+         url('/assets/fonts/functionpro_book_ubasic/FunctionPro-Book-webfont.ttf') format('truetype'),
+         url('/assets/fonts/functionpro_book_ubasic/FunctionPro-Book-webfont.svg#function_probook') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -49,6 +60,8 @@ h1.slogan{
 h2{
 	font: 2em function_pro_bookbold;
 	letter-spacing: .02em;
+	margin: 0;
+	padding: 2em 0 1.25em;
 	text-align: center;
 	text-transform: uppercase;
 }
@@ -74,7 +87,7 @@ h4{
 }
 
 h5{
-	font: .6em function_pro_bookbold;
+	font: .6em function_probook, Helvetica, sans-serif;
 	letter-spacing: .1em;
 	margin: 0.1em 0;
 	padding: 0;
@@ -97,15 +110,16 @@ audio{
 	display: block;
 	width: 100%;
 }
-
+/*
 header{
 	position: relative;
 }
+*/
 
 footer{
 	color: #aca9a9;
 	display: block;
-	font: .6em function_pro_bookbold;
+	font: .6em function_probook, Helvetica, sans-serif;
 	float: left;
 	letter-spacing: .1em;
 	padding: 2em 0;
@@ -132,45 +146,62 @@ footer{
 }
 
 /*HEADER*/
+/*
 .logo{
 	display: block;
 	margin: 30px 37% 10px;
 	width: 26%;
 }
+*/
 
+/*
 .logo img{
 	display: block;
 	height: 100%;
 	width: 100%;
 }
+*/
 
 /*NAVIGATION*/
+/*.nav*/
+
+header{
+	background: rgba(19, 24, 38, 0.92);*/
+	display: block;
+	font: 0.8em function_probook, Helvetica, sans-serif;
+	height: 1em;
+	left: 0;
+	letter-spacing: .1em;
+	margin: 0;
+	padding: 1em 0;
+	position: fixed;
+	text-transform: uppercase;
+	top: -70px;
+	width: 100%;
+	z-index: 1110;
+}
+
+.logo{
+	color: white;
+	font-family: function_pro_bookbold, Helvetica, sans-serif;
+	padding: 0 1em;
+}
 
 .nav{
-	background: #F5F2F2;
-	color: white;
-	display: block;
-	font: 0.8em function_pro_bookbold;
-	height: 20px;
-	/*left: 0;*/
-	letter-spacing: .02em;
 	margin: 0;
-	padding: 0.7em 0;
-	position: fixed;
-	text-align: center;
-	text-transform: uppercase;
-	width: 100%;
-	z-index: 110;
+	padding: 0;
 }
 
 .nav a{
-	color: #B94643;
+	/*color: #B94643;*/
+	padding: 0 1.4em;
 }
 
 .nav li{
 	display: inline;
+	float: left;
 	list-style: none;
-	padding: 5px 1em;
+	padding: 0px;
 }
 
 /*UNIVERSAL STYLES*/
@@ -365,7 +396,7 @@ form{
 
 .form__label{
 	color: #aca9a9;
-	font: .7em function_pro_bookbold;
+	font: .7em function_probook, Helvetica, sans-serif;
 	letter-spacing: .05em;
 	margin: 0;
 	padding: 0;
@@ -510,6 +541,7 @@ form{
 /*FEATURES*/
 
 .section--features{
+	height: 40%;
 	padding: 0;
 }
 
@@ -521,7 +553,9 @@ form{
 
 /*ABOUT*/
 
-.section--about{}
+.section--about{
+	background: white;
+}
 
 .resellers{
 	margin: 0;
@@ -708,10 +742,12 @@ li.tour--stop{
 	h1{
 		font-size: 2em;
 	}
+	/*
 	.logo{
 		margin: 30px 10% 10px;
 		width: 80%;
 	}
+	*/
 }
 
 @media screen and (min-width: 720px) {
@@ -737,10 +773,12 @@ li.tour--stop{
 	h1{
 		font-size: 3em;
 	}
+	/*
 	.logo{
 		margin: 30px 25% 10px;
 		width: 50%;
 	}
+	*/
 /*
 	.article__thumb{
 		width: 33.333333%;
@@ -793,9 +831,11 @@ li.tour--stop{
 	h1.slogan{
 		font-size: 4.5em;
 	}
+	/*
 	.logo{
 		margin: 30px 35% 10px;
 		width: 30%;
 	}
+	*/
 }
 

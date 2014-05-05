@@ -9,6 +9,24 @@ $(document).ready(function(){
   });
 });
 
+function moveNav(){
+  /*alert(Math.ceil($('#header').height()));*/
+  if($("body").scrollTop()>=$(".section--email").offset().top){
+        $('#header').stop().velocity({top: '0px'},{ duration: 300 });
+    }else{
+        $('#header').stop().velocity({top: '-70px'},{ duration: 100 });
+    }
+}
+
+var timer = 0;
+
+$(window).scroll(function () {
+    if (timer) {
+        clearTimeout(timer);
+    }
+    timer = setTimeout(moveNav, 50);
+});
+
 
 var contact=$('#contactBtn');
 contact.click(function(){
@@ -41,7 +59,7 @@ var item=$('.nav li a');
     return false;
   });
 
-
+if ($('#map').length > 0) {
 var map = L.mapbox.map('map', 'elliottmunoz.hj6m67pi', {minZoom: 4, zoomControl: false})
 .setView([39.555, -96.768], 5);
 
@@ -77,7 +95,7 @@ map.markerLayer.on('layeradd', function (e) {
 
 map.markerLayer.setGeoJSON(geoJson);
 map.setZoomRange(5, 17);
-
+}
 
 
 
