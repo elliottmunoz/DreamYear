@@ -61,7 +61,7 @@ h2{
 	font: 2em function_pro_bookbold;
 	letter-spacing: .02em;
 	margin: 0;
-	padding: 2em 0 1.25em;
+	padding: 1.25em 0;
 	text-align: center;
 	text-transform: uppercase;
 }
@@ -110,11 +110,6 @@ audio{
 	display: block;
 	width: 100%;
 }
-/*
-header{
-	position: relative;
-}
-*/
 
 footer{
 	color: #aca9a9;
@@ -146,45 +141,17 @@ footer{
 }
 
 /*HEADER*/
-/*
-.logo{
-	display: block;
-	margin: 30px 37% 10px;
-	width: 26%;
-}
-*/
-
-/*
-.logo img{
-	display: block;
-	height: 100%;
-	width: 100%;
-}
-*/
-
-/*NAVIGATION*/
-/*.nav*/
 
 header{
-	background: rgba(19, 24, 38, 0.92);*/
-	display: block;
+	background: rgba(19, 24, 38, 0.92);
 	font: 0.8em function_probook, Helvetica, sans-serif;
-	/*height: 1em;*/
-	left: 0;
+	float: left;
 	letter-spacing: .1em;
 	margin: 0;
 	padding: 1em 0;
-	position: fixed;
 	text-transform: uppercase;
-	top: -70px;
 	width: 100%;
 	z-index: 1110;
-}
-
-.logo{
-	color: white;
-	font-family: function_pro_bookbold, Helvetica, sans-serif;
-	padding: 0 1em;
 }
 
 .nav{
@@ -193,8 +160,7 @@ header{
 }
 
 .nav a{
-	/*color: #B94643;*/
-	padding: 0 1.4em;
+	padding: 0 1em;
 }
 
 .nav li{
@@ -202,6 +168,14 @@ header{
 	float: left;
 	list-style: none;
 	padding: 0px;
+}
+
+.nav li.logo{
+	font-family: function_pro_bookbold, Helvetica, sans-serif;
+}
+
+.nav li.logo a{
+	color: white;
 }
 
 /*UNIVERSAL STYLES*/
@@ -234,16 +208,16 @@ header{
 }
 
 .button:hover{
-	animation:none;
+	animation: none;
 	color: #B94643;
 	cursor: pointer;
 	background: #212942;
 }
-
+/*
 .hide{
 	display: none;
 }
-
+*/
 .wrapper{
 	position: relative;
 }
@@ -254,22 +228,7 @@ header{
 	position: relative;
 	width: 100%;
 }
-/*
-.section--split{
-	height: 100%;
-	padding: 0;
-	position: absolute;
-}
-*/
-/*
-.subsection{
-	display: block;
-	float: left;
-	height: 100%;
-	position: relative;
-	width: 50%;
-}
-*/
+
 .section--blue{
 	background: #1b2135;
 	color: #b1beca;
@@ -293,7 +252,6 @@ header{
 	display: block;
 	height: auto;
 	width: 100%;
-	/*margin: 0 0 1.3em;*/
 }
 
 .video{
@@ -310,78 +268,6 @@ header{
 	top: 0;
 	width: 100%;
 }
-
-/*RESOURCE PAGE*/
-.resources{
-	padding: 1em 0;
-}
-
-.resource{
-	padding: 0.5em 0;
-}
-
-
-/*STORY PAGES*/
-
-.stories__index{
-	display: block;
-	float: left;
-	width: 100%;
-}
-
-.stories__index__image{
-	float: left;
-	overflow: hidden;
-	position: relative;
-	width: 25%;
-}
-
-.stories__index__detail{
-	left: 0;
-	position: absolute;
-	text-align: center;
-	bottom: 0;
-	width: 100%;
-}
-
-/*
-.stories__index__detail{
-	background: rgba(48, 58, 95, 0.8);
-	height: 100%;
-	left: 0;
-	position: absolute;
-	text-align: center;
-	top: 0;
-	width: 100%;
-}
-*/
-.zoom{
-	-webkit-transition: all 2s ease-out;
-}
-
-.zoom:hover{
-	-webkit-transform: scale(1.08);
-}
-
-.story__image{
-	background-repeat: no-repeat;
-	background-position: center center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-
-/*
-.kate-schmidgall{
-	background-image: url("/assets/images/stories/story-kate-schmidgall.jpg");
-}
-*/
-
-.story__content{
-	padding: 3em 0;
-}
-
 
 /*FORMS*/
 
@@ -454,14 +340,56 @@ form{
 	border-color: #F5F2F2;
 }
 
-.required{}
-
 .required:after{
 	color: #B94643;
 	content:"*";
 }
 
-/*ARTICLE*/
+/*STORY PAGES*/
+
+.stories__index{
+	display: block;
+	float: left;
+	width: 100%;
+}
+
+.stories__index__image{
+	float: left;
+	overflow: hidden;
+	position: relative;
+	width: 25%;
+}
+
+.stories__index__detail{
+	left: 0;
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+}
+
+.zoom{
+	-webkit-transition: all 2s ease-out;
+}
+
+.zoom:hover{
+	-webkit-transform: scale(1.08);
+}
+
+.story__image{
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.story__content{
+	padding: 3em 0;
+}
+
+/*ARTICLE PAGES*/
 .section--article{
 	padding: 0;
 }
@@ -483,11 +411,6 @@ form{
 	position: relative;
 	margin: 1.5%;
 	width: 22%;
-	/*
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
-	*/
 }
 
 .article__image{
@@ -495,11 +418,6 @@ form{
 	overflow: hidden;
 	width: 100%;
 }
-/*
-.article__thumb > a > .article__image{
-
-}
-*/
 
 .article__thumb--preview {
 	background: #151a2b;
@@ -521,23 +439,20 @@ form{
 	color: white;
 }
 
-/*HERO*/
-
-.section--hero{
-	background: url("http://dreamyearbook.net/assets/images/hero-jumaine-jones.jpg") no-repeat center center fixed;
-	background-attachment: fixed;
-	background-position: center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	height: 500px;
+/*RESOURCE PAGE*/
+.resources{
+	padding: 1em 0;
 }
 
-/*EMAIL*/
+.resource{
+	padding: 0.5em 0;
+}
 
-.section--email{
-	padding: 1em 0;
+/*404*/
+.section--404{
+	display: inline;
+	margin: 15% 0;
+	text-align: center;
 }
 
 /*FEATURES*/
@@ -551,7 +466,11 @@ form{
 	width: 100%;
 }
 
+/*EMAIL*/
 
+.section--email{
+	padding: 1em 0;
+}
 
 /*ABOUT*/
 
@@ -560,8 +479,11 @@ form{
 }
 
 .resellers{
+	display: block;
+	float: left;
 	margin: 0;
-	padding: 0;
+	padding: 0.3em 0;
+	width: 100%;
 }
 
 .reseller{
@@ -582,8 +504,6 @@ form{
 
 /*CHAPTERS*/
 
-.section--chapters{}
-
 .chapter{
 	display: block;
 	float: left;
@@ -592,9 +512,6 @@ form{
 
 .chapter__index{
 	display: block;
-}
-
-.chapter__name{
 }
 
 /*AUTHOR*/
@@ -610,64 +527,11 @@ form{
 .profile__content{
 	float: left;
 }
-/*
-.profile__image--split{
-	height: 100%;
-	position: absolute;
-}
 
-.profile__content--split{
-	height: 100%;
-	position: absolute;
-}
-*/
-
-
-/*STORIES*/
-
-
-
-/*
-.section--stories{}
-
-.stories__index{
-
-}
-
-.stories__index > .story__image{
-	width: 25%;
-}
-
-.stories{
-	position: relative;
-	width: 100%;
-}
-
-.story{
-	background: white;
-	display: inline;
-	float: left;
-	left: 0;
-	top: 0;
-	width: 100%;
-}
-
-.story__image{
-	float: left;
-	width: 50%;
-}
-
-.story__content{
-	padding: 2em 10%;
-	width: 80%;
-}
-*/
 /*SPEAKING*/
 
-.speaking__sample{
-}
-
-.speaking--image{
+.section--speaking{
+	background: white url(/assets/images/diagonal.svg);
 }
 
 .speaking__audio{
@@ -681,8 +545,6 @@ form{
 }
 
 /*PITCH NIGHT*/
-
-.section--pitch{}
 
 ul.tour{
 	margin: 0;
@@ -703,6 +565,10 @@ li.tour--stop{
 .tour--city{}
 
 /*EVENT*/
+
+.section--event{
+	background: white;
+}
 
 .event--image{
 	margin: 0 0 1.5em;
@@ -736,30 +602,26 @@ li.tour--stop{
 	.stories__index__image{
 		width: 50%;
 	}
-/*
-	.article__thumb{
-		width: 50%;
-	}
-*/
+
 	h1{
 		font-size: 2em;
 	}
-	/*
-	.logo{
-		margin: 30px 10% 10px;
-		width: 80%;
-	}
-	*/
-	header{
-		top: 0px;
-		position: relative;
-	}
+
 	.nav li{
 		display: block;
-		float: none;
 		padding: 0.5em 0;
 		text-align: center;
+		width: 33.333333%;
+	}
+
+	.nav li.logo{
+		font-size: 2.5em;
+		display: block;
 		width: 100%;
+	}
+
+	.nav a{
+		padding: 0;
 	}
 
 	.button{
@@ -788,32 +650,21 @@ li.tour--stop{
 	h1{
 		font-size: 3em;
 	}
-	header{
-		top: -70px;
-		position: fixed;
-	}
+
 	.nav li{
 		display: inline;
 		padding: 0;
+		text-align: left;
 		width: auto;
 	}
 
-	/*
-	.logo{
-		margin: 30px 25% 10px;
-		width: 50%;
+	.nav li.logo{
+		font-size: 1em;
+		width: auto;
 	}
-	*/
-/*
-	.article__thumb{
-		width: 33.333333%;
+	.nav a{
+		padding: 0 1em;
 	}
-*/
-}
-
-/*404*/
-.section--404{
-	text-align: center;
 }
 
 @media screen and (min-width: 960px) {
@@ -834,10 +685,7 @@ li.tour--stop{
 		padding: 0% 3%;
 		width: 44%;
 	}
-	.profile__content p{
-		margin: .25em auto 0;
-		padding: .25em auto 0;
-	}
+
 	.stories__index__image{
 		width: 25%;
 	}
@@ -845,22 +693,15 @@ li.tour--stop{
 		min-width: 100px;
 		max-width: 300px;
 	}
-/*
-	.article__thumb{
-		width: 25%;
-	}
-*/
+
 	h1{
 		font-size: 3em;
 	}
 	h1.slogan{
 		font-size: 4.5em;
 	}
-	/*
-	.logo{
-		margin: 30px 35% 10px;
-		width: 30%;
+	header{
+		font-size: 1em;
 	}
-	*/
 }
 

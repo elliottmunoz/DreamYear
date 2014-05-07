@@ -9,7 +9,7 @@ $(document).ready(function(){
     });
   });
 
-
+/*
 function moveNav(){
   if($("body").scrollTop()>=$(".section--email").offset().top){
     $('#header').stop().velocity({top: '0px'},{ duration: 300 });
@@ -32,7 +32,7 @@ function moveNav(){
         });
     //}
     //});
-
+*/
 
   var contact=$('#contactBtn');
   contact.click(function(){
@@ -58,12 +58,20 @@ function scrollToSection(t, s){
   .velocity({ queue: false },{ complete: function() { window.location.hash = t; }});
 }
 
-var item=$('.nav li a');
+function setScroll(x){
+var item=$(x);
 item.click(function(){
   var target=this.getAttribute('href');
-  scrollToSection(target, getSpeed(target));
+  if(target.charAt(0)=="#"){
+    scrollToSection(target, getSpeed(target));
+  }
   return false;
   });
+}
+
+setScroll('.nav li a');
+setScroll('.feature a');
+
 
 if ($('#map').length > 0) {
   var map = L.mapbox.map('map', 'elliottmunoz.hj6m67pi', {minZoom: 4, zoomControl: false})

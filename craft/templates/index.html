@@ -12,16 +12,13 @@
 	{% block header %}
 		<nav>
 			<ul class="nav">
-				<li><a href="#" class="logo">Dream Year</a></li>
+				<li class="logo"><a href="#">Dream Year</a></li>
 				<li class="{{entry.aboutHeading|replace(' ','-')|lower}}"><a href="#{{entry.aboutHeading|replace(' ','-')|lower}}">{{entry.aboutHeading}}</a></li>
 				<li class="{{entry.authorHeading|replace(' ','-')|lower}}"><a href="#{{entry.authorHeading|replace(' ','-')|lower}}">{{entry.authorHeading}}</a></li>
 				<li class="{{entry.storiesHeading|replace(' ','-')|lower}}"><a href="#{{entry.storiesHeading|replace(' ','-')|lower}}">{{entry.storiesHeading}}</a></li>
 				<li class="{{entry.speakingHeading|replace(' ','-')|lower}}"><a href="#{{entry.speakingHeading|replace(' ','-')|lower}}">{{entry.speakingHeading}}</a></li>
 				<li class="articles"><a href="#articles">Articles</a></li>
 				<li class="{{entry.contactHeading|replace(' ','-')|lower}}"><a href="#{{entry.contactHeading|replace(' ','-')|lower}}">{{entry.contactHeading}}</a></li>
-				<!--
-				<li class="email"><a href="#email">Email Signup</a></li>
-				-->
 			</ul>
 		</nav>
 	{% endblock %}
@@ -31,12 +28,12 @@
 		<div class="cycle-slideshow" data-cycle-speed="400" data-cycle-slides="> div">
 			{% for item in entry.features %}
 			<div class="feature">
-				{% for asset in item.featureImage %}
-				<img class="image__fluid" src="{{ asset.url }}" alt="{{ item.featureName }}">
-				{% endfor %}
+				<a href="{{ item.featureLink }}"><img class="image__fluid" src="{{ item.featureImage.first().url }}" alt="{{ item.featureName }}"></a>
 			</div>
 			{% endfor %}
+			<!--
 			<h1 class="slogan">"I have a Dream"</h1>
+			-->
 		</div>
 	</div>
 	<!--Email Signup-->
@@ -69,7 +66,15 @@
 	<div class="section section--about">
 		<div class="wrapper">
 			<h2 id="{{entry.aboutHeading|replace(' ','-')|lower}}">{{entry.aboutHeading}}</h2>
-			<div class="description">{{entry.aboutDescription}}</div>
+			<div class="profile">
+				<div class="profile__image">
+					<img class="image__fluid" src="/assets/images/book-cover.jpg" alt="Dream Year">
+				</div>
+				<div class="profile__content">
+					{{entry.aboutDescription}}
+				</div>
+			</div>
+
 			<ul class="resellers">
 				{% for item in entry.resellers %}
 				<li class="reseller"><a href="{{ item.resellerUrl }}">
@@ -274,7 +279,7 @@
 </div>
 </div>
 <!--Event-->
-<div class="section">
+<div class="section section--event">
 	<div class="wrapper">
 		<h2 id="{{entry.eventHeading|replace(' ','-')|lower}}">{{entry.eventHeading}}</h2>
 		{% for item in entry.events.limit(1) %}

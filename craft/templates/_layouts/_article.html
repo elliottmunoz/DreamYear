@@ -1,5 +1,12 @@
 	{% extends "_layout" %}
-
+	{% set title = entry.title %}
+	{% block header %}
+		<nav>
+			<ul class="nav">
+				<li class="logo"><a href="#">Dream Year</a></li>
+			</ul>
+		</nav>
+	{% endblock %}
 	{% block content %}
 	<div class="section section--article section--blue">
 		<div class="wrapper">
