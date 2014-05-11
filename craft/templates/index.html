@@ -1,4 +1,5 @@
 	{% extends "_layout" %}
+	{% set title =  siteName  %}
 	{% block stylesheets %}
 	<link href="/assets/stylesheets/owl.carousel.css" rel="stylesheet">
 	<link href="/assets/stylesheets/owl.theme.css" rel="stylesheet">
@@ -121,17 +122,18 @@
 	<div class="section section--stories section--blue">
 		<div class="wrapper">
 			<h2 id="{{entry.storiesHeading|replace(' ','-')|lower}}">{{entry.storiesHeading}}</h2>
-			{% set storythumb = {
+
+		<div class="stories__index">
+		{% set storythumb = {
 			mode: 'crop',
 			width: 250,
 			height: 250,
 			quality: 75,
 			position: 'top-center'
 		} %}
-		<div class="stories__index">
 			{% for entry in craft.entries.section('stories').find() %}
 			<div class="stories__index__image">
-				<a href="/{{ entry.uri }}"><img class="image__fluid zoom" src="{{ entry.storyImage.first().url(storythumb) }}" width="{{ asset.getWidth(storythumb) }}" height="{{ asset.getHeight(storythumb) }}" alt="{{ entry.title }}"></a>
+				<a href="/{{ entry.uri }}"><img class="image__fluid zoom" src="{{ entry.storyImage.first().url(storythumb) }}" alt="{{ entry.title }}"></a>
 			</div>
 			{% endfor %}
 		</div>
@@ -262,7 +264,7 @@
 		quality: 75,
 		position: 'top-center'
 	} %}
-	<div id="articles" class="owl-carousel owl-theme">
+	<div class="owl-carousel owl-theme">
 		{% for entry in craft.entries.section('articles').find() %}
 		<div>
 			<a href="{{ entry.url }}">

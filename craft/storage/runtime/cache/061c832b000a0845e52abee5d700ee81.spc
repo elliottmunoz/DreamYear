@@ -1,6 +1,6 @@
 a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 	
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:7:"version";s:3:"2.0";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:0:"";a:1:{s:7:"channel";a:1:{i:0;a:6:{s:4:"data";s:416:"
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:7:"version";s:3:"2.0";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:0:"";a:1:{s:7:"channel";a:1:{i:0;a:6:{s:4:"data";s:422:"
 		
 		
 		
@@ -74,7 +74,17 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 					
 					
 					
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:3:{s:0:"";a:7:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:12:"P&amp;T Blog";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:30:"https://pixelandtonic.com/blog";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:37:"What’s happening with Pixel & Tonic";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"language";a:1:{i:0;a:5:{s:4:"data";s:5:"en-us";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 06 May 2014 03:24:15 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:13:"lastBuildDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 06 May 2014 03:24:15 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"item";a:65:{i:0;a:6:{s:4:"data";s:34:"
+					
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:3:{s:0:"";a:7:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:12:"P&amp;T Blog";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:30:"https://pixelandtonic.com/blog";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:37:"What’s happening with Pixel & Tonic";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"language";a:1:{i:0;a:5:{s:4:"data";s:5:"en-us";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Sat, 10 May 2014 17:54:28 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:13:"lastBuildDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Sat, 10 May 2014 17:54:28 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"item";a:66:{i:0;a:6:{s:4:"data";s:34:"
+				
+				
+				
+				
+				
+				
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:33:"100 Plugins for Craft on the Wall";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:76:"http://feedproxy.google.com/~r/blogandtonic/~3/cPXm50DfCE8/100-craft-plugins";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 09 May 2014 16:00:14 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:5:{s:4:"data";s:7:"brandon";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:47:"http://pixelandtonic.com/blog/100-craft-plugins";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:506:"
+					<p>The Craft community hit an exciting milestone today: there are now&nbsp;<a href="http://straightupcraft.com/craft-plugins" target="_blank">100 plugins available on Straight up Craft</a>!</p><p>We’re humbled and thrilled to see so many people diving into Craft’s plugin APIs, and sharing their work with the rest of the community. Craft has only been out for about a year, and the plugin&nbsp;ecosystem is really off to a great start.&nbsp;We can’t wait to see what the future holds!</p>
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:47:"http://pixelandtonic.com/blog/100-craft-plugins";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:1;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -83,7 +93,7 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 				
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:38:"What are “Element Types” in Craft?";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:78:"http://feedproxy.google.com/~r/blogandtonic/~3/iifjqsVpFTc/craft-element-types";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 09 Apr 2014 21:43:00 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:5:{s:4:"data";s:7:"brandon";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:49:"http://pixelandtonic.com/blog/craft-element-types";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:3097:"
 					<p>One of the&nbsp;key innovations in Craft – make that <strong><em>the</em></strong> key innovation – is a new concept called&nbsp;“Element Types”. We’ve mentioned Element Types here and there, but we haven’t explained what they are yet, much less how plugins can take advantage of them.</p><p>Now that Craft 2 is out, we’re finally&nbsp;ready to lift the curtain.</p><!--pagebreak--><p>Before we can get into Element <em>Types</em>, let’s first identify what an “element” is.</p><p>File systems manages <em>files</em>. iPhoto&nbsp;manages <em>photos</em>. iTunes manages <em>media</em>. Blogging systems manage <em>entries</em>. And content management systems manage&hellip; “content”. But what is “content”? Historically it has meant “entries”, in the exact same sense as blogging systems (albeit with more varieties). Sure, they also usually manage other things like users, files, and categories, but those are just&nbsp;second class citizens.&nbsp;Entries still have all the fun&nbsp;– custom fields, relations, etc..</p><p>While other content management systems are busy managing <em>entries</em>, Craft manages <em>elements</em>. Everything in Craft – your site’s&nbsp;users, assets, categories, tags, globals, even Matrix blocks, and of course, entries – they’re all elements. That’s why everything is so consistent in Craft. It’s not that entries and users both individually have custom field support, it’s that they share the same system-wide custom field support that’s available to all elements. Same with relations, and a slew of other things.</p><p>So if the individual users, assets, categories, tags, globals, and entries are the <em>elements</em>, what are Element <em>Types</em>?</p><p>Element Types are the classes used to identify each of these types of elements in Craft. There’s a “UserElementType”, there’s an “AssetElementType”, and so on. If you’ve ever developed a custom Field Type class&nbsp;before, this should sound familiar. The relationship between an element and an Element Type is the same as that between a field and a Field Type.</p><p>Due to its size and scope, it has taken us a long time to get the&nbsp;Element Type APIs to a point where we’re happy with them and ready to start sharing them with plugins. That time has finally come, though: as of Craft 2, the veil has been lifted and plugins are welcome to start adding their own Element Types.</p><p>Yesterday we gave a private demo of the APIs to a handful of plugin developers, and the level of excitement in the room was&nbsp;palpable. It doesn’t take long to realize what great potential there is here.</p><p>In two weeks we will be giving a&nbsp;<a href="http://peersconf.com/2014/conference/sessions" target="_blank">three-hour workshop</a> on Element Type development at&nbsp;<a href="http://peersconf.com/2014/" target="_blank">Peers</a>. If you are a developer with any interest in writing plugins for Craft, I <strong>highly</strong> recommend you come to that. You really won’t want to miss this opportunity!</p>
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:49:"http://pixelandtonic.com/blog/craft-element-types";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:1;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:49:"http://pixelandtonic.com/blog/craft-element-types";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:2;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -92,7 +102,7 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 				
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:17:"So Long, Packages";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:75:"http://feedproxy.google.com/~r/blogandtonic/~3/WZXbWPBqekA/so-long-packages";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 01 Apr 2014 16:59:31 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:5:{s:4:"data";s:7:"brandon";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:46:"http://pixelandtonic.com/blog/so-long-packages";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:3912:"
 					<p>We’ve been selling Craft with its Package model for <a href="http://pixelandtonic.com/blog/craft">over a year now</a>, and in that time we’ve learned a lot about what works vs. what doesn’t.</p><!--pagebreak--><p>There’s one nail that we hit right on the head: Craft’s free feature set. We expected that most people would get acquainted with Craft by trying it out on a personal portfolio or blog, and we wanted them to be able to comfortably do that with the core version. For once that’s exactly how it’s panned out – today Craft’s customer base has grown to the point of <a href="http://pixelandtonic.com/blog/thank-you">profitability</a>, and the vast majority of our customers built their first Craft site with just the core features. We’ve even received a lot of feedback that people are very pleased with how much can be accomplished with the core product. So this is one thing that’s not going to change.</p><p>Besides that though, we haven’t been in love with our pricing model. On one hand, some of our customers voiced that it was too complicated, with each site requiring five separate purchase decisions. On the other hand, some of our customers wished for <em>more</em> granularity. For example, a new “Users Lite” package was a common request, which would offer just a single additional user account for the client, with limited permissions.</p><p>How can we possibly reconcile those two opposing requests? We can get rid of packages altogether, that’s how.</p><p>As of today, Craft no longer has “packages”. Instead, it is available in three separate <a href="http://buildwithcraft.com/pricing" target="_blank">editions</a>: Personal, Client, and Pro.</p><p>Craft Personal offers the exact same features that you got for free in Craft 1 (including <a href="http://buildwithcraft.com/features/new" target="_blank">all the new 2.0 stuff</a>, of course), so no real change there.</p><p>Practically everyone who bought packages in Craft 1 started with Publish Pro, so we knew that had to be the starting point for Craft Client. We’ve thrown in a couple other things as well: all of the system rebranding features that came with the Rebrand package, and a new feature that’s exclusive to Client: the “<a href="http://buildwithcraft.com/docs/users#clients-account" target="_blank">Client’s Account</a>”. The Client’s Account is a second user account, which gets all of the non-Admin permissions. Should be just what the doctor ordered, for many sites.</p><p>Craft Pro, as you may have guessed, offers the full breadth of Craft’s premium features: all of the great content publishing features, unlimited user accounts, localization, integration with cloud-based file storage services, and system rebranding.</p><p>How much do these things cost? Glad you asked!</p><p>We still think a free “core” version is the right thing to do, so Personal is just as free as Craft 1’s core feature set was.</p><p>Craft Client is priced at $199 – that’s $99 less than you would have had to pay for Publish Pro and Users in Craft 1, if you absolutely needed that second account for your client, and $148 less if you wanted Rebrand too.</p><p>What about Craft Pro? The same feature set would have cost $695 in Craft 1 – a price point that was simply out of reach for a lot of projects, especially ones for mom and pop shops in many European countries where translation features are a must-have. So we’ve decided to sell Craft Pro for just $299. That’s only $1 more than Publish Pro and Users would have cost in Craft 1 (our most popular combination), half the cost of Publish Pro, Users, and Localize, and a whopping $396 less than the full enchilada.</p><p>We’re really excited about this. We think it’s a much simpler model, and the new price points are going to help get Craft into the hands of even more people. We hope you agree!</p>
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:46:"http://pixelandtonic.com/blog/so-long-packages";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:2;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:46:"http://pixelandtonic.com/blog/so-long-packages";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:3;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -102,7 +112,7 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:7:"Craft 2";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:66:"http://feedproxy.google.com/~r/blogandtonic/~3/4p3UreunzmQ/craft-2";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 01 Apr 2014 16:59:00 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:5:{s:4:"data";s:7:"brandon";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:37:"http://pixelandtonic.com/blog/craft-2";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:1510:"
 					<p>It’s been five months since Craft 1.3 <a href="http://pixelandtonic.com/blog/craft-1.3">came out</a>, and boy have we been busy. We’ve redesigned Craft’s Control Panel and refactored large portions of the codebase. We’ve finalized our “Element Type API” for plugins, and introduced background task support. We’ve added taxonomy support via <a href="http://buildwithcraft.com/docs/categories" target="_blank">categories</a>, eight alternate data caching methods, partial template caching, and tons more – there are <a href="http://buildwithcraft.com/updates#build2524" target="_blank"><strong>250</strong> additions and improvements</a> in total!</p><p>Today we are unveiling all of that work, and we’re calling it <a href="http://buildwithcraft.com/features/new" target="_blank">Craft 2</a>.</p><!--pagebreak-->
 <p>To top it off, Craft now has a new <a href="http://buildwithcraft.com/pricing" target="_blank">pricing model</a> (which we’ve written about in a <a href="http://pixelandtonic.com/blog/so-long-packages">separate post</a>), and its <a href="http://buildwithcraft.com/license" target="_blank">license agreement</a> is now much less restrictive for plugins. Best of all, Craft 2 is a free upgrade, and as a thank-you for all your support, we’ve upgraded every license that has at least one package purchase to a full-blown Craft Pro license.</p><p>This is a very big day for Craft. We hope you’re as excited as we are! Now go click that “Update” button.</p>
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:37:"http://pixelandtonic.com/blog/craft-2";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:3;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:37:"http://pixelandtonic.com/blog/craft-2";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:4;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -111,7 +121,7 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 				
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:19:"Wygwam 3.3 Released";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:69:"http://feedproxy.google.com/~r/blogandtonic/~3/akfAbiggj-k/wygwam-3.3";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 12 Mar 2014 16:49:20 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:5:{s:4:"data";s:7:"brandon";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:40:"http://pixelandtonic.com/blog/wygwam-3.3";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:419:"
 					<p>We just released Wygwam 3.3, which packs the latest version of CKEditor, fixing some incompatibility issues with Internet Explorer 11, as well as Grid compatibility and <a href="http://docs.pixelandtonic.com/wygwam/changelog.html#wygwam-3-3" target="_blank">other improvements</a>.</p><p>You can grab the update over at <a href="http://devot-ee.com/add-ons/wygwam" target="_blank">Devot:ee</a>. Enjoy!</p>
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:40:"http://pixelandtonic.com/blog/wygwam-3.3";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:4;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:40:"http://pixelandtonic.com/blog/wygwam-3.3";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:5;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -121,7 +131,7 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:10:"Thank You!";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:68:"http://feedproxy.google.com/~r/blogandtonic/~3/fhVZ42pglYM/thank-you";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 03 Feb 2014 17:30:00 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:5:{s:4:"data";s:7:"brandon";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:39:"http://pixelandtonic.com/blog/thank-you";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:1067:"
 					<p>2014 is off to a great start: we’re working away on Craft 1.4; our first <a href="http://buildwithcraft.com/training">Virtual Training</a> course is underway; and we’ve started planning a couple of workshops for <a href="http://peersconf.com/2014/">Peers</a> in April. That’s all business as usual nowadays, but one thing’s different now: as of January, Craft is turning a profit!</p><!--pagebreak-->
 <p>After three years of hard work and dedication, I can’t tell you how great it feels to say that. We’ve enjoyed (almost) every minute of it, and now we know that we get to keep doing what we’ve been doing for the foreseeable future.</p><p>So to all of you who have given Craft a shot, who have tweeted or written a blog post, who have submitted a bug report, offered suggestions, or pointed out a typo in our docs, and to all of you who have offered us a word of encouragement, <strong>thank you</strong>. Seriously, thank you. It is because of you that we have made it this far, and because of you we get to keep doing what we love.</p>
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:39:"http://pixelandtonic.com/blog/thank-you";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:5;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:39:"http://pixelandtonic.com/blog/thank-you";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:6;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -145,7 +155,7 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 	In the database, each Matrix field gets its own dedicated content table, but besides that, your Matrix content gets stored in exactly the same way as any other field. You won’t find Matrix trying to cram all its data together as JSON in this CMS.</p><p>
 	We could not be more excited about this. We think it’s the biggest step forward for content management since FieldFrame and Matrix 1.0 came out for EE. And it could only have been done in Craft.</p><p>
 	Best of all? Matrix is completely <strong>free!</strong> We’ve built it right into Craft and included it in today’s 1.3 update, along with <a href="http://buildwithcraft.com/updates#2409" target="_blank">over 100 new features and improvements</a>. All you have to do is <del>take the red pill</del> click that red Update button.</p>
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:39:"http://pixelandtonic.com/blog/craft-1.3";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:6;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:39:"http://pixelandtonic.com/blog/craft-1.3";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:7;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -185,7 +195,7 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 <p>
 	      We believe the next big update is going to change that.
 </p>
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:34:"http://pixelandtonic.com/blog/psst";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:7;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:34:"http://pixelandtonic.com/blog/psst";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:8;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -219,7 +229,7 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 <p>
 	    Assets 2.2 is a free update for all existing Assets licenses, and just $99 for new sites. Grab the update at <a href="http://devot-ee.com/add-ons/assets" target="_blank">Devot:ee</a>!
 </p>
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:40:"http://pixelandtonic.com/blog/assets-2.2";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:8;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:40:"http://pixelandtonic.com/blog/assets-2.2";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:9;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -237,7 +247,7 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 <p>
 	Read the full release notes in <a href="http://docs.pixelandtonic.com/wygwam/changelog.html#wygwam-3-2" target="_blank">the documentation</a>, and get the update over at <a href="https://devot-ee.com/add-ons/wygwam" target="_blank">Devot:ee</a>.
 </p>
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:40:"http://pixelandtonic.com/blog/wygwam-3.2";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:9;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:40:"http://pixelandtonic.com/blog/wygwam-3.2";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:10;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -258,7 +268,7 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 <p>
 	This is a recommended update for anyone who is using Matrix with EE 2.7+.
 </p>
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:42:"http://pixelandtonic.com/blog/matrix-2.5.7";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:10;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:42:"http://pixelandtonic.com/blog/matrix-2.5.7";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:11;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -397,7 +407,7 @@ The supported values are:
 <p>
 	                    It’s a dramatic difference, and Craft has benefitted greatly from it, both as a product and through better documentation. We couldn’t be happier with <a href="http://buildwithcraft.com/docs" target="_blank">the result</a>, and we hope you feel the same way.
 </p>
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:58:"http://pixelandtonic.com/blog/documenting-craft-with-craft";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:11;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:58:"http://pixelandtonic.com/blog/documenting-craft-with-craft";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:12;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -442,7 +452,7 @@ The supported values are:
 <p>
 	     We hope you like it!
 </p>
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:39:"http://pixelandtonic.com/blog/craft-1.2";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:12;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:39:"http://pixelandtonic.com/blog/craft-1.2";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:13;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -463,7 +473,7 @@ The supported values are:
 <p>
 	     You’ll probably notice that the new site is running a heck of a lot faster than the old site. That’s thanks to its new home on <a href="http://arcustech.com/" target="_blank">ArcusTech</a>, an amazing new web host coming soon from the creators of <a href="http://www.enginehosting.com/" target="_blank">EngineHosting</a>. The guys ArcusTech were kind enough to let us move buildwithcraft.com over to their new infrastructure, and the speeds are incredibly impressive. Page load times are about <strong>5X</strong> faster than they were on our old server, and get this: they’re even <strong>2X</strong> faster than our own local hosts! We have absolutely no idea how they do it, but we are in awe.
 </p>
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:52:"http://pixelandtonic.com/blog/new-buildwithcraft.com";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:13;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:52:"http://pixelandtonic.com/blog/new-buildwithcraft.com";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:14;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -525,7 +535,7 @@ The supported values are:
 <p>
 	         If you’re new to Craft, you can grab it at <a href="http://buildwithcraft.com">buildwithcraft.com</a>. The core is free, and all of the extended feature packages come with a free, 14-day trial. Check it out – we think you’ll like it!
 </p>
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:51:"http://pixelandtonic.com/blog/craft-1-1-has-arrived";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:14;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:51:"http://pixelandtonic.com/blog/craft-1-1-has-arrived";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:15;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -546,7 +556,7 @@ The supported values are:
 <p>
 	    We can’t wait to see how you take advantage of it!
 </p>
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:44:"http://pixelandtonic.com/blog/field-pack-2-1";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:15;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:44:"http://pixelandtonic.com/blog/field-pack-2-1";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:16;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -586,7 +596,7 @@ The supported values are:
 <p>
 	       As always, Wygwam 3 is a free upgrade for existing licenses, and just $29 for new sites. If you bought a Wygwam license here on pixelandtonic.com in the past, don’t forget that your licenses have been <a href="http://devot-ee.com/news/item/pixel-tonic-now-available-exclusively-through-devotee" target="_blank">transferred to devot:ee</a>. If you don’t have a devot:ee account yet, or you’re not seeing your pixelandtonic.com licenses there, try going to the <a href="http://devot-ee.com/site/pt-claim" target="_blank">P&amp;T Claim Page</a> to reclaim your licenses. If that’s not helping, the folks at devot:ee will be happy to sort you out if you email <a href="http://mailto:info@devot-ee.com" target="_blank">info@devot-ee.com</a>.
 </p>
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:38:"http://pixelandtonic.com/blog/wygwam-3";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:16;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:38:"http://pixelandtonic.com/blog/wygwam-3";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:17;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -634,7 +644,7 @@ The supported values are:
 <p>
 	    Craft’s license agreement, just like Craft itself, is currently at 1.0, and capable of changing. That is to say that we’re open to continuing the discussion, and will take all suggestions seriously. We just think that any reasonable debate is going to take into account our goals for the product and where we’re coming from.
 </p>
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:43:"http://pixelandtonic.com/blog/craft-license";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:17;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:43:"http://pixelandtonic.com/blog/craft-license";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:18;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -655,7 +665,7 @@ The supported values are:
 <p>
 	        Now that Craft 1.0 is out, I felt that now is the time to give it a shot. So as of today, we are officially taking requests. If you have a project that could use a little help in our areas of expertise, please do <a href="/consulting">get in touch</a>!
 </p>
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:40:"http://pixelandtonic.com/blog/consulting";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:18;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:40:"http://pixelandtonic.com/blog/consulting";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:19;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -683,7 +693,7 @@ The supported values are:
 <p>
 	Today could not have been possible without a lot of people’s help. To all of you who helped us test the 1.0 release and translate the CP, we wholeheartedly thank you. We’d also like to thank Low for helping us out with Search, Brendon Carr for helping us with the new license agreement, Ryan Irelan for busting his butt to get the videos done in time, and EngineHosting for their continued hosting and support. And of course, a huge thanks to all of you who have been using Craft throughout the private and public betas. You are all wonderful people.
 </p>
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:39:"http://pixelandtonic.com/blog/craft-1-0";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:19;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:39:"http://pixelandtonic.com/blog/craft-1-0";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:20;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -693,7 +703,7 @@ The supported values are:
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:20:"Craft by the Numbers";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:79:"http://feedproxy.google.com/~r/blogandtonic/~3/FLoYMJkS2OI/craft-by-the-numbers";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 07 May 2013 17:00:00 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:5:{s:4:"data";s:4:"brad";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:50:"http://pixelandtonic.com/blog/craft-by-the-numbers";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:1319:"
 					<p>Sunday marked the two month anniversary since we launched the Craft public beta, and now seems as good of a time as any to take another look at some relevant stats.</p><!--pagebreak--><ul class="square"><li><strong>1,346</strong> Craft licenses have been issued.<br></li><li><strong>19</strong> updates have been released including 94 bug fixes, 87 improvements, and 33 new features.<br></li><li><strong>205</strong> packages have been purchased by extremely intelligent, charismatic, and hard working people.<br></li><li><strong>376</strong> package trials have been started by equally gifted people that might have some commitment issues to work through.<br></li><li><strong>568</strong> awesome members in our very helpful <a href="https://plus.google.com/communities/106505340287442511226">Google+ community</a>!<br></li><li><strong>1,365</strong> tweeple are following <a href="http://twitter.com/craftcms">@craftcms</a>&nbsp;on Twitter.</li><li><strong>2,007</strong> one-click auto-updates have been successfully served. Turns out that people like to stay up-to-date if you make it easy enough.<br></li><li><strong>7</strong> engaging community chats and events.</li><li><strong>9</strong> - The impressive percentage of visitors to our site from Germany. The Germans... they love Craft.</li></ul>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:50:"http://pixelandtonic.com/blog/craft-by-the-numbers";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:20;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:50:"http://pixelandtonic.com/blog/craft-by-the-numbers";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:21;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -706,7 +716,7 @@ The supported values are:
 <img src="/content/blog/2013-04/new-time.png" style="float: right; margin-left: 15px; width: 218px; height: 298px;">
 <p>We just released <a href="http://buildwithcraft.com/releases#build2218">Craft 0.9.2218</a> which separates the date and time inputs, gives time selection its own menu (using <a href="http://jonthornton.github.io/jquery-timepicker/">jquery.timepicker</a>), and it even displays the dates and times based on the date/time formats defined by the user’s preferred locale. So people in the US are going to get dates displayed as MM/DD/YYYY, while people in the UK will get DD/MM/YYYY.</p><p>Date fields also got a new “Show time” setting, so now you get to choose whether your Date field is just for a date, or for a specific date and time.</p><p>We’ve also beefed up Craft’s Timezone setting to include all known timezones rather than just the ones that have unique abbreviations, and there are a few bug fixes in there as well. So fire up those auto-updaters!</p>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:58:"http://pixelandtonic.com/blog/we-gave-craft-a-better-watch";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:21;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:58:"http://pixelandtonic.com/blog/we-gave-craft-a-better-watch";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:22;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -721,7 +731,7 @@ The supported values are:
 <p>That’s right – you can finally set the time of day within entry Post/Expiration Date fields, as well as within your Date fields. We’re even displaying the time in the proper 12 or 24-hour format depending on your preferred locale.</p><p>Dates and times are displayed in the site’s timezone (set in Settings &gt; General), but continue to be stored in UTC.</p><h2>Rich Text improvements</h2><p>The Rich Text fieldtype got a lot of love in this update. We dropped the Min Height setting in favor of full-blown <a href="http://docs.buildwithcraft.com/components/fieldtypes/richtext.html#field-settings">custom Redactor config support</a>. Now you can place .json files in craft/config/redactor/, and they will be available config options when editing your Rich Text fields. We’ve even started bundling two configs with Craft for you – Simple and Standard.</p><p>Next up, while we wait for Redactor 9.0 with its promised HTML output improvements, we figured we’d give Rich Text fields a new “Clean up HTML?” setting. If it’s checked (and it’s checked by default), Craft will remove all <code>&lt;span&gt;</code> tags, empty tags, and most <code>style</code> attributes from the submitted HTML.</p><p>And finally, we’ve written a new Page Break plugin for Redactor, which is included in the new “Standard” config. It adds a new button to your Redactor fields labelled “Insert Page Break”. When you click it, Craft adds a marker to your content at the insertion point. There are <a href="http://docs.buildwithcraft.com/components/fieldtypes/richtext.html#working-with-page-breaks">three template functions</a> available to you for getting all individual pages in an array, getting a specific page, and getting the total number of pages. The final code example on that page is exactly how we’re doing the “Read more” links on <a href="http://pixelandtonic.com/blog">pixelandtonic.com/blog</a>.</p>
 <img src="/content/blog/2013-04/pagebreaks.jpg" style="width: 552px; height: 169px;">
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:51:"http://pixelandtonic.com/blog/we-gave-craft-a-watch";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:22;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:51:"http://pixelandtonic.com/blog/we-gave-craft-a-watch";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:23;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -731,7 +741,7 @@ The supported values are:
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:33:"All Fieldtypes Updated for EE 2.6";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:65:"http://feedproxy.google.com/~r/blogandtonic/~3/eg2ha1QQ-Tc/ee-2-6";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 23 Apr 2013 20:05:06 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:5:{s:4:"data";s:7:"brandon";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:36:"http://pixelandtonic.com/blog/ee-2-6";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:1979:"
 					<p>We just released updates to all of our fieldtypes, fixing various compatibility issues with EE 2.6, as well as some other bug fixes and minor enhancements.</p><!--pagebreak--><p>Here are links to the release notes:<br></p><ul class="square"><li><a href="http://docs.pixelandtonic.com/matrix/changelog.html">Matrix 2.5.4</a></li><li><a href="http://docs.pixelandtonic.com/wygwam/changelog.html">Wygwam 2.7.1</a></li><li><a href="http://docs.pixelandtonic.com/playa/changelog.html">Playa 4.4.2</a></li><li><a href="http://docs.pixelandtonic.com/assets/changelog.html">Assets 2.1.1</a></li></ul><p>We’ve also taken this opportunity to drop the ee1/ folders from Matrix and Wygwam. At this point we haven’t touched the EE1 files for quite some time, and the latest versions we’ve released are pretty stable so we don’t expect to be doing much more&nbsp;maintenance&nbsp;on them going forward.</p><p>If you have a need for an EE1 version of Matrix, Wygwam, or Playa, you can request it by emailing us at&nbsp;<a href="mailto:support@pixelandtonic.com">support@pixelandtonic.com</a>.</p><p>Oh, and one more thing…</p><h2>Field Pack 2</h2><p>One of our favorite features in EE 2.6 is the ability for each add-on package to provide multiple fieldtypes. That enabled us to revisit the old Dive Bar fieldtypes, and package them all up into a single add-on, which we’re calling <a href="http://devot-ee.com/add-ons/field-pack">Field Pack 2</a>.</p><p>We’ve made a few EE 2.6 compatibility updates to Field Pack’s bundled fieldtypes as well, so be sure to grab it if you’re running any of the old Dive Bar fieldtypes.</p><p>We’ve taken time to ensure the upgrade process from the Dive Bar fieldtypes goes smoothly as well. When you install a Field Pack 2 fieldtype, it will check if its Dive Bar counterpart was installed. If it was, it’ll handle the field conversions and fieldtype uninstallation for you. All you have to do is delete the old files.</p>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:36:"http://pixelandtonic.com/blog/ee-2-6";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:23;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:36:"http://pixelandtonic.com/blog/ee-2-6";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:24;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -741,7 +751,7 @@ The supported values are:
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:22:"Keep Calm and Carry On";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:81:"http://feedproxy.google.com/~r/blogandtonic/~3/-ubr64SCiGs/keep-calm-and-carry-on";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 23 Apr 2013 13:47:47 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:5:{s:4:"data";s:7:"brandon";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:52:"http://pixelandtonic.com/blog/keep-calm-and-carry-on";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:902:"
 					<p>There has been some concern about our commitment to EE after seeing our new <a href="http://pixelandtonic.com">homepage</a>. I’ve <a href="http://pixelandtonic.com/blog/what-is-blocks">said this before</a> but it’s worth reiterating: we’re still fully committed to the platform and our products.</p><!--pagebreak--><p>We’ve been working on Craft for 2 1/2 years now, and throughout that time, we’ve kept up the pace on maintaining and supporting all of our add-ons. We’ve even written a major update to Assets, which in and of itself was the most challenging thing we’ve <em>ever</em> done with ExpressionEngine.<br></p><p>EE 2.6 is about to come out. While we’re not thrilled about one particular new feature, there are some cool things in the release that we’re very excited about, and have already taken advantage of in one of our add-ons. (More on that soon!)</p>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:52:"http://pixelandtonic.com/blog/keep-calm-and-carry-on";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:24;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:52:"http://pixelandtonic.com/blog/keep-calm-and-carry-on";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:25;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -751,7 +761,7 @@ The supported values are:
 			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:7:"Rebirth";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:66:"http://feedproxy.google.com/~r/blogandtonic/~3/26ksSrLlAJA/rebirth";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 22 Apr 2013 00:00:00 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:5:{s:4:"data";s:7:"brandon";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:37:"http://pixelandtonic.com/blog/rebirth";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:2566:"
 					<p>I launched this site over three years ago now. I was working solo at the time, with three commercial EE add-ons and the drive to build a company.&nbsp;Today there are <a href="/about">four of us</a>, we’ve got two more <a href="/ee">add-ons</a>, our own <a href="/craft">frickin’ CMS</a>, and we’re fostering a new <a href="https://plus.google.com/communities/106505340287442511226">community</a> that’s growing around that CMS.</p><p>Times have changed, and so the time has come to to rethink this site’s purpose. There are things it should be focussing on that it wasn’t, and things it shouldn’t be focussing on anymore that it was.</p><!--pagebreak--><h2>Devoted to devot:ee</h2><p>Back when the site launched, <a href="http://devot-ee.com">devot:ee</a> was in its infancy, and its add-on store was merely a twinkle in Ryan Masuga’s eye. Now that site is a vital resource for the EE community, and with its user reviews, favorites, store, and now&nbsp;<a href="http://devot-ee.com/news/item/introducing-lists">lists</a>, it’s a much better place to find out about, share, and purchase our add-ons than this site could ever be. So rather than try to compete with that, we have decided to let devot:ee handle the dedicated add-on overview pages and purchasing exclusively. The <a href="/ee">EE add-ons</a> section of this site is now an elegant menu of our add-ons, with links to devot:ee.</p><p>If you’ve purchased any add-on licenses on pixelandtonic.com in the past, all of those licenses have already been transferred to your devot:ee account. If you don’t have one, or there’s an email mismatch between your devot:ee and former P&amp;T accounts, you’ll receive an email with instructions to reclaim your licenses.</p><h2>Static add-on docs</h2><p>As of today, all of our add-on documentation is available as good ol’ Apache-served HTML files at&nbsp;<a href="http://docs.pixelandtonic.com/">docs.pixelandtonic.com</a>.&nbsp;We’ve been meaning to do this for a while now – this way they can remain available even when we need to take our site down for maintenance.</p><h2>New pages</h2><p>We’ve added two new pages to the site: <a href="/craft">Craft</a>&nbsp;and <a href="/about">About Us</a>.&nbsp;The Craft page&nbsp;features a gorgeous photo taken by the super-talented <a href="http://iamashley.co.uk/">Ashley Baxter</a>, and About Us has illustrations and quick bios for each of us.</p><h2>Built with Craft</h2><p>If there’s any wonder, yes the new pixelandtonic.com was built with Craft. We like it!</p>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:37:"http://pixelandtonic.com/blog/rebirth";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:25;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:37:"http://pixelandtonic.com/blog/rebirth";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:26;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -764,7 +774,7 @@ The supported values are:
 <p>
 	If you’re interested in hearing about the more technical aspects of Craft, it’s definitely <a href="http://www.thenerdary.net/post/48123188844/interview-with-brandon-kelly-creator-of-craft">worth a read</a>!</p>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:55:"http://pixelandtonic.com/blog/craft-talk-at-the-nerdary";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:26;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:55:"http://pixelandtonic.com/blog/craft-talk-at-the-nerdary";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:27;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -781,7 +791,7 @@ The supported values are:
 <p>
 	Playa 4.4 also includes security and performance improvements, making this a highly recommended update for all Playa users, even if you aren’t using BWF. View the <a href="http://pixelandtonic.com/playa/releasenotes">release notes</a> for a full list of changes.</p>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:39:"http://pixelandtonic.com/blog/playa-4-4";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:27;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:39:"http://pixelandtonic.com/blog/playa-4-4";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:28;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -796,7 +806,7 @@ The supported values are:
 <p>
 	Assets also got lots of handy new template tags, enabling you to do things like output a complete folder/file tree based on your Assets sources. Check the <a href="http://pixelandtonic.com/assets/releasenotes">release notes</a> for a full list of new features.</p>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:39:"http://pixelandtonic.com/blog/the-cloud";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:28;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:39:"http://pixelandtonic.com/blog/the-cloud";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:29;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -822,7 +832,7 @@ The supported values are:
 <p>
 	Talk tomorrow!</p>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:40:"http://pixelandtonic.com/blog/craft-chat";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:29;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:40:"http://pixelandtonic.com/blog/craft-chat";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:30;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -853,7 +863,7 @@ The supported values are:
 <p>
 	Unrelated to this new Craft release (but awesome nonetheless), we just launched a new <a href="http://buildwithcraft.com/forecast">Forecast</a> page on buildwithcraft.com. It pulls in our “Craft 1.0” to-do list on Basecamp daily, so you can get a sense of what’s in store for Craft as we work toward 1.0. <a href="http://buildwithcraft.com/forecast">Check it out</a>!</p>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:49:"http://pixelandtonic.com/blog/craft-30-day-trials";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:30;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:49:"http://pixelandtonic.com/blog/craft-30-day-trials";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:31;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -884,7 +894,7 @@ The supported values are:
 <p>
 	So, lots going on. We’re having a ton of fun with this, and we hope you are too!</p>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:50:"http://pixelandtonic.com/blog/craft-one-week-later";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:31;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:50:"http://pixelandtonic.com/blog/craft-one-week-later";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:32;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -907,7 +917,7 @@ The supported values are:
 <p>
 	We will be posting more about Craft in the coming weeks – we have plenty of stories to tell! – but if we make this post any longer we’re going to lose half of you, so we’ll keep it short and sweet. Go <a href="http://buildwithcraft.com">download Craft!</a></p>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:35:"http://pixelandtonic.com/blog/craft";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:32;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:35:"http://pixelandtonic.com/blog/craft";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:33;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -954,7 +964,7 @@ The supported values are:
 <p>
 	Congratulations, guys! We’ll be contacting each of you shortly to find out where we should send your Assets 2 license.</p>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:51:"http://pixelandtonic.com/blog/photo-contest-winners";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:33;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:51:"http://pixelandtonic.com/blog/photo-contest-winners";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:34;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -1007,7 +1017,7 @@ The supported values are:
 <p>
 	Assets 2 is <a href="http://pixelandtonic.com/assets">available now</a> for $99. And it’s a free upgrade for all Assets 1 licenses. We’re really excited to get this out there. It’s a pretty amazing update, and we think you’re going to love it.</p>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:37:"http://pixelandtonic.com/blog/assets2";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:34;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:37:"http://pixelandtonic.com/blog/assets2";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:35;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -1032,7 +1042,7 @@ The supported values are:
 <p>
 	Anyway, we’re thrilled with the progress we’ve made in the past couple months, and the passion and excitement of this new little Blocks community is truly inspiring. This is fun!</p>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:54:"http://pixelandtonic.com/blog/a-quick-update-on-blocks";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:35;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:54:"http://pixelandtonic.com/blog/a-quick-update-on-blocks";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:36;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -1055,7 +1065,7 @@ The supported values are:
 <p>
 	Thanks to all of you who have made the EE Stack Exchange a reality. Your hard work has really paid off!</p>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:47:"http://pixelandtonic.com/blog/ee-stack-exchange";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:36;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:47:"http://pixelandtonic.com/blog/ee-stack-exchange";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:37;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -1072,7 +1082,7 @@ The supported values are:
 <p>
 	OK!</p>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:38:"http://pixelandtonic.com/blog/bring-it";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:37;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:38:"http://pixelandtonic.com/blog/bring-it";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:38;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -1099,7 +1109,7 @@ The supported values are:
 <p>
 	<span style="font-size: 1em; line-height: 1.4;">Welcome to the team, Lisa!</span></p>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:39:"http://pixelandtonic.com/blog/lisa-wess";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:38;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:39:"http://pixelandtonic.com/blog/lisa-wess";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:39;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -1150,7 +1160,7 @@ The supported values are:
 <p>
 	So there you have it! Hopefully this answered most of the big questions floating around, but if you’re still curious about something, feel free to <a href="mailto:support@pixelandtonic.com">email us</a> or ask on <a href="http://twitter.com/pixelandtonic">Twitter</a>. We’re extremely excited about Blocks, and we hope you are too.</p>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:44:"http://pixelandtonic.com/blog/what-is-blocks";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:39;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:44:"http://pixelandtonic.com/blog/what-is-blocks";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:40;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -1173,7 +1183,7 @@ The supported values are:
 <p>
 	<em><strong>The not-so-fine print:</strong> Please don’t send us any photos that you didn’t take yourself. By sending us photos, you grant Pixel &amp; Tonic free license to use them for promotional purposes for the rest of time. (You still own them though!) Pixel &amp; Tonic is not responsible for any harm done to yourself, anyone else, or your camera, as a result of drinking alcoholic beverages. Please drink responsibly.</em></p>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:44:"http://pixelandtonic.com/blog/snap-a-martini";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:40;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:44:"http://pixelandtonic.com/blog/snap-a-martini";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:41;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -1196,7 +1206,7 @@ The supported values are:
 <p>
 	You can catch Andris on Twitter (<a href="http://twitter.com/piparvecis">@piparvecis</a>), so make sure to give him a big #eecms welcome!</p>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:44:"http://pixelandtonic.com/blog/welcome-andris";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:41;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:44:"http://pixelandtonic.com/blog/welcome-andris";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:42;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -1247,7 +1257,7 @@ The supported values are:
 <p>
 	&nbsp;</p>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:45:"http://pixelandtonic.com/blog/playa-coparents";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:42;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:45:"http://pixelandtonic.com/blog/playa-coparents";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:43;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -1262,7 +1272,7 @@ The supported values are:
 <p>
 	This has been, by far, the most popular feature request for Matrix, so this should be great news for many of you.</p>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:43:"http://pixelandtonic.com/blog/low-variables";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:43;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:43:"http://pixelandtonic.com/blog/low-variables";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:44;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -1275,7 +1285,7 @@ The supported values are:
 <p>
 	In related news, you can now buy Assets, Matrix, and Playa from <a href="http://www.enginehosting.com/">EngineHosting</a> while you’re signing up for a new hosting account. They’ll even install them for you!</p>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:44:"http://pixelandtonic.com/blog/bulk-discounts";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:44;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:44:"http://pixelandtonic.com/blog/bulk-discounts";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:45;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -1294,7 +1304,7 @@ The supported values are:
 <p>
 	So, a big Thank You to all of you who voted for us! And congrats to the other winners! It’s been a great year for EE add-ons.</p>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:41:"http://pixelandtonic.com/blog/assets-moty";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:45;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:41:"http://pixelandtonic.com/blog/assets-moty";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:46;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -1329,7 +1339,7 @@ The supported values are:
 <div>
 	If you think you fit the bill, send us an email at <a href="mailto:work@pixelandtonic.com">work@pixelandtonic.com</a>!</div>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:43:"http://pixelandtonic.com/blog/php-developer";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:46;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:43:"http://pixelandtonic.com/blog/php-developer";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:47;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -1352,7 +1362,7 @@ The supported values are:
 <p>
 	Assets is available now for just $55, so go <a href="http://pixelandtonic.com/assets">check it out</a>! We think you’ll agree that Assets is file management done right.</p>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:48:"http://pixelandtonic.com/blog/introducing-assets";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:47;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:48:"http://pixelandtonic.com/blog/introducing-assets";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:48;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -1375,7 +1385,7 @@ The supported values are:
 <p>
 	Of course, we’d love to hear your thoughts as well. Do you have any special features you wish Wygwam had? Let us know!</p>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:38:"http://pixelandtonic.com/blog/wygwam22";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:48;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:38:"http://pixelandtonic.com/blog/wygwam22";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:49;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -1414,7 +1424,7 @@ The supported values are:
 <p>
 	Now that ExpressionEngine 2 has been out for over a year, we decided it’s time to stop worrying about EE1. So starting with Playa 4, all major new Pixel &amp; Tonic releases are going to be for EE2 only. We do realize that some people still <em>need</em> to use EE1 though, so for the time being we’re bundling the latest release of Playa 3 in with the download.</p>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:36:"http://pixelandtonic.com/blog/playa4";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:49;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:36:"http://pixelandtonic.com/blog/playa4";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:50;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -1437,7 +1447,7 @@ The supported values are:
 <p>
 	Naturally, we’ll see to it that both events are serving <a href="http://pixelandtonic.com/blog/pixel-and-tonic">pixel and tonics</a>&nbsp;:)</p>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:48:"http://pixelandtonic.com/blog/have-a-drink-on-us";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:50;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:48:"http://pixelandtonic.com/blog/have-a-drink-on-us";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:51;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -1454,7 +1464,7 @@ The supported values are:
 <p>
 	 We’ve got four new add-ons on tap for you downloading pleasure, and more on the way. They’re all free, so check them out!
 </p>
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:37:"http://pixelandtonic.com/blog/divebar";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:51;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:37:"http://pixelandtonic.com/blog/divebar";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:52;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -1501,7 +1511,7 @@ The supported values are:
 <p>
 	<a href="http://www.flickr.com/photos/brandonkelly/4627364691/in/set-72157624109260290/"><img alt="Pixel &amp; Tonic" src="/content/blog/2010-05/pixel_and_tonic.jpg" style="width: 500px; height: 368px; "></a></p>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:45:"http://pixelandtonic.com/blog/pixel-and-tonic";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:52;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:45:"http://pixelandtonic.com/blog/pixel-and-tonic";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:53;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -1550,7 +1560,7 @@ The supported values are:
 <p>
 	Thanks for tuning in!</p>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:52:"http://pixelandtonic.com/blog/progress-report-may-10";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:53;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:52:"http://pixelandtonic.com/blog/progress-report-may-10";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:54;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -1587,7 +1597,7 @@ The supported values are:
 <p>
 	Hope you like it!</p>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:37:"http://pixelandtonic.com/blog/matrix2";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:54;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:37:"http://pixelandtonic.com/blog/matrix2";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:55;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -1615,7 +1625,7 @@ The supported values are:
 <p>
 	Best part? If you already own a Playa site license, Playa 3 is a free upgrade! So what are you waiting for? <a href="http://pixelandtonic.com/playa">Go grab a copy!</a></p>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:36:"http://pixelandtonic.com/blog/playa3";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:55;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:36:"http://pixelandtonic.com/blog/playa3";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:56;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -1644,7 +1654,7 @@ The supported values are:
 <p>
 	Finally, thanks again to <a href="http://ellislab.com/">EllisLab</a> and <a href="http://www.enginehosting.com/">EngineHosting</a>&nbsp;for your generous contributions to the Giveaways!</p>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:57:"http://pixelandtonic.com/blog/launch-giveaways-given-away";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:56;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:57:"http://pixelandtonic.com/blog/launch-giveaways-given-away";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:57;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -1787,7 +1797,7 @@ The supported values are:
 <p class="aside">
 	 This concludes Making P&amp;T, our series on the design and development of what is now Pixel &amp; Tonic. If you have any other subjects you’d like to hear about on Blog &amp; Tonic, feel free to share in the comments. But for now, we’re going to get back to doing what we do best: developing add-ons.
 </p>
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:47:"http://pixelandtonic.com/blog/making-pt-juniper";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:57;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:47:"http://pixelandtonic.com/blog/making-pt-juniper";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:58;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -1898,7 +1908,7 @@ The supported values are:
 <p class="aside">
 	And that’s it for today; thanks for tuning in! This series will continue tomorrow with a look into how I’m managing releases and processing payments, so make sure you’re following <a href="http://twitter.com/pixelandtonic">@pixelandtonic</a> or subscribed to our <a href="{blogandtonic_url}">RSS feed</a> to be notified about that.</p>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:44:"http://pixelandtonic.com/blog/making-pt-docs";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:58;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:44:"http://pixelandtonic.com/blog/making-pt-docs";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:59;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -1994,7 +2004,7 @@ $assign_to_config['global_vars']['site_proto_url'] = ($_SERVER['HTTPS'] == 'on' 
 <p class="aside">
 	And that’s it for today; thanks for tuning in! This series will continue tomorrow with a look into how I’m handling product documentation, so make sure you’re following <a href="http://twitter.com/pixelandtonic">@pixelandtonic</a> or subscribed to our <a href="http://feeds.feedburner.com/blogandtonic">RSS feed</a> to be notified about that.</p>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:49:"http://pixelandtonic.com/blog/making-pt-structure";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:59;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:49:"http://pixelandtonic.com/blog/making-pt-structure";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:60;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -2049,7 +2059,7 @@ $assign_to_config['global_vars']['site_proto_url'] = ($_SERVER['HTTPS'] == 'on' 
 <p class="aside">
 	That’s it for today; thanks for tuning in! This series will continue tomorrow with a look into how the site is structured, so make sure you’re following <a href="http://twitter.com/pixelandtonic">@pixelandtonic</a> or subscribed to our <a href="http://feeds.feedburner.com/blogandtonic">RSS feed</a> to be notified about that.</p>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:48:"http://pixelandtonic.com/blog/making-pt-frontend";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:60;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:48:"http://pixelandtonic.com/blog/making-pt-frontend";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:61;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -2124,7 +2134,7 @@ $assign_to_config['global_vars']['site_proto_url'] = ($_SERVER['HTTPS'] == 'on' 
 <p>
 	Many thanks to <a href="http://ellislab.com/">EllisLab</a> for donating the EE2 licenses, and <a href="http://www.enginehosting.com/">EngineHosting</a> for donating the hosting packages!</p>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:46:"http://pixelandtonic.com/blog/launch-giveaways";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:61;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:46:"http://pixelandtonic.com/blog/launch-giveaways";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:62;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -2141,7 +2151,7 @@ $assign_to_config['global_vars']['site_proto_url'] = ($_SERVER['HTTPS'] == 'on' 
 <p>
 	While FieldFrame remains free, FF Matrix now costs $35.&nbsp;That will fund its continued support and development as I work on version 2, which will be a free upgrade when released.</p>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:53:"http://pixelandtonic.com/blog/ff-matrix-goes-it-alone";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:62;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:53:"http://pixelandtonic.com/blog/ff-matrix-goes-it-alone";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:63;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -2180,7 +2190,7 @@ $assign_to_config['global_vars']['site_proto_url'] = ($_SERVER['HTTPS'] == 'on' 
 <p>
 	<a href="http://pixelandtonic.com/wygwam">Buy Wygwam now!</a></p>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:37:"http://pixelandtonic.com/blog/wygwam2";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:63;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:37:"http://pixelandtonic.com/blog/wygwam2";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:64;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -2233,7 +2243,7 @@ $assign_to_config['global_vars']['site_proto_url'] = ($_SERVER['HTTPS'] == 'on' 
 <p>
 	Pixel &amp; Tonic simply wouldn’t have been possible if not for your humbling loyalty and support over the last couple years. So give yourself a big pat on the back – you’ve earned it!</p>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:46:"http://pixelandtonic.com/blog/meet-pixel-tonic";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:64;a:6:{s:4:"data";s:34:"
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:46:"http://pixelandtonic.com/blog/meet-pixel-tonic";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:65;a:6:{s:4:"data";s:34:"
 				
 				
 				
@@ -2248,4 +2258,4 @@ $assign_to_config['global_vars']['site_proto_url'] = ($_SERVER['HTTPS'] == 'on' 
 <p>
 	If last year’s success is any indication, this conference is going to be magical. Don’t miss it!</p>
 
-				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:49:"http://pixelandtonic.com/blog/sponsoring-eeci2010";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:27:"http://www.w3.org/2005/Atom";a:1:{s:4:"link";a:2:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:3:"rel";s:4:"self";s:4:"type";s:19:"application/rss+xml";s:4:"href";s:40:"http://feeds.feedburner.com/blogandtonic";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:2:{s:3:"rel";s:3:"hub";s:4:"href";s:32:"http://pubsubhubbub.appspot.com/";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:4:"info";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:1:{s:3:"uri";s:12:"blogandtonic";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}}}}}}s:4:"type";i:128;s:7:"headers";a:11:{s:13:"last-modified";s:29:"Tue, 06 May 2014 03:27:33 GMT";s:4:"etag";s:27:"Qv8k0T4NOdngARJyAfGamgsAGWQ";s:12:"content-type";s:23:"text/xml; charset=UTF-8";s:16:"content-encoding";s:4:"gzip";s:4:"date";s:29:"Tue, 06 May 2014 03:27:33 GMT";s:7:"expires";s:29:"Tue, 06 May 2014 03:27:33 GMT";s:13:"cache-control";s:18:"private, max-age=0";s:22:"x-content-type-options";s:7:"nosniff";s:16:"x-xss-protection";s:13:"1; mode=block";s:6:"server";s:3:"GSE";s:18:"alternate-protocol";s:7:"80:quic";}s:5:"build";s:14:"20140414173319";}
+				";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:8:"origLink";a:1:{i:0;a:5:{s:4:"data";s:49:"http://pixelandtonic.com/blog/sponsoring-eeci2010";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:27:"http://www.w3.org/2005/Atom";a:1:{s:4:"link";a:2:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:3:"rel";s:4:"self";s:4:"type";s:19:"application/rss+xml";s:4:"href";s:40:"http://feeds.feedburner.com/blogandtonic";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:2:{s:3:"rel";s:3:"hub";s:4:"href";s:32:"http://pubsubhubbub.appspot.com/";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:42:"http://rssnamespace.org/feedburner/ext/1.0";a:1:{s:4:"info";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:1:{s:3:"uri";s:12:"blogandtonic";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}}}}}}s:4:"type";i:128;s:7:"headers";a:11:{s:12:"content-type";s:23:"text/xml; charset=UTF-8";s:4:"etag";s:27:"FhRs/hhkOfOWvfDyLQDmMJ+hK2o";s:13:"last-modified";s:29:"Sat, 10 May 2014 17:55:23 GMT";s:16:"content-encoding";s:4:"gzip";s:4:"date";s:29:"Sat, 10 May 2014 18:18:26 GMT";s:7:"expires";s:29:"Sat, 10 May 2014 18:18:26 GMT";s:13:"cache-control";s:18:"private, max-age=0";s:22:"x-content-type-options";s:7:"nosniff";s:16:"x-xss-protection";s:13:"1; mode=block";s:6:"server";s:3:"GSE";s:18:"alternate-protocol";s:7:"80:quic";}s:5:"build";s:14:"20140414173319";}

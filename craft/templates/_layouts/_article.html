@@ -1,33 +1,68 @@
 	{% extends "_layout" %}
+	{% block meta %}
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="">
+	<meta name="twitter:title" content="{{ entry.title }}">
+	<meta name="twitter:description" content="{{ entry.articleSummary|striptags }}">
+	<meta name="twitter:creator" content="BenArment">
+	<meta name="twitter:image:src" content="{{ entry.articleImage.first().url }}">
+	<meta name="twitter:domain" content="{{ siteUrl }}">
+	{% endblock %}
 	{% set title = entry.title %}
 	{% block header %}
-		<nav>
-			<ul class="nav">
-				<li class="logo"><a href="#">Dream Year</a></li>
-			</ul>
-		</nav>
+	<nav>
+		<ul class="nav">
+			<li class="logo"><a href="{{ siteUrl }}">Dream Year</a></li>
+		</ul>
+	</nav>
 	{% endblock %}
 	{% block content %}
-	<div class="section section--article section--blue">
-		<div class="wrapper">
-			<div class="article">
-				<h5>Article</h5>
-				<h1>{{ entry.title }}</h1>
-				<div class="article__intro">{{ entry.articleIntro }}</div>
-
+	{% set index = "" %}
+	{% for item in craft.entries.section('articles').find() %}
+	{% if item.title == entry.title %}
+	{% set index = loop.index %}
+	{% endif %}
+	{% endfor %}
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="section section--article section--blue">
+	<div class="wrapper">
+		<div class="article">
+			<h5>Article {{ index }}</h5>
+			<h1>{{ entry.title }}</h1>
+			<div class="article__intro">{{ entry.articleIntro }}</div>
+			{% set articlehero = {
+			mode: 'crop',
+			width: 1200,
+			height: 675,
+			quality: 75,
+			position: 'top-center'
+			} %}
+			<div class="article__hero"><img class="image__fluid" src="{{ entry.articleImage.first().url(articlehero) }}" alt="{{ entry.title }}"></div>
+		</div>
+	</div>
+</div>
+<div class="section">
+	<div class="wrapper">
+		<div class="social">
+			<div class="social__twitter">
+			<a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ entry.articleShortUrl }}" data-via="BenArment" data-lang="en" data-text="&ldquo;{{ entry.title }}&rdquo;" data-hashtags="DreamYear">Tweet</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			</div>
+			<div class="social__facebook">
+				<div class="fb-like" data-href="{{ entry.articleShortUrl }}" data-layout="button_count" data-action="recommend" data-show-faces="false" data-share="true"></div>
 			</div>
 		</div>
+		<article>
+			{{ entry.body }}
+		</article>
 	</div>
-	<div class="section">
-	<img class="image__fluid" src="{{ entry.articleImage.first().url }}" alt="{{ entry.title }}">
-	</div>
-	<div class="section">
-		<div class="wrapper">
-			<h5>Article</h5>
-			<article>
-				{{ entry.body }}
-			</article>
-		</div>
-	</div>
+</div>
 
-	{% endblock %}
+{% endblock %}

@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	{% block meta %}{% endblock %}
 	<title>{% if title is defined %}{{ title }}{% endif %}</title>
 	<link rel="home" href="{{ siteUrl }}" />
 	<link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
@@ -32,7 +33,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-WV99P9');</script>
 {# End Google Tag Manager #}
 	<div id="container">
-
 		<header id="header">
 			{% block header %}{% endblock %}
 		</header>
@@ -48,5 +48,5 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	</div>
 	<script src="/assets/scripts/src/vendor/jquery.js"></script>
 	{% block javascripts %}{% endblock %}
-	<script src="{{ craft.bust.er('/assets/scripts/src/core/application.js') }}"></script>
+	<script src="{{ craft.bust.er('/assets/scripts/min/application.js') }}"></script>
 </body>
