@@ -4,7 +4,7 @@
 	{% block content %}
 	<!--Articles-->
 	<div class="section section--blue">
-	<div class="wrapper">
+		<div class="wrapper">
 			<h1 class="title">Articles</h1>
 			{% set articlethumb = {
 			mode: 'crop',
@@ -14,34 +14,19 @@
 			position: 'top-center'
 		} %}
 		{% for entry in craft.entries.section('articles').find() %}
-		{% if now|date('Y-m-d') < entry.articlePublishDate %}
-		<div class="article__thumb article__thumb--preview">
-			<div class="article__image">
-				{% for asset in entry.articleImage %}
-				<img class="image__fluid" src="{{ asset.url(articlethumb) }}" width="{{ asset.getWidth(articlethumb) }}" height="{{ asset.getHeight(articlethumb) }}" alt="{{ entry.title }}">
-				{% endfor %}
-			</div>
-			<div class="article__name">
-				<h5>{{ entry.title }}</h5>
-				<h5>Coming {{ entry.articlePublishDate.format('F dS') }}</h5>
-			</div>
-		</div>
-		{% else %}
-		<div class="article__thumb">
-			<a href="{{ entry.url }}">
+		<a href="{{ entry.url }}">
+			<div class="article__thumb">
 				<div class="article__image">
 					{% for asset in entry.articleImage %}
-					<img class="image__fluid zoom" src="{{ asset.url(articlethumb) }}" width="{{ asset.getWidth(articlethumb) }}" height="{{ asset.getHeight(articlethumb) }}" alt="{{ entry.title }}">
+					<img class="image__fluid" src="{{ asset.url(articlethumb) }}" width="{{ asset.getWidth(articlethumb) }}" height="{{ asset.getHeight(articlethumb) }}" alt="{{ entry.title }}">
 					{% endfor %}
 				</div>
 				<div class="article__name">
 					<h5>{{ entry.title }}</h5>
 				</div>
-			</a>
-		</div>
-		{% endif %}
-
+			</div>
+		</a>
 		{% endfor %}
-</div>
+	</div>
 </div>
 {% endblock %}

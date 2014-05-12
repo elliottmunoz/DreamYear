@@ -39,6 +39,8 @@ function setScroll(x){
     var target=this.getAttribute('href');
     if(target.charAt(0)=="#"){
       scrollToSection(target, getSpeed(target));
+    }else{
+      window.location = target;
     }
     return false;
     });
