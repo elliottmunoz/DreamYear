@@ -401,12 +401,15 @@ form{
 
 .social__twitter{
 	display: inline-block;
+	margin: 0 10px 0 0;
 }
 
 .social__facebook{
 	display: inline-block;
 	height: auto;
 	line-height: 15px;
+	overflow: hidden;
+	width: 140px;
 }
 
 .section--article{
