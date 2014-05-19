@@ -263,8 +263,8 @@
 		position: 'top-center'
 		} %}
 	<div class="owl-carousel owl-theme">
-		{% for entry in craft.entries.section('articles').find() %}
-		<div>
+		{% for entry in craft.entries.section('articles').find() | reverse %}
+		<div class="article__preview {% if loop.first %}latest{% endif %}">
 			<a href="{{ entry.url }}">
 				<div class="article__image">
 					{% for asset in entry.articleImage %}

@@ -483,11 +483,21 @@ article{
 	filter:alpha(opacity=15);
 }
 
+.latest .article__name h5:before{
+	color:  #303A5F;
+	content: "Latest Article:\A";
+	white-space: pre;
+}
+
 .article__name{
 	display: block;
 	min-height: 50px;
 	padding: 5%;
 	width: 90%;
+}
+
+.article__name:first-child{
+	color: blue;
 }
 
 .article__intro > h4{

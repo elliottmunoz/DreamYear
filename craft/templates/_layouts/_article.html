@@ -2,11 +2,11 @@
 	{% block meta %}
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@MyDreamYear">
-	<meta name="twitter:creator" content="@BenArment">
-	<meta name="twitter:domain" content="{{ siteUrl }}">
 	<meta name="twitter:title" content="{{ entry.title }}">
 	<meta name="twitter:description" content="{{ entry.articleSummary|striptags }}">
+	<meta name="twitter:creator" content="BenArment">
 	<meta name="twitter:image:src" content="{{ entry.articleImage.first().url }}">
+	<meta name="twitter:domain" content="{{ siteUrl }}">
 	<meta property="og:site_name" content="{{ siteName }}" />
 	<meta property="og:url" content="{{ entry.articleShortUrl }}" />
 
