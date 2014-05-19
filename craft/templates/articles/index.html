@@ -1,6 +1,12 @@
 	{% extends "_layout" %}
 	{% set title = "Articles" %}
-
+{% block header %}
+<nav>
+	<ul class="nav">
+		<li class="logo"><a href="{{ siteUrl }}">{{ siteName }}</a></li>
+	</ul>
+</nav>
+{% endblock %}
 	{% block content %}
 	<!--Articles-->
 	<div class="section section--blue">

@@ -3,10 +3,12 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="Copyright" content="(c) Dream Year" />
+	<meta name="description" content="Dream Year is a 12-month process that's designed to help you bring your God-given dream to life." />
+	<meta name="keywords" content="Dream Year, dream year, dream, year, ben arment, ben, arment, goal, coach, program, 12 month, accountability, collaboration, Story Chicago, Church in the Making" />
 	{% block meta %}{% endblock %}
 	<title>{% if title is defined %}{{ title }}{% endif %}</title>
 	<link rel="home" href="{{ siteUrl }}" />
-	<link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
 	<link href="{{ craft.bust.er('/assets/stylesheets/application.css') }}" rel="stylesheet">
 
 	{% block stylesheets %}{% endblock %}
@@ -23,30 +25,30 @@ ga('send', 'pageview');
 </head>
 
 <body>
-{# Google Tag Manager #}
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WV99P9"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	{# Google Tag Manager #}
+	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WV99P9"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-WV99P9');</script>
 {# End Google Tag Manager #}
-	<div id="container">
-		<header id="header">
-			{% block header %}{% endblock %}
-		</header>
-		<main id="content" role="main">
-			{% block content %}
-			<p>If you see me, you haven’t set your <code>{% verbatim %}{% block content %}…{% endblock %}{% endverbatim %}</code> yet.</p>
-			<p>See Twig’s <a href="http://twig.sensiolabs.org/doc/templates.html#template-inheritance">Template Inheritance</a> documentation for an explanation.</p>
-			{% endblock %}
-		</main>
-		<footer id="footer">
-			&copy; Copyright {{ now.year }} {{ craft.request.serverName | ucfirst }}. All rights reserved
-		</footer>
-	</div>
-	<script src="/assets/scripts/src/vendor/jquery.js"></script>
-	{% block javascripts %}{% endblock %}
-	<script src="{{ craft.bust.er('/assets/scripts/min/application.js') }}"></script>
+<div id="container">
+	<header id="header">
+		{% block header %}{% endblock %}
+	</header>
+	<main id="content" role="main">
+		{% block content %}
+		<p>If you see me, you haven’t set your <code>{% verbatim %}{% block content %}…{% endblock %}{% endverbatim %}</code> yet.</p>
+		<p>See Twig’s <a href="http://twig.sensiolabs.org/doc/templates.html#template-inheritance">Template Inheritance</a> documentation for an explanation.</p>
+		{% endblock %}
+	</main>
+	<footer id="footer">
+		&copy; Copyright {{ now.year }} {{ craft.request.serverName | ucfirst }}. All rights reserved
+	</footer>
+</div>
+<script src="/assets/scripts/src/vendor/jquery.js"></script>
+{% block javascripts %}{% endblock %}
+<script src="{{ craft.bust.er('/assets/scripts/min/application.js') }}"></script>
 </body>

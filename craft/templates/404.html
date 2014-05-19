@@ -1,6 +1,12 @@
 {% extends "_layout" %}
 {% set title = "Error 404" %}
-
+{% block header %}
+<nav>
+	<ul class="nav">
+		<li class="logo"><a href="{{ siteUrl }}">{{ siteName }}</a></li>
+	</ul>
+</nav>
+{% endblock %}
 {% block content %}
 <div class="section section--404">
 	<div class="wrapper">

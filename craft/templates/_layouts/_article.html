@@ -1,33 +1,43 @@
 	{% extends "_layout" %}
 	{% block meta %}
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:site" content="">
+	<meta name="twitter:site" content="@MyDreamYear">
+	<meta name="twitter:creator" content="@BenArment">
+	<meta name="twitter:domain" content="{{ siteUrl }}">
 	<meta name="twitter:title" content="{{ entry.title }}">
 	<meta name="twitter:description" content="{{ entry.articleSummary|striptags }}">
-	<meta name="twitter:creator" content="BenArment">
 	<meta name="twitter:image:src" content="{{ entry.articleImage.first().url }}">
-	<meta name="twitter:domain" content="{{ siteUrl }}">
+	<meta property="og:site_name" content="{{ siteName }}" />
+	<meta property="og:url" content="{{ entry.articleShortUrl }}" />
+
 	{% endblock %}
 	{% set title = entry.title %}
-	{% block header %}
-	<nav>
-		<ul class="nav">
-			<li class="logo"><a href="{{ siteUrl }}">Dream Year</a></li>
-		</ul>
-	</nav>
-	{% endblock %}
-	{% block content %}
-	{% set index = "" %}
-	{% for item in craft.entries.section('articles').find() %}
-	{% if item.title == entry.title %}
-	{% set index = loop.index %}
-	{% endif %}
-	{% endfor %}
-	<div id="fb-root"></div>
-	<script>(function(d, s, id) {
-		var js, fjs = d.getElementsByTagName(s)[0];
-		if (d.getElementById(id)) return;
-		js = d.createElement(s); js.id = id;
+	{% block javascripts %}
+	<script>
+	// Picture element HTML5 shiv
+	document.createElement( "picture" );
+</script>
+<script src="/assets/scripts/src/plugins/picturefill.min.js" async></script>
+{% endblock %}
+{% block header %}
+<nav>
+	<ul class="nav">
+		<li class="logo"><a href="{{ siteUrl }}">{{ siteName }}</a></li>
+	</ul>
+</nav>
+{% endblock %}
+{% block content %}
+{% set index = "" %}
+{% for item in craft.entries.section('articles').find() %}
+{% if item.title == entry.title %}
+{% set index = loop.index %}
+{% endif %}
+{% endfor %}
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
@@ -37,14 +47,29 @@
 			<h5>Article {{ index }}</h5>
 			<h1>{{ entry.title }}</h1>
 			<div class="article__intro">{{ entry.articleIntro }}</div>
-			{% set articlehero = {
+			{% set articledesktop = {
 			mode: 'crop',
 			width: 1200,
 			height: 675,
 			quality: 75,
 			position: 'top-center'
-			} %}
-			<div class="article__hero"><img class="image__fluid" src="{{ entry.articleImage.first().url(articlehero) }}" alt="{{ entry.title }}"></div>
+		} %}
+		{% set articlemobile = {
+		mode: 'crop',
+		width: 640,
+		height: 640,
+		quality: 75,
+		position: 'top-center'
+	} %}
+	<div class="article__hero">
+		<picture>
+			<!--[if IE 9]><video style="display: none;"><![endif]-->
+			<source srcset="{{ entry.articleImage.first().url(articledesktop) }}" media="(min-width: 720px)">
+				<source srcset="{{ entry.articleImage.first().url(articlemobile) }}" media="(min-width: 320px)">
+					<!--[if IE 9]></video><![endif]-->
+					<img class="image__fluid" srcset="{{ entry.articleImage.first().url(articledesktop) }}" alt="{{ entry.title }}">
+				</picture>
+			</div>
 		</div>
 	</div>
 </div>
@@ -52,17 +77,40 @@
 	<div class="wrapper">
 		<div class="social">
 			<div class="social__twitter">
-			<a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ entry.articleShortUrl }}" data-via="BenArment" data-lang="en" data-text="&ldquo;{{ entry.title }}&rdquo;" data-count="none" data-hashtags="DreamYear">Tweet</a>
-			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				<a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ entry.articleShortUrl }}" data-via="BenArment" data-lang="en" data-text="&ldquo;{{ entry.title }}&rdquo;" data-count="none" data-hashtags="DreamYear">Tweet</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 			</div>
 			<div class="social__facebook">
 				<div class="fb-like" data-href="{{ entry.articleShortUrl }}" data-layout="standard" data-action="recommend" data-show-faces="false" data-share="true"></div>
 			</div>
 		</div>
 		<article>
+			<div class="author"><h5>By<h5><h4>Ben Arment<h4></div>
 			{{ entry.body }}
+			<div class="closer">Ben Arment's book <a href="/">Dream Year</a> walks you through the process of turning your frustration into a dream. You can find him on Twitter at <a href="https://twitter.com/benarment">@benarment</a>.</div>
 		</article>
+		<div class="article__nav">
+			{% if entry.prevSibling %}
+			{% if entry.nextSibling %}
+			<div class="article__nav__item">
+			{% else %}
+			<div class="article__nav__item article__nav__item--full">
+			{% endif %}
+				<h5>Previous Article:</h5>
+				<h3><a href="{{ entry.prevSibling.url }}">{{ entry.prevSibling }}</a></h3>
+			</div>
+			{% endif %}
+			{% if entry.nextSibling %}
+			{% if entry.prevSibling %}
+			<div class="article__nav__item">
+			{% else %}
+			<div class="article__nav__item article__nav__item--full">
+			{% endif %}
+				<h5>Next Article:</h5>
+				<h3><a href="{{ entry.nextSibling.url }}">{{ entry.nextSibling }}</a></h3>
+			</div>
+			{% endif %}
+		</div>
 	</div>
 </div>
-
 {% endblock %}

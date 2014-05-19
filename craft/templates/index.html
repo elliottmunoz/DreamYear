@@ -32,9 +32,6 @@
 				<a href="{{ item.featureLink }}"><img class="image__fluid" src="{{ item.featureImage.first().url }}" alt="{{ item.featureName }}"></a>
 			</div>
 			{% endfor %}
-			<!--
-			<h1 class="slogan">"I have a Dream"</h1>
-			-->
 		</div>
 	</div>
 	<!--Email Signup-->
@@ -44,8 +41,9 @@
 			<div id="mc_embed_signup">
 				<form action="http://dreamyear.us1.list-manage.com/subscribe/post?u=c20842c145c1f601cf6927c1f&amp;id=205e569476" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 					<h3 id="email"> Sign up for Ben's Emails</h3>
+					<div class="offer">Sign up for Ben's weekly email and receive a free copy of <em>Dream Year's</em> companion booklet &ldquo;Discover Your Dream.&rdquo;</div>
 					<div class="form__element form__element__half">
-						<label for="mce-MMERGE1" class="form__label">First Name </label>
+						<label for="mce-MMERGE1" class="form__label required">First Name </label>
 						<input type="text" value="" name="MMERGE1" class="form__element__textfield form__element__textfield--blue" id="mce-MMERGE1">
 					</div>
 					<div class="form__element form__element__half">
@@ -257,20 +255,20 @@
 <div class="section section--articles">
 	<div class="wrapper">
 		<h2 id="articles">Articles</h2>
-		{% set articlethumb = {
+		{% set articlecard = {
 		mode: 'crop',
-		width: 200,
-		height: 300,
+		width: 220,
+		height: 330,
 		quality: 75,
 		position: 'top-center'
-	} %}
+		} %}
 	<div class="owl-carousel owl-theme">
 		{% for entry in craft.entries.section('articles').find() %}
 		<div>
 			<a href="{{ entry.url }}">
 				<div class="article__image">
 					{% for asset in entry.articleImage %}
-					<img class="image__fluid zoom" src="{{ asset.url(articlethumb) }}" width="{{ asset.getWidth(articlethumb) }}" height="{{ asset.getHeight(articlethumb) }}" alt="{{ entry.title }}">
+					<img class="image__fluid zoom" src="{{ asset.url(articlecard) }}" width="{{ asset.getWidth(articlecard) }}" height="{{ asset.getHeight(articlecard) }}" alt="{{ entry.title }}">
 					{% endfor %}
 				</div>
 				<div class="article__name"><h5>{{ entry.title }}</h5></div>
