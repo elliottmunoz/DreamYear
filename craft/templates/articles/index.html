@@ -19,12 +19,12 @@
 			quality: 75,
 			position: 'top-center'
 		} %}
-		{% for entry in craft.entries.section('articles').find() %}
+		{% for entry in craft.entries.section('articles').find() | reverse %}
 		<a href="{{ entry.url }}">
-			<div class="article__thumb">
+			<div class="article__thumb {% if loop.first %}latest{% endif %}">
 				<div class="article__image">
 					{% for asset in entry.articleImage %}
-					<img class="image__fluid" src="{{ asset.url(articlethumb) }}" width="{{ asset.getWidth(articlethumb) }}" height="{{ asset.getHeight(articlethumb) }}" alt="{{ entry.title }}">
+					<img class="image__fluid zoom" src="{{ asset.url(articlethumb) }}" width="{{ asset.getWidth(articlethumb) }}" height="{{ asset.getHeight(articlethumb) }}" alt="{{ entry.title }}">
 					{% endfor %}
 				</div>
 				<div class="article__name">

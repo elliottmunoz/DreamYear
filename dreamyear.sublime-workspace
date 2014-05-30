@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"font",
+				"font-style"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
 				"storke",
 				"stroke-width"
 			],
@@ -19,6 +27,23 @@
 	},
 	"buffers":
 	[
+		{
+			"contents": "Yellow Card\nHistory of World Cup\nWinner based on Social Activity\nGoal Collector",
+			"settings":
+			{
+				"buffer_size": 79,
+				"line_ending": "Unix",
+				"name": "Yellow Card"
+			}
+		},
+		{
+			"file": "readme.txt",
+			"settings":
+			{
+				"buffer_size": 557,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -100,13 +125,27 @@
 	},
 	"file_history":
 	[
-		"/Users/elliottmunoz/Desktop/medicine_circle.svg",
-		"/Users/elliottmunoz/Sites/dreamyear/craft/templates/index.html",
-		"/Users/elliottmunoz/Sites/dreamyear/craft/templates/_layouts/_article.html",
-		"/Users/elliottmunoz/Sites/dreamyear/craft/templates/articles/index.html",
-		"/Users/elliottmunoz/Sites/dreamyear/craft/templates/404.html",
+		"/Users/elliottmunoz/Sites/wcs/maps/index.html",
+		"/Users/elliottmunoz/Desktop/points.csv",
+		"/Users/elliottmunoz/Dropbox/Clients/Dream Year/Projects/Subscriptions/Lessons/demystify-your-dream.html",
+		"/Users/elliottmunoz/Sites/dreamyear/public/index.php",
+		"/Users/elliottmunoz/Desktop/index.html",
+		"/Users/elliottmunoz/Dropbox/Clients/Dream Year/Projects/Subscriptions/Lessons/reinvent-the-rules.html",
 		"/Users/elliottmunoz/Sites/dreamyear/public/assets/stylesheets/application.css",
+		"/Users/elliottmunoz/Sites/dreamyear/craft/templates/index.html",
+		"/Users/elliottmunoz/Sites/dreamyear/craft/templates/articles/index.html",
+		"/Users/elliottmunoz/Desktop/wral-text",
+		"/Users/elliottmunoz/Desktop/presenter-notes.txt",
+		"/Users/elliottmunoz/Desktop/ci-case-story.html",
 		"/Users/elliottmunoz/Sites/dreamyear/craft/templates/_layout.html",
+		"/Users/elliottmunoz/Sites/dreamyear/craft/templates/_layouts/_welcome.html",
+		"/Users/elliottmunoz/Sites/dreamyear/craft/templates/_layouts/_article.html",
+		"/Users/elliottmunoz/Sites/dreamyear/craft/templates/_layouts/_launchteam.html",
+		"/Users/elliottmunoz/Sites/dreamyear/craft/templates/_layouts/_pitch-night.html",
+		"/Users/elliottmunoz/Sites/dreamyear/craft/templates/_layouts/_discover.twig",
+		"/Users/elliottmunoz/Sites/dreamyear/public/assets/fonts/lato_light/stylesheet.css",
+		"/Users/elliottmunoz/Desktop/medicine_circle.svg",
+		"/Users/elliottmunoz/Sites/dreamyear/craft/templates/404.html",
 		"/Users/elliottmunoz/Sites/dreamyear/craft/templates/_forms/_speaking.html",
 		"/Users/elliottmunoz/Desktop/responsive-images/index",
 		"/Users/elliottmunoz/Downloads/Icon_ Instagram.svg",
@@ -121,15 +160,12 @@
 		"/Users/elliottmunoz/Desktop/style.mss",
 		"/Users/elliottmunoz/Desktop/labels",
 		"/Users/elliottmunoz/Sites/dreamyear/craft/.htaccess",
-		"/Users/elliottmunoz/Sites/dreamyear/craft/templates/_layouts/_launchteam.html",
-		"/Users/elliottmunoz/Sites/dreamyear/craft/templates/_layouts/_pitch-night.html",
 		"/Users/elliottmunoz/Sites/dreamyear/public/assets/images/diagonal.svg",
 		"/Users/elliottmunoz/Desktop/diagonal.svg",
 		"/Users/elliottmunoz/Sites/dreamyear/public/assets/scripts/src/plugins/jquery.velocity.min.js",
 		"/Users/elliottmunoz/Sites/dreamyear/public/assets/scripts/src/plugins/owl.carousel.js",
 		"/Users/elliottmunoz/Sites/dreamyear/public/assets/scripts/src/plugins/jquery.fitvids.js",
 		"/Users/elliottmunoz/Sites/dreamyear/public/index.html",
-		"/Users/elliottmunoz/Sites/dreamyear/public/index.php",
 		"/Users/elliottmunoz/Sites/dreamyear/.gitignore",
 		"/Users/elliottmunoz/Sites/dreamyear/craft/templates/articles/_entry.html",
 		"/Users/elliottmunoz/Sites/dreamyear/craft/templates/_shared/_nav.html",
@@ -216,18 +252,7 @@
 		"/Users/elliottmunoz/GitHub/svg/assets/svg/examples/polygon.svg",
 		"/Users/elliottmunoz/GitHub/svg/assets/svg/examples/circle.svg",
 		"/Users/elliottmunoz/Desktop/stanford.txt",
-		"/Users/elliottmunoz/GitHub/clients/e/profile.html",
-		"/Users/elliottmunoz/GitHub/clients/espn/profile.html",
-		"/Users/elliottmunoz/GitHub/svg/pointers.html",
-		"/Users/elliottmunoz/GitHub/svg/assets/svg/diamondback/pointer2.svg",
-		"/Users/elliottmunoz/GitHub/svg/assets/svg/diamondback/pointer1.svg",
-		"/Users/elliottmunoz/Dropbox/Clients/Khan Academy/khan_academy.txt",
-		"/Users/elliottmunoz/Dropbox/Clients/Homespun/Homespun.txt",
-		"/Users/elliottmunoz/Documents/Khan Academy/commoncore.txt",
-		"/Users/elliottmunoz/Documents/ESPN/espn.txt",
-		"/Users/elliottmunoz/Desktop/96E.txt",
-		"/Users/elliottmunoz/Desktop/khan_academy.txt",
-		"/Users/elliottmunoz/GitHub/clients/ci/demo/cluster/cluster.html"
+		"/Users/elliottmunoz/GitHub/clients/e/profile.html"
 	],
 	"find":
 	{
@@ -245,6 +270,34 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"styles: [{\n				\"featureType\": \"water\",\n				\"stylers\": [{\n					\"visibility\": \"on\"\n				}, {\n					\"color\": \"#acbcc9\"\n				}]\n			}, {\n				\"featureType\": \"landscape\",\n				\"stylers\": [{\n					\"color\": \"#f2e5d4\"\n				}]\n			}, {\n				\"featureType\": \"road.highway\",\n				\"elementType\": \"geometry\",\n				\"stylers\": [{\n					\"color\": \"#c5c6c6\"\n				}]\n			}, {\n				\"featureType\": \"road.arterial\",\n				\"elementType\": \"geometry\",\n				\"stylers\": [{\n					\"color\": \"#e4d7c6\"\n				}]\n			}, {\n				\"featureType\": \"road.local\",\n				\"elementType\": \"geometry\",\n				\"stylers\": [{\n					\"color\": \"#fbfaf7\"\n				}]\n			}, {\n				\"featureType\": \"poi.park\",\n				\"elementType\": \"geometry\",\n				\"stylers\": [{\n					\"color\": \"#c5dac6\"\n				}]\n			}, {\n				\"featureType\": \"administrative\",\n				\"stylers\": [{\n					\"visibility\": \"on\"\n				}, {\n					\"lightness\": 33\n				}]\n			}, {\n				\"featureType\": \"road\"\n			}, {\n				\"featureType\": \"poi.park\",\n				\"elementType\": \"labels\",\n				\"stylers\": [{\n					\"visibility\": \"on\"\n				}, {\n					\"lightness\": 20\n				}]\n			}, {}, {\n				\"featureType\": \"road\",\n				\"stylers\": [{\n					\"lightness\": 20\n				}]\n			}]",
+			"h5",
+			"article__preview",
+			"article__name",
+			"article",
+			"articles",
+			"blue",
+			"signup",
+			"closer",
+			"nav",
+			"article",
+			"button",
+			"blue",
+			"article",
+			"full",
+			"article",
+			"nav",
+			"article__",
+			"article__nav",
+			"ul.tour",
+			"article",
+			"border",
+			"rgba",
+			"article",
+			"0px",
+			"\"0px\"",
+			"0px",
+			"aricle",
 			"article__thumb",
 			"4",
 			"button",
@@ -332,12 +385,13 @@
 			"\">\n",
 			"\"></a></li>"
 		],
-		"highlight": true,
+		"highlight": false,
 		"in_selection": false,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
 		[
+			"0",
 			"form__element",
 			"function_pro_bookbold",
 			"Pitcher",
@@ -352,8 +406,65 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 79,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								79,
+								79
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Yellow Card",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "readme.txt",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 557,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
